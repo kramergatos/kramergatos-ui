@@ -1,0 +1,157 @@
+.card{
+  background: #000;
+  border-radius: 8px;
+  display: block;
+  float: left;
+  margin: 0 20px;
+  padding: 20px;
+  position: relative;
+  width: calc((100% / 3) - 30px);
+}
+.card:first-child{
+  margin: 0 20px 0 0;
+}
+.card:last-child{
+  margin: 0 0 0 20px;
+}
+.card_image{
+  border-radius: 8px;
+  clear: both;
+  display: block;
+  float: left;
+  position: relative;
+  width: 100%;
+}
+.card_title{
+  clear: both;
+  color: #FFF;
+  display: block;
+  float: left;
+  font: bold 30px/40px 'robotoregular', Helvetica, Arial;
+  margin: 10px 0 0 0;
+  width: 100%;
+}
+.members{
+  clear: both;
+  display: block;
+  float: left;
+  margin: 100px 0 0 0;
+  padding: 0;
+  width: 100%;
+}
+.card_member{
+  background: #000;
+  border-radius: 8px;
+  display: block;
+  float: left;
+  margin: 0 20px;
+  padding: 20px;
+  position: relative;
+  width: calc((100% / 3) - 30px);
+}
+.card_member:first-child{
+  background: #18ffff;
+  background: -moz-linear-gradient(-45deg,  #18ffff 0%, #512da8 100%);
+  background: -webkit-linear-gradient(-45deg,  #18ffff 0%,#512da8 100%);
+  background: linear-gradient(135deg,  #18ffff 0%,#512da8 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#18ffff', endColorstr='#512da8',GradientType=1 );
+  margin: 0 20px 0 0;
+}
+.card_member:last-child{
+  background: #ffb2ff;
+  background: -moz-linear-gradient(-45deg,  #ffb2ff 0%, #e91e63 100%);
+  background: -webkit-linear-gradient(-45deg,  #ffb2ff 0%,#e91e63 100%);
+  background: linear-gradient(135deg,  #ffb2ff 0%,#e91e63 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb2ff', endColorstr='#e91e63',GradientType=1 );
+  margin: 0 0 0 20px;
+}
+.social_links{
+  display: block;
+  float: left;
+  margin: 10px 0 0 0;
+  padding: 0;
+  width: 100%;
+}
+.social_link{
+  background: #FFF;
+  border: 1px #FFF solid;
+  border-radius: 40px;
+  color: #000;
+  cursor: pointer;
+  display: block;
+  float: left;
+  font: normal 26px/50px 'robotoregular', Helvetica, Arial;
+  height: 40px;
+  margin: 0 10px 0 0;
+  padding: 0;
+  text-align: center;
+  text-decoration: none;
+  width: 40px;
+}
+.social_link:last-child{
+  margin: 0;
+}
+.social_link:hover{
+  background: #000;
+  border: 1px #FFF solid;
+  color: #FFF;
+  text-decoration: none;
+}
+.card_member .social_link:hover{
+  border: 1px #000 solid;
+}
+.social_link i{
+  display: block;
+  margin: 6px 0 0 0;
+  padding: 0;
+}
+@media (max-width: 1300px) {
+  .account_title{
+    font: bold 20px/30px 'robotoregular', Helvetica, Arial;
+  }
+}
+@media (max-width: 1000px) {
+  .card,
+  .card_member{
+    margin: 0 5px;
+    padding: 10px;
+    width: calc((100% / 3) - 15px);
+  }
+  .card:first-child,
+  .card_member:first-child{
+    margin: 0 5px 0 10px;
+  }
+  .card:last-child,
+  .card_member:last-child{
+    margin: 0 10px 0 5px;
+  }
+  .social_links{
+    right: 15px;
+    top: 15px;
+  }
+  .card_title{
+    font: bold 16px/26px 'robotoregular', Helvetica, Arial;
+  }
+}
+@media (max-width: 500px) {
+  .card,
+  .card_member{
+    clear: both;
+    margin: 20px;
+    padding: 20px;
+    width: calc(100% - 40px);
+  }
+  .card:first-child,
+  .card_member:first-child,
+  .card:last-child,
+  .card_member:last-child{
+    margin: 20px;
+  }
+  .social_links{
+    right: 25px;
+    top: 25px;
+  }
+  .card_title{
+    font: bold 20px/30px 'robotoregular', Helvetica, Arial;
+  }
+}

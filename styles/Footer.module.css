@@ -1,0 +1,30 @@
+.footer {
+  clear: both;
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 100px 0 30px 0;
+  position: relative;
+  width: 100%;
+}
+.logo {
+  color: #000;
+  display: block;
+  float: left;
+  font: normal 30px/40px 'pantonblackcaps', Helvetica, Arial;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  width: 100%;
+}
+.made_with,
+.copyright {
+  clear: both;
+  color: #b0bec5;
+  display: block;
+  float: left;
+  font: normal 12px/22px 'robotoregular', Helvetica, Arial;
+  margin: 5px 0 0 0;
+  text-align: center;
+  width: 100%;
+}
