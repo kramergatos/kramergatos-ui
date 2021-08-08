@@ -67,6 +67,10 @@ section{
     width: 980px;}
 }
 @media (max-width: 1000px) {
+  .content_wrap{
+    width: 100%;}
+}
+@media (max-width: 700px) {
   .content_wrap,
   .content_wrap_slim{
     width: 100%;}
