@@ -1,6 +1,5 @@
 import Layout from '../components/Layout'
-import SocialAccounts from '../components/Home/SocialAccounts'
-import Members from '../components/Home/Members'
+import Profiles from '../components/Home/Profiles'
 function Home() {
   const data = {
     social: [
@@ -29,6 +28,15 @@ function Home() {
         url: {
           instagram: "https://www.instagram.com/comida.kramergatos/",
           facebook: "https://www.facebook.com/comida.kramergatos"
+        }
+      },
+      {
+        id: "4",
+        image: "profile-casas.jpg",
+        title: "Casas Kramer Gatos",
+        url: {
+          instagram: "https://www.instagram.com/casas.kramergatos/",
+          facebook: "https://www.facebook.com/Casas-Kramer-Gatos-147650187434767"
         }
       }
     ],
@@ -59,8 +67,7 @@ function Home() {
   }
   return (
     <Layout>
-      <SocialAccounts data={data.social} />
-      <Members data={data.members} />
+      <Profiles data={data} />
     </Layout>
   )
 }
