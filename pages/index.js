@@ -1,5 +1,6 @@
 import Layout from '../components/Layout'
-import Profiles from '../components/Home/Profiles'
+import SocialProfiles from '../components/Home/SocialProfiles'
+import MemberProfiles from '../components/Home/MemberProfiles'
 function Home() {
   const data = {
     social: [
@@ -67,7 +68,8 @@ function Home() {
   }
   return (
     <Layout>
-      <Profiles data={data} />
+      <SocialProfiles data={data} />
+      <MemberProfiles data={data} />
     </Layout>
   )
 }
