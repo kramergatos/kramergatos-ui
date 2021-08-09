@@ -1,14 +1,19 @@
 .header{
-  background: #fff url('../public/image/mexico.jpg');
-  background-size: cover;
   clear: both;
   color: #000;
   display: block;
   float: left;
   margin: 0;
-  padding: 100px 0 100px 0;
+  padding: 0;
   width: 100%;
 }
+.header_background{
+  clear: both;
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 100%;}
 .logo {
   display: block;
   float: left;
@@ -51,9 +56,6 @@
   }
 }
 @media (max-width: 500px) {
-  .header{
-    padding: 30px 0 50px 0;
-  }
   .logo{
     font: normal 40px/50px 'pantonblackcaps', 'robotoregular', Helvetica, Arial;
   }
