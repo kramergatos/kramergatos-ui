@@ -19,7 +19,8 @@ function Home() {
         title: "Adventure Kramer Gatos",
         url: {
           instagram: "https://www.instagram.com/adventure.kramergatos/",
-          facebook: "https://www.facebook.com/adventure.kramergatos"
+          facebook: "https://www.facebook.com/adventure.kramergatos",
+          tiktok: "https://www.tiktok.com/@kramergatos"
         }
       },
       {

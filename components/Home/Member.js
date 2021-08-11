@@ -1,3 +1,4 @@
+import ButtonSocial from './ButtonSocial'
 import styles from '../../styles/Card.module.css'
 export default function Member(props) {
   return (
@@ -7,18 +8,10 @@ export default function Member(props) {
         {props.data.name}
       </div>
       <div className={styles.social_links}>
-        <a className={styles.social_link} href={props.data.url.instagram} target="_blank">
-          <i className="fab fa-instagram"></i>
-        </a>
-        <a className={styles.social_link} href={props.data.url.facebook} target="_blank">
-          <i className="fab fa-facebook-f"></i>
-        </a>
-        <a className={styles.social_link} href={props.data.url.linkedin} target="_blank">
-          <i className="fab fa-linkedin-in"></i>
-        </a>
-        <a className={styles.social_link} href={props.data.url.angellist} target="_blank">
-          <i className="fab fa-angellist"></i>
-        </a>
+        <ButtonSocial network="instagram" url={props.data.url.instagram} />
+        <ButtonSocial network="facebook" url={props.data.url.facebook} />
+        <ButtonSocial network="linkedin" url={props.data.url.linkedin} />
+        <ButtonSocial network="angellist" url={props.data.url.angellist} />
       </div>
     </div>
   )
