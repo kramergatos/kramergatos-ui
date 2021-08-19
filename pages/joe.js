@@ -38,6 +38,19 @@ function Joe() {
     ],
     jobs: [
       {
+        id: "500",
+        location: "Mérida, Yucatán, México",
+        title: "Senior Software Engineer",
+        company: "ThisApp",
+        url: "https://thisapp.so",
+        dateStart: "07/2021",
+        dateEnd: "07/2021",
+        status: "Contract",
+        remote: 1,
+        description: "Built new company corporate website in NextJS, ReactJS and deployed via AWS Amplify.",
+        logo: "thisapp.jpeg"
+      },
+      {
         id: "501",
         location: "Austin, TX, USA",
         title: "Senior Full Stack Software Engineer",

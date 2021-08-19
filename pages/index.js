@@ -1,4 +1,4 @@
-import Layout from '../components/Layout'
+import Layout from '../components/Home/Layout'
 import SocialProfiles from '../components/Home/SocialProfiles'
 import MemberProfiles from '../components/Home/MemberProfiles'
 function Home() {
@@ -48,6 +48,7 @@ function Home() {
         name: "Joe Kramer",
         image: "joe-kramer.jpg",
         url: {
+          page: "/joe",
           instagram: "https://www.instagram.com/kramergatos/",
           facebook: "https://www.facebook.com/joe.kramergatos",
           linkedin: "https://www.linkedin.com/in/kramergatos/",
@@ -59,6 +60,7 @@ function Home() {
         name: "Mali Kramer",
         image: "mali-kramer.jpg",
         url: {
+          page: "/mali",
           instagram: "https://www.instagram.com/rowsc/",
           facebook: "https://www.facebook.com/MalinaliKramer",
           linkedin: "https://www.linkedin.com/in/malinali-kramer/",

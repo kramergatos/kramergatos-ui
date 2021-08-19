@@ -1,0 +1,38 @@
+.word_cloud{
+  display: block;
+  float: left;
+  font: normal 12px/20px 'robotoregular', Helvetica, Arial;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.title{
+  display: block;
+  float: left;
+}
+.years{
+  background: #fff;
+  border-radius: 10px;
+  display: block;
+  float: left;
+  font: normal 12px/12px 'robotoregular', Helvetica, Arial;
+  margin: 2px 0 0 5px;
+  padding: 2px 5px 2px 5px;
+}
+.star{
+  display: block;
+  float: left;
+  width: 10px;
+  margin: 0 5px;
+  padding: 0;
+}
+.word{
+  background: #eceff1;
+  border-radius: 8px 20px 8px 20px;
+  color: #000;
+  display: block;
+  float: left;
+  font: normal 16px/26px 'robotoregular', Helvetica, Arial;
+  margin: 5px;
+  padding: 5px 10px;
+}
