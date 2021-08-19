@@ -1,11 +1,11 @@
 import Head from 'next/head'
-import Header from './Header/Header'
-import Footer from './Footer/Footer'
+import Header from './Header'
+import Footer from '../Footer/Footer'
 export default function Layout(props) {
   return (
     <div className="container">
       <Head>
-        <title>Kramer Gatos</title>
+        <title>Joe - Kramer Gatos</title>
         <meta name="description" content="Kramer Gatos" />
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
@@ -28,7 +28,7 @@ export default function Layout(props) {
           }}
         />
       </Head>
-      <Header />
+      <Header data={props.data} />
       <main>
         {props.children}
       </main>

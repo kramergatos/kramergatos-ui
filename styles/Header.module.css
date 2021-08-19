@@ -7,6 +7,15 @@
   padding: 0;
   width: 100%;
 }
+.header_joe{
+  clear: both;
+  color: #000;
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 50px 0 0 0;
+  width: 100%;
+}
 .header_background{
   clear: both;
   display: block;
@@ -16,26 +25,61 @@
   width: 100%;}
 .logo {
   display: block;
-  float: left;
-  font: normal 100px/120px 'pantonblackcaps', Helvetica, Arial;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
-  text-align: center;
-  text-shadow: 1px 1px #FFF;
-  width: 100%;
+  width: 200px;
 }
-.headline{
+.title{
   clear: both;
-  color: #FFF;
+  color: #000;
   display: block;
   float: left;
   font: normal 50px/60px 'pantonblackcaps', 'robotoregular', Helvetica, Arial;
-  margin: 100px 0;
+  margin: 10px 0 30px 0;
   padding: 0;
   text-align: center;
-  text-shadow: 1px 1px #000;
   width: 100%;
-  word-spacing: 20px;}
+  word-spacing: 10px;}
+.social_links{
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+  width: 190px;
+}
+.social_link{
+  background: #000;
+  border: 1px #FFF solid;
+  border-radius: 40px;
+  color: #FFF;
+  cursor: pointer;
+  display: block;
+  float: left;
+  font: normal 26px/50px 'robotoregular', Helvetica, Arial;
+  height: 40px;
+  margin: 0 10px 0 0;
+  padding: 0;
+  text-align: center;
+  text-decoration: none;
+  width: 40px;
+}
+.social_link:last-child{
+  margin: 0;
+}
+.social_link:hover{
+  background: rgb(101,31,255);
+  background: linear-gradient(90deg, rgba(101,31,255,1) 0%, rgba(24,255,255,1) 100%);
+  border: 1px #FFF solid;
+  color: #FFF;
+  text-decoration: none;
+}
+.card_member .social_link:hover{
+  border: 1px #000 solid;
+}
+.social_link i{
+  display: block;
+  margin: 6px 0 0 0;
+  padding: 0;
+}
 @media (max-width: 1300px) {
   .logo{
     font: normal 80px/100px 'pantonblackcaps', 'robotoregular', Helvetica, Arial;

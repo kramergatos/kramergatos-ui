@@ -2,7 +2,7 @@ import styles from '../../styles/Footer.module.css'
 export default function Footer() {
   return (
     <footer className={styles.footer}>
-      <div className={styles.logo}>Kramer Gatos</div>
+      <a className={styles.logo} href="/">Kramer Gatos</a>
       <div className={styles.made_with}>
         Made with&nbsp;
         <i className="fas fa-code"></i>
