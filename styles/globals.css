@@ -32,7 +32,7 @@ a {
 body{
   background: #fff;
   clear: both;
-  color: #FFF;
+  color: #000;
   display: block;
   float: left;
   font: normal 14px/18px 'robotoregular', Helvetica, Arial;
@@ -42,7 +42,7 @@ body{
 main,
 section{
   clear: both;
-  color: #1c313a;
+  color: #000;
   display: block;
   float: left;
   margin: 0;
@@ -62,6 +62,16 @@ section{
   margin: 0 auto;
   padding: 0;
   width: 700px;}
+.section_title{
+  clear: both;
+  color: #000;
+  display: block;
+  float: left;
+  font: bold 40px/50px 'pantonblackcaps', 'robotoregular', Helvetica, Arial;
+  margin: 100px 0 20px 0;
+  padding: 0;
+  width: 100%;
+}
 @media (max-width: 1300px) {
   .content_wrap{
     width: 980px;}

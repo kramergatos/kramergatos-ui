@@ -4,7 +4,7 @@ export default function SocialAccounts(props) {
   return (
     <section>
       <div className="content_wrap_slim">
-        <div className={styles.section_title}>Creators</div>
+        <div className="section_title">Creators</div>
         {props.data.members.map(item => (
           <Member data={item} key={item.id} />
         ))}

@@ -1,0 +1,99 @@
+.jobs{
+  display: block;
+  float: left;
+  margin: 40px 0 0 0;
+  padding: 0;
+  position: relative;
+  width: 100%;
+}
+.job{
+  background: #eceff1;
+  border-radius: 8px;
+  color: #000;
+  display: block;
+  float: left;
+  margin: 20px 0 0 0;
+  padding: 10px;
+  position: relative;
+  width: 100%;
+}
+.logo{
+  border-radius: 8px;
+  display: block;
+  float: left;
+  height:50px;
+  margin: 0;
+  width:50px;
+}
+.logo img{
+  border-radius: 8px;
+  height:50px;
+  width:50px;
+}
+.title{
+  display: block;
+  float: left;
+  font: bold 16px/20px 'robotoregular', Helvetica, Arial;
+  padding: 0 0 0 20px;
+  width: calc(100% - 70px);
+}
+.company{
+  display: block;
+  float: left;
+  font:normal 12px/22px 'robotoregular', Helvetica, Arial;
+  padding: 0 0 0 20px;
+  width: calc(100% - 70px);
+}
+.description{
+  clear: both;
+  display: block;
+  float: left;
+  font:normal 12px/22px 'robotoregular', Helvetica, Arial;
+  margin: 10px 0 0 0;
+  padding:0;
+  width: 100%;
+}
+.tags{
+  clear: both;
+  color:#000;
+  display: block;
+  float: left;
+  margin: 0;
+  padding:0;
+  width: 100%;
+}
+.tag{
+  background: #FFF;
+  border-radius: 8px;
+  color:#000;
+  display: block;
+  float: left;
+  font:normal 10px/20px 'robotoregular', Helvetica, Arial;
+  margin: 10px 10px 0 0;
+  padding: 0 10px;
+}
+.tag_text{
+  display: block;
+  float: right;
+  margin: 0 0 0 5px;
+}
+.button_download{
+  background: #000;
+  border-radius: 8px;
+  color: #FFF;
+  cursor: pointer;
+  display: block;
+  float: left;
+  font:normal 20px/30px 'robotoregular', Helvetica, Arial;
+  margin: 0 20px 0 0;
+  padding: 10px 20px;
+}
+.button_label{
+  display: block;
+  float: right;
+  padding: 0 0 0 10px;
+}
+.button_download:hover{
+  background: rgb(101,31,255);
+  background: linear-gradient(90deg, rgba(101,31,255,1) 0%, rgba(24,255,255,1) 100%);
+}
