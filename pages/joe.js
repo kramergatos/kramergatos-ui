@@ -78,7 +78,7 @@ function Joe() {
       },
       {
         id: "503",
-        location: "Philadelphia, PA, USA",
+        location: "Austin, TX, USA",
         title: "Solutions Architect",
         company: "Wambi",
         url: "https://wambi.org/",
