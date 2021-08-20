@@ -1,7 +1,9 @@
 import Layout from '../components/Joe/Layout'
+import Stickers from '../components/Joe/Stickers'
 import Tech from '../components/Joe/Tech'
 import About from '../components/Joe/About'
 import Qualifications from '../components/Joe/Qualifications'
+import HireMe from '../components/Joe/HireMe'
 import Jobs from '../components/Joe/Jobs'
 function Joe() {
   const data = {
@@ -37,19 +39,6 @@ function Joe() {
     	{id: 87, type: "Database", title: "NoSQL"},
     ],
     jobs: [
-      {
-        id: "500",
-        location: "Mérida, Yucatán, México",
-        title: "Senior Software Engineer",
-        company: "ThisApp",
-        url: "https://thisapp.so",
-        dateStart: "07/2021",
-        dateEnd: "07/2021",
-        status: "Contract",
-        remote: 1,
-        description: "Built new company corporate website in NextJS, ReactJS and deployed via AWS Amplify.",
-        logo: "thisapp.jpeg"
-      },
       {
         id: "501",
         location: "Austin, TX, USA",
@@ -259,8 +248,10 @@ function Joe() {
   return (
     <Layout data={data.url}>
       <About />
+      <HireMe />
       <Qualifications data={data.qualifications} />
       <Tech data={data.tech} />
+      <Stickers />
       <Jobs data={data.jobs} />
     </Layout>
   )

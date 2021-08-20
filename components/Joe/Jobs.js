@@ -5,9 +5,9 @@ export default function Jobs(props) {
     <section>
       <div className="content_wrap_slim">
         <div className="section_title">Career</div>
-        <a className={styles.button_download} href="/download/JoeKramerResume.pdf" target="_blank">
+        <a className="button" href="/download/JoeKramerResume.pdf" target="_blank">
           <span className="fa fa-file-pdf"></span>
-          <span className={styles.button_label}>Resume</span>
+          <span className="button_label">Resume</span>
         </a>
         <div className={styles.jobs}>
           {props.data.map(item => (
