@@ -75,7 +75,7 @@ function Joe() {
         dateEnd: "03/2020",
         status: "Employee",
         remote: 1,
-        description: "Strategy, architecture, and documentation of complete product overhaul of infrastructure, apps, and UI. Recruited, built and managed internal engineering team. Started rebuilding the product from scratch in NodeJS, NextJS, ReactJS, AWS.",
+        description: "Strategy, architecture, and documentation of complete product overhaul of infrastructure, apps, and UI. Recruited, built and managed internal engineering team of 6. Started rebuilding the product from scratch in NodeJS, NextJS, ReactJS, AWS.",
         logo: "wambi.png"
       },
       {
@@ -113,7 +113,7 @@ function Joe() {
         dateEnd: "08/2018",
         status: "Employee",
         remote: 1,
-        description:"Designed and built NodeJS, NextJS, ReactJS apps deployed on AWS for a variety of clients.",
+        description:"Designed and built NodeJS, NextJS, ReactJS apps deployed on AWS for a variety of clients. Recruited, hired, trained, managed a cross functional team of 12.",
         logo: "nikola.png"
       },
       {
@@ -126,7 +126,7 @@ function Joe() {
         dateEnd: "01/2018",
         status: "Employee",
         remote: 1,
-        description:"Designed and built award winning, next gen, video player agnostic, interactive AdTech from scratch with NodeJS, ExpressJS, VAST, VPAID, AWS. Built a custom platform for content and campaign configuration. Recruited, hired, trained, and managed engineering team.",
+        description:"Designed and built award winning, next gen, video player agnostic, interactive AdTech from scratch with NodeJS, ExpressJS, VAST, VPAID, AWS. Built a custom platform for content and campaign configuration. Recruited, hired, trained, and managed engineering team of 9.",
         logo: "kerv.png"
       },
       {
