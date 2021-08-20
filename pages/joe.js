@@ -49,7 +49,7 @@ function Joe() {
         dateEnd: "07/2021",
         status: "Employee",
         remote: 1,
-        description: "Developed video player agnostic AdTech capabilities to display a variety of ad formats on top of or around the video player on desktop and mobile devices.",
+        description: "Developed next gen video player agnostic AdTech to display a variety of ad formats on top of or around the video player on desktop and mobile devices using TypeScript.",
         logo: "catapultx.jpeg"
       },
       {
@@ -62,7 +62,7 @@ function Joe() {
         dateEnd: "09/2020",
         status: "Contract",
         remote: 1,
-        description: "Short contract helping on a data management and rules project using PHP and Directus.",
+        description: "Data management and rules project using PHP and Directus for new AdTech solutions for newspaper and tv station websites.",
         logo: "hearst.jpeg"
       },
       {
@@ -75,7 +75,7 @@ function Joe() {
         dateEnd: "03/2020",
         status: "Employee",
         remote: 1,
-        description: "Strategy, architecture, and documentation of proposed complete product overhaul of infrastructure, backend, and frontend. Recruited and built internal engineering team, managed team, start rebuilding the product from scratch in new technologies.",
+        description: "Strategy, architecture, and documentation of complete product overhaul of infrastructure, apps, and UI. Recruited, built and managed internal engineering team. Started rebuilding the product from scratch in NodeJS, NextJS, ReactJS, AWS.",
         logo: "wambi.png"
       },
       {
@@ -88,7 +88,7 @@ function Joe() {
         dateEnd: "07/2019",
         status: "Contract",
         remote: 2,
-        description: "Strategy, architecture, and building new features to three brand new enterprise level internal tools used for research and system performance monitoring of the entire Dell ecosystem from infrastructure to apps.",
+        description: "Worked with SRE Team to develop enterprise level internal tools. Built D3JS graphing & filtering dashboard UI for system performance monitoring of the entire Dell ecosystem from infrastructure to apps in a new mobile C#.NET Xamarin app. Built additional features into a Chrome Browser Extension, and the UI of C#.NET app used for product research.",
         logo: "dell.jpeg"
       },
       {
@@ -101,7 +101,7 @@ function Joe() {
         dateEnd: "12/2018",
         status: "Contract",
         remote: 1,
-        description: "Designed and built APIs for user promo codes, and app health monitoring. Built scripts to manage video content using Brightcove API. Sent users email & push notifications for sweepstakes winners.",
+        description: "Built API for app health monitoring and notifications with NodeJS, AWS Lambda. Built PHP scripts to utilize Brightcove API to retrieve, search, edit, & delete content in media library. Built API with NodeJS, AWS Lambda, DynamoDB to manage promo codes and winners and sent emails & push notifications to users with Leanplum.",
         logo: "nbc.png"
       },
       {
@@ -113,7 +113,7 @@ function Joe() {
         dateEnd: "08/2018",
         status: "Employee",
         remote: 1,
-        description:"Designed and built websites and apps as dev shop. Consulted to early stage startups. Worked with gov contractor on technical aspects of contracts when applying to gov RFPs.",
+        description:"Designed and built NodeJS, NextJS, ReactJS apps deployed on AWS for a variety of clients.",
         logo: "nikola.png"
       },
       {
@@ -126,7 +126,7 @@ function Joe() {
         dateEnd: "01/2018",
         status: "Employee",
         remote: 1,
-        description:"Designed and built next gen interactive video player from scratch. Built platform and distribution network for deploying technology to a variety of media clients. Recruited, hired, managed engineering team.",
+        description:"Designed and built award winning, next gen, video player agnostic, interactive AdTech from scratch with NodeJS, ExpressJS, VAST, VPAID, AWS. Built a custom platform for content and campaign configuration. Recruited, hired, trained, and managed engineering team.",
         logo: "kerv.png"
       },
       {
@@ -138,7 +138,7 @@ function Joe() {
         dateEnd: "09/2014",
         status: "Employee",
         remote: 0,
-        description:'Full Stack Development writing, testing, and debugging multiple high traffic mobile ready web applications with a focus on video streaming.',
+        description:'Built a custom CMS platform with PHP, Symfony2. Built UI of video heavy web apps.',
         logo: "default.png"
       },
       {
