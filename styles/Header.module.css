@@ -8,10 +8,14 @@
   width: 100%;
 }
 .header_joe{
+  background: #000 url('/image/digital-distortion.jpg');
+  background-size: cover;
+  background-position: center;
   clear: both;
   color: #000;
   display: block;
   float: left;
+  min-height: 700px;
   margin: 0;
   padding: 50px 0 0 0;
   width: 100%;
@@ -27,7 +31,9 @@
   display: block;
   margin: 0 auto;
   padding: 0;
-  width: 200px;
+  width: 100%;
+  max-width: 700px;
+  z-index: 1000;
 }
 .title{
   clear: both;
@@ -38,8 +44,11 @@
   margin: 10px 0 30px 0;
   padding: 0;
   text-align: center;
+  text-shadow: 3px 3px #FFF;
   width: 100%;
-  word-spacing: 10px;}
+  word-spacing: 10px;
+  z-index: 8000;
+}
 .social_links{
   display: block;
   margin: 0 auto;
@@ -48,8 +57,9 @@
 }
 .social_link{
   background: #000;
-  border: 1px #FFF solid;
+  border: 1px #000 solid;
   border-radius: 40px;
+  box-shadow: 3px 3px 1px #FFF;
   color: #FFF;
   cursor: pointer;
   display: block;
@@ -66,10 +76,11 @@
   margin: 0;
 }
 .social_link:hover{
-  background: rgb(101,31,255);
-  background: linear-gradient(90deg, rgba(101,31,255,1) 0%, rgba(24,255,255,1) 100%);
+  background: #FFF;
   border: 1px #FFF solid;
-  color: #FFF;
+  box-shadow: 3px 3px 1px #000;
+  color: #000;
+  cursor: pointer;
   text-decoration: none;
 }
 .card_member .social_link:hover{
@@ -100,6 +111,9 @@
   }
 }
 @media (max-width: 500px) {
+  .header_joe{
+    min-height: 550px;
+  }
   .logo{
     font: normal 40px/50px 'pantonblackcaps', 'robotoregular', Helvetica, Arial;
   }
