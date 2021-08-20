@@ -177,7 +177,7 @@ function Joe() {
         dateEnd: "09/2012",
         status: "Employee",
         remote: 2,
-        description:'Full Stack Development created custom CMS web app that connected with other company software, had dashboard for visualizing user data from a hardware radar system used in golf training, and had leaderboard and community features. Worked in conjunction with and assigned tasks out to development teams in South Africa and Poland. Worked directly with project Architect and Designer daily to help set the direction of the project and advise on capabilities of technologies used. Researched and picked technologies that met our project requirements. Designed and built out the entire backend structure of the site, and how it operates and communicates with other company software. Customized WordPress to extend database tables and to extend built in functions to get completely custom functionality. Hand wrote 17,000 lines of custom code from scratch for the website and built-in custom CMS system. Emphasis on usability, user experience, and responsive design.',
+        description: "Full Stack Development of a new web app in PHP, JS, HTML, CSS that was a community site for the physical golf radar product that showed your performance super imposed on the golf course map, as well as leaderboard competition.",
         logo: "flightscope.png"
       },
       {
@@ -190,7 +190,7 @@ function Joe() {
         dateEnd: "05/2012",
         status: "Employee",
         remote: 0,
-        description:'Front End Development created over 200 marketing websites for affiliate projects and websites and emails for our company’s events at advertising conferences. Creation of websites, emails, and other media for in-house and affiliate projects that go into the exclusive Clickbooth CPA & CPC network. Develop creative and innovative solutions to common and leading edge design/programming challenges while maintaining multi browser compatibility. Researching, exploring, and testing new technologies and processes to continually improve coding best practices, performance, reduced load time, efficiency, features, and reducing project development time while maintaining accuracy. Wrote the UI Development department’s Coding Standards / Best Practices guide. Create mockups, images, UI components, and research specific issues and help debug code for the software team. Hacked WordPress installs to get completely custom functionality. All projects achieve exact match down to the pixel replica between design mockups and final product. Cross train new employees on company coding practices, processes, and helping troubleshoot code.',
+        description: "Worked closely with the design team for building emails and over 200 websites using JavaScript, jQuery, HTML, CSS for marketing landing pages of multimillion dollar campaigns. Debugging and researching issues in the AdTech platform company was developing for managing marketing campaigns.",
         logo: "integraclick.jpg"
       },
       {
@@ -240,7 +240,7 @@ function Joe() {
         dateEnd: "07/2006",
         status:"Freelance",
         remote: 1,
-        description:'Freelance design and Full Stack Development under my own brand while attending high school. Completed a variety of projects for small companies and sports teams in the local area. Taught myself PHP and related technologies.',
+        description: "Freelance design and development of websites using PHP, HTML, CSS and tshirt printing for small local businesses and organizations while attending high school.",
         logo: "jktheory.png"
       }
     ]
