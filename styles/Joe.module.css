@@ -97,11 +97,49 @@
   float: left;
   margin: 0 10px 0 0;
   padding: 0;
-  width: calc(50% - 5px);
+  width: calc(50% - 6px);
 }
 .photos_horz img:last-child{
   margin: 0;
 }
+.quote{
+  clear: both;
+  display: block;
+  float: left;
+  font:normal 40px/50px 'pantonblackcaps',Helvetica,Arial,sans-serif;
+  margin: 100px 0 20px 0;
+  padding: 0;
+  text-align: left;
+  width: 100%;
+  word-spacing: 10px;
+}
+.quote_source{
+  clear: both;
+  color: #ef0828;
+  display: block;
+  float: right;
+  font:normal 24px/30px 'robotoregular',Helvetica,Arial,sans-serif;
+  text-align: right;
+  width: 100%;
+}
+.color_lighter_blue {
+    color: #07b2e8;}
+.color_light_blue {
+    color: #128ddd;}
+.color_medium_blue {
+    color: #0058b1;}
+.color_dark_blue {
+    color: #104b9b;}
+.color_purple {
+    color: #5146bc;}
+.color_violet {
+    color: #7a3a98;}
+.color_pink {
+    color: #b33179;}
+.color_dark_pink {
+    color: #d01d5e;}
+.color_red {
+    color: #ef0828;}
 @media (max-width: 700px) {
   .section_yes{
     min-height: 250px;
