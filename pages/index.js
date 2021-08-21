@@ -1,6 +1,7 @@
 import Layout from '../components/Home/Layout'
 import SocialProfiles from '../components/Home/SocialProfiles'
 import MemberProfiles from '../components/Home/MemberProfiles'
+import KittyCard from '../components/Home/KittyCard'
 function Home() {
   const data = {
     social: [
@@ -72,6 +73,7 @@ function Home() {
   return (
     <Layout>
       <SocialProfiles data={data} />
+      <KittyCard />
       <MemberProfiles data={data} />
     </Layout>
   )
