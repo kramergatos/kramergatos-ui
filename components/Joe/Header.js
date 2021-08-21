@@ -4,7 +4,7 @@ export default function Header(props) {
   return (
     <header className={styles.header_joe}>
       <div className="content_wrap_slim">
-        <img alt="JKtheory logo" className={styles.logo} src="image/joe-kramer-logo.png" />
+        <img alt="JKtheory logo" className={styles.logo} src="image/joe/joe-kramer-logo.png" />
         <div className={styles.title}>Joe Kramer</div>
         <div className="social_links_joe_page">
           <div className={styles.social_links}>

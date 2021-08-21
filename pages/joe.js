@@ -2,6 +2,7 @@ import Layout from '../components/Joe/Layout'
 import Stickers from '../components/Joe/Stickers'
 import Tech from '../components/Joe/Tech'
 import About from '../components/Joe/About'
+import Photos from '../components/Joe/Photos'
 import Qualifications from '../components/Joe/Qualifications'
 import HireMe from '../components/Joe/HireMe'
 import Jobs from '../components/Joe/Jobs'
@@ -248,6 +249,7 @@ function Joe() {
   return (
     <Layout data={data.url}>
       <About />
+      <Photos />
       <HireMe />
       <Qualifications data={data.qualifications} />
       <Tech data={data.tech} />
