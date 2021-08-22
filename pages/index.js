@@ -1,20 +1,12 @@
 import Layout from '../components/Home/Layout'
 import Cards from '../components/Card/Cards'
+import LargeCard from '../components/Card/LargeCard'
 import KittyCard from '../components/Home/KittyCard'
 function Home() {
   const channels = {
     title: "Channels",
     imagePath: "/image/",
     items: [
-      {
-        id: "1",
-        image: "profile-graffiti.jpg",
-        title: "Graffiti Kramer Gatos",
-        social: {
-          instagram: "https://www.instagram.com/kramergatos/",
-          facebook: "https://www.facebook.com/graffiti.kramergatos"
-        }
-      },
       {
         id: "2",
         image: "profile-adventure.jpg",
@@ -23,6 +15,15 @@ function Home() {
           instagram: "https://www.instagram.com/adventure.kramergatos/",
           facebook: "https://www.facebook.com/adventure.kramergatos",
           tiktok: "https://www.tiktok.com/@kramergatos"
+        }
+      },
+      {
+        id: "1",
+        image: "profile-graffiti.jpg",
+        title: "Graffiti Kramer Gatos",
+        social: {
+          instagram: "https://www.instagram.com/kramergatos/",
+          facebook: "https://www.facebook.com/graffiti.kramergatos"
         }
       },
       {
@@ -78,11 +79,22 @@ function Home() {
       }
     ]
   }
+  const products = {
+    title: "Digital Nomad Gear",
+    imagePath: "/image/products/",
+    linkTarget: "_self",
+    item: {
+      title: "Best gear for digital nomads we use to make travel life easier",
+      image: "cover.jpg",
+      url: "/gear",
+    }
+  }
   return (
     <Layout>
-      <Cards data={channels} key="c1" />
+      <LargeCard data={products} key="c1" />
+      <Cards data={channels} key="c2" />
       <KittyCard />
-      <Cards data={creators} key="c2" />
+      <Cards data={creators} key="c4" />
     </Layout>
   )
 }

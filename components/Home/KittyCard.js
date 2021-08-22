@@ -2,7 +2,7 @@ import styles from '../../styles/Card.module.css'
 export default function KittyCard(props) {
   const pets = [
     {id: "1", url: "/image/kitty/kitty7.jpg"},
-    {id: "2", url: "/image/kitty/kitty8.jpg"},
+    {id: "2", url: "/image/kitty/kitty6.jpg"},
     {id: "3", url: "/image/kitty/roseberry.jpg"}
   ]
   return (

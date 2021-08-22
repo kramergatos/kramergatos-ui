@@ -55,6 +55,12 @@ function Kitty() {
       },
       {
         id: 13,
+        title: "Sophia",
+        subtitle: "Austin, TX, USA",
+        image: "kitty9.jpg"
+      },
+      {
+        id: 14,
         title: "Sunny",
         subtitle: "Austin, TX, USA",
         image: "kitty8.jpg"
