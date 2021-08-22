@@ -1,4 +1,4 @@
-import Layout from '../components/Mali/Layout'
+import Layout from '../components/Global/Layout'
 import styles from '../styles/Mali.module.css'
 function Mali() {
   const data = {

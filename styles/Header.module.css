@@ -7,6 +7,16 @@
   padding: 0;
   width: 100%;
 }
+.header_basic{
+  background: #000;
+  clear: both;
+  color: #FFF;
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 20px;
+  width: 100%;
+}
 .header_joe{
   background: #000 url('/image/joe/digital-distortion.jpg');
   background-size: cover;
@@ -27,6 +37,11 @@
   margin: 0;
   padding: 0;
   width: 100%;}
+.kg{
+  display: block;
+  float: left;
+  font: normal 30px/40px 'pantonblackcaps', 'robotoregular', Helvetica, Arial;
+}
 .logo {
   display: block;
   margin: 0 auto;

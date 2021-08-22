@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Header from './Header'
-import Footer from '../Global/Footer'
+import Footer from './Footer'
 export default function Layout(props) {
   return (
     <div className="container">

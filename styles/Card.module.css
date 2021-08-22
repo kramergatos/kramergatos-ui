@@ -4,7 +4,7 @@
   display: block;
   float: left;
   margin: 10px;
-  padding: 20px;
+  padding: 0;
   position: relative;
   width: calc((100% / 2) - 20px);
 }
@@ -18,7 +18,7 @@
   position: relative;
   width: calc(100% - 20px);
 }
-.card_image{
+.image{
   border-radius: 8px;
   clear: both;
   display: block;
@@ -30,23 +30,42 @@
   border-radius: 8px;
   display: block;
   float: left;
-  margin: 0 10px 10px 0;
+  margin: 0 5px 5px 0;
   position: relative;
-  width: calc((100% / 4) - 8px);
+  width: calc((100% / 3) - 6px);
 }
 .card_kitty_image:nth-child(4n){
   margin: 0 0 10px 0;
 }
-.card_title{
+.title{
   clear: both;
   color: #FFF;
   display: block;
   float: left;
-  font: bold 20px/30px 'robotoregular', Helvetica, Arial;
+  font: normal 20px/30px 'robotoregular', Helvetica, Arial;
   margin: 10px 0 0 0;
   width: 100%;
 }
-.card_member{
+.subtitle{
+  clear: both;
+  color: #FFF;
+  display: block;
+  float: left;
+  font: normal 12px/22px 'robotoregular', Helvetica, Arial;
+  margin: 0;
+  width: 100%;
+}
+.background_black{
+  background: #000;
+  border-radius: 8px;
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 20px;
+  position: relative;
+  width: 100%;
+}
+.background_blue{
   background: #18ffff;
   background: -moz-linear-gradient(-45deg,  #18ffff 0%, #512da8 100%);
   background: -webkit-linear-gradient(-45deg,  #18ffff 0%,#512da8 100%);
@@ -55,24 +74,24 @@
   border-radius: 8px;
   display: block;
   float: left;
-  margin: 10px;
+  margin: 0;
   padding: 20px;
   position: relative;
-  width: calc((100% / 2) - 20px);
+  width: 100%;
 }
-.card_member:first-child{
-  background: #18ffff;
-  background: -moz-linear-gradient(-45deg,  #18ffff 0%, #512da8 100%);
-  background: -webkit-linear-gradient(-45deg,  #18ffff 0%,#512da8 100%);
-  background: linear-gradient(135deg,  #18ffff 0%,#512da8 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#18ffff', endColorstr='#512da8',GradientType=1 );
-}
-.card_member:last-child{
+.background_pink{
   background: #ffb2ff;
   background: -moz-linear-gradient(-45deg,  #ffb2ff 0%, #e91e63 100%);
   background: -webkit-linear-gradient(-45deg,  #ffb2ff 0%,#e91e63 100%);
   background: linear-gradient(135deg,  #ffb2ff 0%,#e91e63 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb2ff', endColorstr='#e91e63',GradientType=1 );
+  border-radius: 8px;
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 20px;
+  position: relative;
+  width: 100%;
 }
 .social_links{
   display: block;

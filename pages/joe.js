@@ -1,4 +1,5 @@
-import Layout from '../components/Joe/Layout'
+import Layout from '../components/Global/Layout'
+import Splash from '../components/Joe/Splash'
 import Stickers from '../components/Joe/Stickers'
 import Tech from '../components/Joe/Tech'
 import About from '../components/Joe/About'
@@ -248,7 +249,8 @@ function Joe() {
     ]
   }
   return (
-    <Layout data={data.url}>
+    <Layout>
+      <Splash data={data.url} />
       <About />
       <Photos />
       <Quote />
