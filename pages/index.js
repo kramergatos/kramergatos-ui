@@ -91,10 +91,10 @@ function Home() {
   }
   return (
     <Layout>
-      <LargeCard data={products} key="c1" />
       <Cards data={channels} key="c2" />
       <KittyCard />
       <Cards data={creators} key="c4" />
+      <LargeCard data={products} key="c1" />
     </Layout>
   )
 }
