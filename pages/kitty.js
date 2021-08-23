@@ -3,6 +3,7 @@ import Cards from '../components/Card/Cards'
 function Kitty() {
   let kittySits = {
     title: "Pet Sitting",
+    subtitle: "All the adorable pets we've cared for over the years.",
     imagePath: "/image/kitty/",
     items: [
       {

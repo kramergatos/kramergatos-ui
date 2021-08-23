@@ -54,8 +54,8 @@ section{
   clear: both;
   display: block;
   float: left;
-  margin: 0;
-  padding: 0 0 100px 0;
+  margin: 75px 0 0 0;
+  padding: 0 0 50px 0;
   position: relative;
   width: 100%;
 }
@@ -81,9 +81,9 @@ section{
   display: block;
   float: left;
   font: bold 40px/50px 'pantonblackcaps', 'robotoregular', Helvetica, Arial;
-  margin: 100px 0 10px 0;
+  margin: 100px 25px 10px 25px;
   padding: 0;
-  width: 100%;
+  width: calc(100% - 50px);
   word-spacing: 10px;
 }
 .section_subtitle{
@@ -92,9 +92,9 @@ section{
   display: block;
   float: left;
   font:normal 18px/28px 'robotoregular', Helvetica, Arial;
-  margin: 0 0 50px 0;
+  margin: 0 25px 10px 25px;
   padding: 0;
-  width: 100%;
+  width: calc(100% - 50px);
 }
 .button{
   background: #000a12;
@@ -133,19 +133,27 @@ section{
   .content_wrap_slim{
     padding: 0 10px;
     width: calc(100% - 20px);}
+  .section_title{
+    font: normal 30px/40px 'pantonblackcaps', 'robotoregular', Helvetica, Arial;
+    margin: 50px 25px 10px 25px;
+    word-spacing: 10px;
+    width: calc(100% - 50px);
+  }
 }
-@media (max-width: 700px) {
+@media (max-width: 500px) {
   .content_wrap,
   .content_wrap_slim{
     padding: 0 10px;
     width: calc(100% - 20px);}
   .section_title{
-    font: bold 30px/40px 'pantonblackcaps', 'robotoregular', Helvetica, Arial;
-    margin: 50px 0 10px 0;
+    font: normal 30px/40px 'pantonblackcaps', 'robotoregular', Helvetica, Arial;
+    margin: 50px 5px 10px 5px;
     word-spacing: 10px;
+    width: calc(100% - 10px);
   }
   .section_subtitle{
     font:normal 16px/26px 'robotoregular', Helvetica, Arial;
-    margin: 0 0 20px 0;
+    margin: 0 5px 10px 5px;
+    width: calc(100% - 10px);
   }
 }
