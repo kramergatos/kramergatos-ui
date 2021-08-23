@@ -1,13 +1,14 @@
-import ButtonSocial from './ButtonSocial'
+import Button from './Button'
 import styles from '../../styles/Card.module.css'
-export default function Social(props) {
+export default function Buttons(props) {
   return (
     <div className={styles.social_links}>
-      <ButtonSocial network="instagram" url={props.data.instagram} />
-      <ButtonSocial network="facebook" url={props.data.facebook} />
-      <ButtonSocial network="tiktok" url={props.data.tiktok} />
-      <ButtonSocial network="linkedin" url={props.data.linkedin} />
-      <ButtonSocial network="angellist" url={props.data.angellist} />
+      <Button network="instagram" url={props.data.instagram} />
+      <Button network="facebook" url={props.data.facebook} />
+      <Button network="tiktok" url={props.data.tiktok} />
+      <Button network="linkedin" url={props.data.linkedin} />
+      <Button network="angellist" url={props.data.angellist} />
+      <Button network="cart" url={props.data.cart} />
     </div>
   )
 }

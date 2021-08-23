@@ -32,7 +32,7 @@ a {
 body{
   background: #fff;
   clear: both;
-  color: #000;
+  color: #000a12;
   display: block;
   float: left;
   font: normal 14px/18px 'robotoregular', Helvetica, Arial;
@@ -42,13 +42,23 @@ body{
 main,
 section{
   clear: both;
-  color: #000;
+  color: #000a12;
   display: block;
   float: left;
   margin: 0;
   padding: 0;
   position: relative;
   width: 100%;}
+.section_gray{
+  background: #cfd8dc;
+  clear: both;
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 0 0 100px 0;
+  position: relative;
+  width: 100%;
+}
 .content_wrap{
   clear: both;
   display: block;
@@ -67,17 +77,27 @@ section{
   width: 700px;}
 .section_title{
   clear: both;
-  color: #000;
+  color: #000a12;
   display: block;
   float: left;
   font: bold 40px/50px 'pantonblackcaps', 'robotoregular', Helvetica, Arial;
-  margin: 100px 0 20px 0;
+  margin: 100px 0 10px 0;
   padding: 0;
   width: 100%;
   word-spacing: 10px;
 }
+.section_subtitle{
+  clear: both;
+  color: #546e7a;
+  display: block;
+  float: left;
+  font:normal 18px/28px 'robotoregular', Helvetica, Arial;
+  margin: 0 0 50px 0;
+  padding: 0;
+  width: 100%;
+}
 .button{
-  background: #000;
+  background: #000a12;
   border-radius: 8px;
   box-shadow: 0px 0px 2px #FFF;
   color: #FFF;
@@ -109,12 +129,23 @@ section{
     width: 980px;}
 }
 @media (max-width: 1000px) {
-  .content_wrap{
-    width: 100%;}
+  .content_wrap,
+  .content_wrap_slim{
+    padding: 0 10px;
+    width: calc(100% - 20px);}
 }
 @media (max-width: 700px) {
   .content_wrap,
   .content_wrap_slim{
     padding: 0 10px;
     width: calc(100% - 20px);}
+  .section_title{
+    font: bold 30px/40px 'pantonblackcaps', 'robotoregular', Helvetica, Arial;
+    margin: 50px 0 10px 0;
+    word-spacing: 10px;
+  }
+  .section_subtitle{
+    font:normal 16px/26px 'robotoregular', Helvetica, Arial;
+    margin: 0 0 20px 0;
+  }
 }

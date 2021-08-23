@@ -1,7 +1,7 @@
 import styles from '../../styles/Card.module.css'
-export default function ButtonSocial(props) {
+export default function Button(props) {
   let icon
-  switch (props.network) {
+  switch (props.buttonType) {
     case "instagram":
       icon = "fab fa-instagram"
       break
@@ -16,6 +16,9 @@ export default function ButtonSocial(props) {
       break
     case "tiktok":
       icon = "fab fa-tiktok"
+      break
+    case "cart":
+      icon = "fab fa-cart-arrow-down"
       break
   }
   if (props.url != undefined && props.url != "") {

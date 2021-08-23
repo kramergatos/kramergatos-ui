@@ -1,12 +1,12 @@
 .card{
-  background: #000;
   border-radius: 8px;
+  color: #000a12;
   display: block;
   float: left;
-  margin: 10px;
+  margin: 0 50px 50px 0;
   padding: 0;
   position: relative;
-  width: calc((100% / 2) - 20px);
+  width: calc((100% / 4) - 50px);
 }
 .card_large{
   background: #000;
@@ -46,7 +46,6 @@
 }
 .title{
   clear: both;
-  color: #FFF;
   display: block;
   float: left;
   font: normal 20px/30px 'robotoregular', Helvetica, Arial;
@@ -55,49 +54,11 @@
 }
 .subtitle{
   clear: both;
-  color: #FFF;
+  color: #546e7a;
   display: block;
   float: left;
   font: normal 12px/22px 'robotoregular', Helvetica, Arial;
   margin: 0;
-  width: 100%;
-}
-.background_black{
-  background: #000;
-  border-radius: 8px;
-  display: block;
-  float: left;
-  margin: 0;
-  padding: 20px;
-  position: relative;
-  width: 100%;
-}
-.background_blue{
-  background: #18ffff;
-  background: -moz-linear-gradient(-45deg,  #18ffff 0%, #512da8 100%);
-  background: -webkit-linear-gradient(-45deg,  #18ffff 0%,#512da8 100%);
-  background: linear-gradient(135deg,  #18ffff 0%,#512da8 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#18ffff', endColorstr='#512da8',GradientType=1 );
-  border-radius: 8px;
-  display: block;
-  float: left;
-  margin: 0;
-  padding: 20px;
-  position: relative;
-  width: 100%;
-}
-.background_pink{
-  background: #ffb2ff;
-  background: -moz-linear-gradient(-45deg,  #ffb2ff 0%, #e91e63 100%);
-  background: -webkit-linear-gradient(-45deg,  #ffb2ff 0%,#e91e63 100%);
-  background: linear-gradient(135deg,  #ffb2ff 0%,#e91e63 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb2ff', endColorstr='#e91e63',GradientType=1 );
-  border-radius: 8px;
-  display: block;
-  float: left;
-  margin: 0;
-  padding: 20px;
-  position: relative;
   width: 100%;
 }
 .social_links{
@@ -108,17 +69,17 @@
   width: 100%;
 }
 .social_link{
-  background: #FFF;
+  background: #cfd8dc;
   border: 1px #FFF solid;
   border-radius: 40px;
-  color: #000;
+  color: #000a12;
   cursor: pointer;
   display: block;
   float: left;
-  font: normal 26px/50px 'robotoregular', Helvetica, Arial;
+  font: normal 22px/40px 'robotoregular', Helvetica, Arial;
   height: 40px;
   margin: 0 10px 0 0;
-  padding: 0;
+  padding: 2px 0 0 0;
   text-align: center;
   text-decoration: none;
   width: 40px;
@@ -127,7 +88,7 @@
   margin: 0;
 }
 .social_link:hover{
-  background: #000;
+  background: #000a12;
   border: 1px #FFF solid;
   color: #FFF;
   text-decoration: none;
@@ -147,12 +108,9 @@
 }
 @media (max-width: 1000px) {
   .card{
-    margin: 10px;
-    width: calc((100% / 2) - 20px);
-  }
-  .social_links{
-    right: 15px;
-    top: 15px;
+    margin: 0 50px 50px 0;
+    padding: 0;
+    width: calc((100% / 3) - 50px);
   }
   .title{
     font: bold 16px/26px 'robotoregular', Helvetica, Arial;
@@ -160,9 +118,8 @@
 }
 @media (max-width: 500px) {
   .card{
-    clear: both;
-    margin: 10px 0 0 0;
-    width: 100%;
+    margin: 0 20px 50px 0;
+    width: calc((100% / 2) - 10px);
   }
   .card_large{
     margin: 10px 0 0 0;
@@ -172,7 +129,13 @@
     right: 25px;
     top: 25px;
   }
+  .social_link{
+    font: normal 16px/30px 'robotoregular', Helvetica, Arial;
+    height: 30px;
+    padding: 0;
+    width: 30px;
+  }
   .title{
-    font: bold 20px/30px 'robotoregular', Helvetica, Arial;
+    font: bold 16px/26px 'robotoregular', Helvetica, Arial;
   }
 }

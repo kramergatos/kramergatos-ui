@@ -54,16 +54,16 @@ function Kitty() {
         image: "kitty7.jpg"
       },
       {
-        id: 13,
-        title: "Sophia",
-        subtitle: "Austin, TX, USA",
-        image: "kitty9.jpg"
-      },
-      {
         id: 14,
         title: "Sunny",
         subtitle: "Austin, TX, USA",
         image: "kitty8.jpg"
+      },
+      {
+        id: 13,
+        title: "Sophia",
+        subtitle: "Las Vegas, NV, USA",
+        image: "kitty9.jpg"
       }
     ]
   }
@@ -75,7 +75,7 @@ function Kitty() {
       {
         id: "101",
         title: "Our Profile",
-        subtitle: "Invite us to care for your cats while traveling.",
+        subtitle: "Invite us to love and care for your cats while you're traveling.",
         image: "profile.jpg",
         url: "https://www.trustedhousesitters.com/house-and-pet-sitters/united-states/texas/austin/l/1222279/"
 
@@ -83,7 +83,7 @@ function Kitty() {
       {
         id: "102",
         title: "25% Off Discount!",
-        subtitle: "Click here to get your discounted membership today.",
+        subtitle: "Click here to get your discounted membership to Trusted House Sitters today.",
         image: "trustedhousesitters.png",
         url: "https://www.trustedhousesitters.com/refer/RAF278346/?utm_medium=refer-a-friend&utm_campaign=refer-a-friend&utm_source=copy-link"
       }

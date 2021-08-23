@@ -8,7 +8,7 @@
   width: 100%;
 }
 .header_basic{
-  background: #000;
+  background: #000a12;
   clear: both;
   color: #FFF;
   display: block;
@@ -18,11 +18,11 @@
   width: 100%;
 }
 .header_joe{
-  background: #000 url('/image/joe/digital-distortion.jpg');
+  background: #000a12 url('/image/joe/digital-distortion.jpg');
   background-size: cover;
   background-position: center;
   clear: both;
-  color: #000;
+  color: #000a12;
   display: block;
   float: left;
   min-height: 700px;
@@ -71,8 +71,8 @@
   width: 190px;
 }
 .social_link{
-  background: #000;
-  border: 1px #000 solid;
+  background: #000a12;
+  border: 1px #000a12 solid;
   border-radius: 40px;
   box-shadow: 3px 3px 1px #FFF;
   color: #FFF;
@@ -93,13 +93,13 @@
 .social_link:hover{
   background: #FFF;
   border: 1px #FFF solid;
-  box-shadow: 3px 3px 1px #000;
-  color: #000;
+  box-shadow: 3px 3px 1px #000a12;
+  color: #000a12;
   cursor: pointer;
   text-decoration: none;
 }
 .card_member .social_link:hover{
-  border: 1px #000 solid;
+  border: 1px #000a12 solid;
 }
 .social_link i{
   display: block;
