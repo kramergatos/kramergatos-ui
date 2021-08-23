@@ -101,6 +101,7 @@ function Home() {
     linkTarget: "_blank",
     items: [
       {
+        id: "p1",
         title: "LG K380 Keyboard",
         subtitle: "The LG K380 is the best keyboard because the battery can last up to 24 months before needing new batteries, and they're small and super light weight, which is perfect for traveling. They can connect to three different devices (laptops, tablets, phones) via bluetooth and switching between devices with a click of a button in the top left.",
         image: "keyboard.jpg",
@@ -110,6 +111,7 @@ function Home() {
         }
       },
       {
+        id: "p2",
         title: "LG MX Master 3",
         subtitle: "The LG MX Master 3 is a great professional mouse that we carry with us in our travels. The battery lasts a long time before needing a recharge, and you can configure the various buttons and they're very precise which is great for design work or gaming. It's ergonomic and comfortable to use all day.",
         image: "mouse.jpg",
@@ -119,6 +121,7 @@ function Home() {
         }
       },
       {
+        id: "p3",
         title: "Nuun Water",
         subtitle: "Whether it's exploring a new city, climbing a pyramid, or going for a run outside in the summer, Nuun is our go to drink to throw in our water bottle to keep our electrolytes, hydration, and energy up.",
         image: "nuun.jpg",

@@ -3,7 +3,7 @@ import Header from './Header'
 import Footer from '../Global/Footer'
 export default function Layout(props) {
   return (
-    <div className="container">
+    <div>
       <Head>
         <title>Kramer Gatos</title>
         <meta name="description" content="Kramer Gatos" />
