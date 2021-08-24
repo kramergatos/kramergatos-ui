@@ -101,6 +101,23 @@
   margin: 6px 0 0 0;
   padding: 0;
 }
+.shop_link{
+  background: #000a12;
+  border-radius: 8px;
+  color: #FFF;
+  display: block;
+  float: left;
+  font:normal 12px/22px 'robotoregular', Helvetica, Arial;
+  margin: 10px 0 0 0;
+  text-align: center;
+  width: 80px;
+}
+.shop_link img{
+  border-radius: 0 0 8px 8px;
+  display: block;
+  float: left;
+  width: 100%;
+}
 .group_title{
   clear: both;
   color: #000a12;

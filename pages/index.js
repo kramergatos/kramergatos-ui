@@ -16,10 +16,12 @@ function Home() {
         image: "profile-adventure.jpg",
         title: "Adventure Kramer Gatos",
         subtitle: "Digital nomad adventures and exploring the world.",
-        social: {
-          instagram: "https://www.instagram.com/adventure.kramergatos/",
-          facebook: "https://www.facebook.com/adventure.kramergatos",
-          tiktok: "https://www.tiktok.com/@kramergatos"
+        url: {
+          social: {
+            instagram: "https://www.instagram.com/adventure.kramergatos/",
+            facebook: "https://www.facebook.com/adventure.kramergatos",
+            tiktok: "https://www.tiktok.com/@kramergatos"
+          }
         }
       },
       {
@@ -27,9 +29,11 @@ function Home() {
         image: "profile-graffiti.jpg",
         title: "Graffiti Kramer Gatos",
         subtitle: "Digital nomads graffiti hunting around the world.",
-        social: {
-          instagram: "https://www.instagram.com/kramergatos/",
-          facebook: "https://www.facebook.com/graffiti.kramergatos"
+        url: {
+          social: {
+            instagram: "https://www.instagram.com/kramergatos/",
+            facebook: "https://www.facebook.com/graffiti.kramergatos"
+          }
         }
       },
       {
@@ -37,9 +41,11 @@ function Home() {
         image: "profile-comida.jpg",
         title: "Comida Kramer Gatos",
         subtitle: "Digital nomads exploring the world through good food.",
-        social: {
-          instagram: "https://www.instagram.com/comida.kramergatos/",
-          facebook: "https://www.facebook.com/comida.kramergatos"
+        url: {
+          social: {
+            instagram: "https://www.instagram.com/comida.kramergatos/",
+            facebook: "https://www.facebook.com/comida.kramergatos"
+          }
         }
       },
       {
@@ -47,9 +53,11 @@ function Home() {
         image: "profile-casas.jpg",
         title: "Casas Kramer Gatos",
         subtitle: "Digital nomad beautiful homes, rentals, & hotels from around the world.",
-        social: {
-          instagram: "https://www.instagram.com/casas.kramergatos/",
-          facebook: "https://www.facebook.com/Casas-Kramer-Gatos-147650187434767"
+        url: {
+          social: {
+            instagram: "https://www.instagram.com/casas.kramergatos/",
+            facebook: "https://www.facebook.com/Casas-Kramer-Gatos-147650187434767"
+          }
         }
       }
     ]
@@ -64,24 +72,28 @@ function Home() {
         id: "100",
         title: "Joe Kramer",
         image: "joe-kramer.jpg",
-        url: "/joe",
-        social: {
-          instagram: "https://www.instagram.com/kramergatos/",
-          facebook: "https://www.facebook.com/joe.kramergatos",
-          linkedin: "https://www.linkedin.com/in/kramergatos/",
-          angellist: "https://angel.co/u/kramergatos"
+        url: {
+          page: "/joe",
+          social: {
+            instagram: "https://www.instagram.com/kramergatos/",
+            facebook: "https://www.facebook.com/joe.kramergatos",
+            linkedin: "https://www.linkedin.com/in/kramergatos/",
+            angellist: "https://angel.co/u/kramergatos"
+          }
         }
       },
       {
         id: "101",
         title: "Mali Kramer",
         image: "mali-kramer.jpg",
-        url: "/mali",
-        social: {
-          instagram: "https://www.instagram.com/rowsc/",
-          facebook: "https://www.facebook.com/MalinaliKramer",
-          linkedin: "https://www.linkedin.com/in/malinali-kramer/",
-          angellist: "https://angel.co/u/malinali-hernandez"
+        url: {
+          page: "/mali",
+          social: {
+            instagram: "https://www.instagram.com/rowsc/",
+            facebook: "https://www.facebook.com/MalinaliKramer",
+            linkedin: "https://www.linkedin.com/in/malinali-kramer/",
+            angellist: "https://angel.co/u/malinali-hernandez"
+          }
         }
       }
     ]
@@ -96,7 +108,9 @@ function Home() {
         id: "100",
         title: "Professional International Pet Sitters",
         image: "kitty7.jpg",
-        url: "/kitty"
+        url: {
+          page: "/kitty"
+        }
       }
     ]
   }

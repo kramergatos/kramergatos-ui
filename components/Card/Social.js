@@ -8,7 +8,7 @@ export default function Buttons(props) {
       <Button network="tiktok" url={props.data.tiktok} />
       <Button network="linkedin" url={props.data.linkedin} />
       <Button network="angellist" url={props.data.angellist} />
-      <Button network="cart" url={props.data.cart} />
+      <Button network="amazon" url={props.data.cart} />
     </div>
   )
 }

@@ -81,15 +81,18 @@ function Kitty() {
         title: "Our Profile",
         subtitle: "Invite us to love and care for your cats while you're traveling.",
         image: "profile.jpg",
-        url: "https://www.trustedhousesitters.com/house-and-pet-sitters/united-states/texas/austin/l/1222279/"
-
+        url: {
+          page: "https://www.trustedhousesitters.com/house-and-pet-sitters/united-states/texas/austin/l/1222279/"
+        }
       },
       {
         id: "102",
         title: "25% Off Discount!",
         subtitle: "Click here to get your discounted membership to Trusted House Sitters today.",
         image: "trustedhousesitters.png",
-        url: "https://www.trustedhousesitters.com/refer/RAF278346/?utm_medium=refer-a-friend&utm_campaign=refer-a-friend&utm_source=copy-link"
+        url: {
+          page: "https://www.trustedhousesitters.com/refer/RAF278346/?utm_medium=refer-a-friend&utm_campaign=refer-a-friend&utm_source=copy-link"
+        }
       }
     ]
   }
