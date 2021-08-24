@@ -10,7 +10,7 @@ function Mali() {
     }
   }
   return (
-    <Layout data={data.url}>
+    <Layout data={data.url} pageTitle="Mali - KramerGatos">
       <div className={styles.title}>Coming Soon!</div>
     </Layout>
   )

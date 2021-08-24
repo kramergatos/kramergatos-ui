@@ -1,8 +1,8 @@
 import ButtonSocial from '../Joe/ButtonSocial'
-import styles from '../../styles/Header.module.css'
-export default function Header(props) {
+import styles from '../../styles/Splash.module.css'
+export default function Splash(props) {
   return (
-    <section className={styles.header_joe}>
+    <section className={styles.splash_joe}>
       <div className="content_wrap_slim">
         <img alt="JKtheory logo" className={styles.logo} src="image/joe/joe-kramer-logo.png" />
         <div className={styles.title}>Joe Kramer</div>

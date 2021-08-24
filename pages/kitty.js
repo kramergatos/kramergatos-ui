@@ -3,7 +3,8 @@ import Cards from '../components/Card/Cards'
 function Kitty() {
   let kittySits = {
     title: "Pet Sitting",
-    subtitle: "All the adorable pets we've cared for over the years.",
+    subtitle: "All the adorable pets we've loved and cared for over the years.",
+    sectionId: "pets",
     imagePath: "/image/kitty/",
     items: [
       {
@@ -70,6 +71,8 @@ function Kitty() {
   }
   let trustedHouseSitters = {
     title: "Trusted House Sitters",
+    subtitle: "We're a young professional couple with remote jobs that allow us the freedom and privilege to travel, and we're passionate about going on adventures. We love animals, especially kitties. We like the opportunity to explore new cities while being able to give back and show love to fluffy friends.",
+    sectionId: "trustedhousesitters",
     imagePath: "/image/kitty/",
     linkTarget: "_blank",
     items: [
@@ -91,7 +94,7 @@ function Kitty() {
     ]
   }
   return (
-    <Layout>
+    <Layout pageTitle="Pet Sitting - KramerGatos">
       <Cards data={trustedHouseSitters} key="c1" />
       <Cards data={kittySits} key="c2" />
     </Layout>

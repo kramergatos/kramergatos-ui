@@ -249,7 +249,7 @@ function Joe() {
     ]
   }
   return (
-    <Layout>
+    <Layout pageTitle="Joe - KramerGatos">
       <Splash data={data.url} />
       <About />
       <Photos />

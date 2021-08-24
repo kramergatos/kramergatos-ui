@@ -1,4 +1,4 @@
-import styles from '../../styles/Header.module.css'
+import styles from '../../styles/Splash.module.css'
 export default function ButtonSocial(props) {
   let icon
   switch (props.network) {

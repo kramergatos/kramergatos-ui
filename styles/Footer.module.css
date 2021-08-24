@@ -29,3 +29,85 @@
   text-align: center;
   width: 100%;
 }
+.button_top{
+  background: #FFF;
+  border-radius: 8px;
+  color: #1c313a;
+  display: block;
+  float: left;
+  font: normal 20px/40px Helvetica, Arial;
+  height: 40px;
+  margin: 5px;
+  padding: 0;
+  position: absolute;
+  right: 30px;
+  text-align: center;
+  text-decoration: none;
+  top: 30px;
+  width: 40px;
+}
+.button_top:hover {
+  background: #64ffda;
+  cursor: pointer;
+  text-decoration: none;
+}
+.nav_wrap {
+  display: block;
+  float: left;
+  margin: 0 0 30px 0;
+}
+.nav {
+  display: block;
+  float: left;
+  font: normal 14px/24px Helvetica, Arial;
+  margin: 0 0 0 50px;
+  width: 200px;
+}
+.nav a,
+.nav a:link,
+.nav a:active,
+.nav a:visited {
+  clear: both;
+  color: #FFF;
+  display: block;
+  float: left;
+  margin: 5px 0;
+  padding: 0;
+  text-decoration: none;
+  width: 100%;
+}
+.nav a:hover {
+  color: #64ffda;
+  cursor: pointer;
+  text-decoration: none;
+}
+.nav a i{
+  display: block;
+  float: left;
+  margin: 0 5px 0 0;
+  padding: 4px 0 0 0;
+  text-align: center;
+  width: 20px;
+}
+@media (max-width: 500px) {
+  .button_top{
+    font: normal 16px/30px Helvetica, Arial;
+    height: 30px;
+    right: 20px;
+    top: 30px;
+    width: 30px;
+  }
+  .logo {
+    font: normal 30px/40px 'pantonblackcaps', Helvetica, Arial;
+    margin: 0 0 30px 20px;
+    text-align: left;
+    width: calc(100% - 20px);
+  }
+  .nav {
+    display: block;
+    float: left;
+    font: normal 14px/24px Helvetica, Arial;
+    margin: 0 0 0 20px;
+    width: 200px;
+  }
+}

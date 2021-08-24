@@ -1,13 +1,4 @@
 .header{
-  clear: both;
-  color: #000;
-  display: block;
-  float: left;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-}
-.header_basic{
   background: #000a12;
   clear: both;
   color: #FFF;
@@ -17,26 +8,6 @@
   padding: 20px;
   width: 100%;
 }
-.header_joe{
-  background: #000a12 url('/image/joe/digital-distortion.jpg');
-  background-size: cover;
-  background-position: center;
-  clear: both;
-  color: #000a12;
-  display: block;
-  float: left;
-  min-height: 700px;
-  margin: 0;
-  padding: 50px 0 0 0;
-  width: 100%;
-}
-.header_background{
-  clear: both;
-  display: block;
-  float: left;
-  margin: 0;
-  padding: 0;
-  width: 100%;}
 .kg{
   display: block;
   float: left;
@@ -50,54 +21,6 @@
   max-width: 700px;
   z-index: 1000;
 }
-.title{
-  clear: both;
-  color: #000;
-  display: block;
-  float: left;
-  font: normal 50px/60px 'pantonblackcaps', 'robotoregular', Helvetica, Arial;
-  margin: 10px 0 30px 0;
-  padding: 0;
-  text-align: center;
-  text-shadow: 3px 3px #FFF;
-  width: 100%;
-  word-spacing: 10px;
-  z-index: 8000;
-}
-.social_links{
-  display: block;
-  margin: 0 auto;
-  padding: 0;
-  width: 190px;
-}
-.social_link{
-  background: #000a12;
-  border: 1px #000a12 solid;
-  border-radius: 40px;
-  box-shadow: 3px 3px 1px #FFF;
-  color: #FFF;
-  cursor: pointer;
-  display: block;
-  float: left;
-  font: normal 26px/50px 'robotoregular', Helvetica, Arial;
-  height: 40px;
-  margin: 0 10px 0 0;
-  padding: 0;
-  text-align: center;
-  text-decoration: none;
-  width: 40px;
-}
-.social_link:last-child{
-  margin: 0;
-}
-.social_link:hover{
-  background: #FFF;
-  border: 1px #FFF solid;
-  box-shadow: 3px 3px 1px #000a12;
-  color: #000a12;
-  cursor: pointer;
-  text-decoration: none;
-}
 .card_member .social_link:hover{
   border: 1px #000a12 solid;
 }
@@ -106,36 +29,77 @@
   margin: 6px 0 0 0;
   padding: 0;
 }
+.nav{
+  color: #1c313a;
+  display: block;
+  float: right;
+  position: relative;
+}
+.nav a,
+.nav a:link,
+.nav a:visited{
+  cursor: pointer;
+  color: #cfd8dc;
+  display: block;
+  float: left;
+  font: normal 20px/50px 'latomedium', Helvetica, Arial;
+  padding: 0 30px 0 0;
+  text-decoration: none;
+}
+.nav a:active,
+.nav a:hover{
+  color: #FFF;
+  cursor: pointer;
+  text-decoration: none;
+}
+.nav_menu_mobile{
+  cursor: pointer;
+  font: normal 20px/30px 'latomedium', Helvetica, Arial;
+  display: block;
+  height: 30px;
+  position: absolute;
+  right: 20px;
+  text-align: center;
+  text-transform:uppercase;
+  top: 30px;
+  width: 30px;
+}
+.nav_mobile{
+  background: #000a12;
+  color: #cfd8dc;
+  display: block;
+  float: left;
+  left: 0px;
+  position: absolute;
+  top: 70px;
+  width: 100%;
+  z-index: 9000;
+}
+.nav_mobile a,
+.nav_mobile a:link,
+.nav_mobile a:visited{
+  cursor: pointer;
+  color: #cfd8dc;
+  display: block;
+  float: left;
+  font: normal 20px/50px 'latomedium', Helvetica, Arial;
+  padding: 10px 0;
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+}
+.nav_mobile a:active,
+.nav_mobile a:hover{
+  color: #FFF;
+  cursor: pointer;
+  text-decoration: none;
+}
+.nav_mobile:last-child{
+  padding: 10px 0 20px 0;
+}
 @media (max-width: 1300px) {
-  .logo{
-    font: normal 80px/100px 'pantonblackcaps', 'robotoregular', Helvetica, Arial;
-  }
-  .headline{
-    font: normal 40px/50px 'pantonblackcaps', 'robotoregular', Helvetica, Arial;
-  }
 }
 @media (max-width: 1000px) {
-  .logo{
-    font: normal 70px/80px 'pantonblackcaps', 'robotoregular', Helvetica, Arial;
-  }
-  .headline{
-    font: normal 30px/40px 'pantonblackcaps', 'robotoregular', Helvetica, Arial;
-    margin: 50px 0;
-    padding: 0 20px;
-    word-spacing: 10px;
-  }
 }
 @media (max-width: 500px) {
-  .header_joe{
-    min-height: 550px;
-  }
-  .logo{
-    font: normal 40px/50px 'pantonblackcaps', 'robotoregular', Helvetica, Arial;
-  }
-  .headline{
-    font: normal 20px/30px 'pantonblackcaps', 'robotoregular', Helvetica, Arial;
-    margin: 50px 0;
-    padding: 0 20px;
-    word-spacing: 10px;
-  }
 }
