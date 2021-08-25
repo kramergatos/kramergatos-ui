@@ -107,10 +107,10 @@
   color: #FFF;
   display: block;
   float: left;
-  font:normal 12px/22px 'robotoregular', Helvetica, Arial;
+  font:normal 10px/20px 'robotoregular', Helvetica, Arial;
   margin: 10px 0 0 0;
   text-align: center;
-  width: 80px;
+  width: 60px;
 }
 .shop_link img{
   border-radius: 0 0 8px 8px;
