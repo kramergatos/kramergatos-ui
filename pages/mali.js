@@ -1,6 +1,6 @@
 import Layout from '../components/Global/Layout'
 import Splash from '../components/Mali/Splash'
-import Intro from '../components/Mali/Intro'
+import Intro from '../components/Mali/MaliIntro'
 import Jobs from '../components/Jobs/Jobs'
 import styles from '../styles/Mali.module.css'
 function Mali() {

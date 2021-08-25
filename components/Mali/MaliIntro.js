@@ -11,6 +11,7 @@ export default function Intro(props) {
           <ButtonSocial network="linkedin" url={props.data.linkedin} />
           <ButtonSocial network="angellist" url={props.data.angellist} />
         </div>
+        <p>On the journey to create amazing content and experiences</p>
       </div>
     </section>
   )
