@@ -28,11 +28,9 @@ export default function Layout(props) {
           }}
         />
       </Head>
-      <Header />
       <main>
         {props.children}
       </main>
-      <Footer />
     </div>
   )
 }
