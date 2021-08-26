@@ -8,7 +8,7 @@ import Quote from '../components/Joe/Quote'
 import Qualifications from '../components/Joe/Qualifications'
 import HireMe from '../components/Joe/HireMe'
 import Jobs from '../components/Jobs/Jobs'
-function Home() {
+function Joe() {
   const data = {
     qualifications: [
       {id: 1, title: "I have an affinity for all things art and engineering, but my expertise is in custom designing new enterprise level applications from scratch."},
@@ -266,4 +266,4 @@ function Home() {
     </Layout>
   )
 }
-export default Home
+export default Joe
