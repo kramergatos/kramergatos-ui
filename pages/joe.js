@@ -18,11 +18,11 @@ function Joe() {
       {id: 5, title: "Comprehensive understanding and experience of the complete life cycle of development: from discovery and business analysis, defining requirements and priorities, user experience design, full stack development, testing and debugging, to deployment of product releases."},
       {id: 6, title: "Decisive leader of initiatives to promote organizational growth and optimal utilization of emerging technologies."},
       {id: 7, title: "Excellent collaboration skills. Works great in small teams as well as individually and remotely. Helps teach and train others with valuable insight. Helps others troubleshoot coding problems and debugging."},
-      {id: 8, title: "Skilled in solving extremely complex logic problems in large systems as well as applying artistic visual qualities in extraordinary precision and detail."}
+      {id: 8, title: "Skilled in solving extremely complex logic problems in large systems as well as applying artistic visual qualities in extraordinary precision and detail."},
+      {id: 9, title: "Built enterprises from concept into production with millions of users."},
+      {id: 10, title: "Exceptional at finding and recruiting the best engineers, and building teams with a great culture."}
     ],
     url: {
-      instagram: "https://www.instagram.com/kramergatos/",
-      facebook: "https://www.facebook.com/joe.kramergatos",
       linkedin: "https://www.linkedin.com/in/kramergatos/",
       angellist: "https://angel.co/u/kramergatos"
     },
