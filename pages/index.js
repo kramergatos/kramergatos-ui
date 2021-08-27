@@ -20,7 +20,8 @@ function Home() {
       {id: 7, title: "Excellent collaboration skills. Works great in small teams as well as individually and remotely. Helps teach and train others with valuable insight. Helps others troubleshoot coding problems and debugging."},
       {id: 8, title: "Skilled in solving extremely complex logic problems in large systems as well as applying artistic visual qualities in extraordinary precision and detail."},
       {id: 9, title: "Built enterprises from concept into production with millions of users."},
-      {id: 10, title: "Exceptional at finding and recruiting the best engineers, and building teams with a great culture."}
+      {id: 10, title: "Exceptional at finding and recruiting the best engineers, and building teams with a great culture."},
+      {id: 11, title: "Communication with clients to articulate and simplify complex technology, demo products, and assist with questions and integrations."}
     ],
     url: {
       linkedin: "https://www.linkedin.com/in/kramergatos/",
@@ -81,7 +82,7 @@ function Home() {
           dateEnd: "03/2020",
           status: "Employee",
           remote: 1,
-          description: "Strategy, architecture, and documentation of complete product overhaul of infrastructure, apps, and UI. Recruited, built and managed internal engineering team of 6. Started rebuilding the product from scratch in NodeJS, NextJS, ReactJS, AWS.",
+          description: "Strategy, architecture, and documentation of complete product overhaul of infrastructure, apps, and UI. Recruited, built and managed internal engineering team of 6. Collaborate with Sales, Account Management, and Customer Service to understand customer pain points with current product and desired features in the next version. Started rebuilding the product from scratch in NodeJS, NextJS, ReactJS, AWS.",
           logo: "wambi.png"
         },
         {
@@ -119,7 +120,7 @@ function Home() {
           dateEnd: "08/2018",
           status: "Employee",
           remote: 1,
-          description:"Designed and built NodeJS, NextJS, ReactJS apps deployed on AWS for a variety of clients. Recruited, hired, trained, managed a cross functional team of 12.",
+          description:"Designed and built NodeJS, NextJS, ReactJS apps deployed on AWS for a variety of clients. Recruited, hired, trained, managed a cross functional team of 12. Sales, fund raising, and partnering with a gov contractor for RFPs.",
           logo: "nikola.png"
         },
         {
@@ -132,7 +133,7 @@ function Home() {
           dateEnd: "01/2018",
           status: "Employee",
           remote: 1,
-          description:"Designed and built award winning, next gen, video player agnostic, interactive AdTech from scratch with NodeJS, ExpressJS, VAST, VPAID, AWS. Built a custom platform for content and campaign configuration. Recruited, hired, trained, and managed engineering team of 9.",
+          description:"Designed and built award winning, next gen, video player agnostic, interactive AdTech from scratch with NodeJS, ExpressJS, VAST, VPAID, AWS. Built a custom platform for content and campaign configuration. Recruited, hired, trained, and managed engineering team of 9. Sales Engineer for client demos and integrations as well as company M&A events including due diligence.",
           logo: "kerv.png"
         },
         {
