@@ -96,6 +96,13 @@ section{
   padding: 0;
   width: 100%;
 }
+.button_group{
+  clear: both;
+  display: block;
+  float: left;
+  margin: 20px 0 0 0;
+  width: 100%;
+}
 .button{
   background: #000a12;
   border-radius: 8px;
@@ -113,9 +120,22 @@ section{
   float: right;
   padding: 0 0 0 10px;
 }
+.button_sublabel{
+  clear: both;
+  color: #546e7a;
+  display: block;
+  float: right;
+  font:normal 10px/20px 'robotoregular', Helvetica, Arial;
+  padding: 0;
+  text-align: center;
+  width: 100%;
+}
 .button:hover{
   background: rgb(101,31,255);
   background: linear-gradient(90deg, rgba(101,31,255,1) 0%, rgba(24,255,255,1) 100%);
+}
+.button:hover .button_sublabel{
+  color: #cfd8dc;
 }
 .hero_image{
   display: block;
