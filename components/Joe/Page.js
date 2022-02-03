@@ -48,6 +48,19 @@ export default function Page() {
       coverLetterMachineReadable: "JoeKramerCoverLetter-MachineReadable.docx",
       jobs: [
         {
+          id: "500",
+          location: "San Francisco, CA, USA",
+          title: "Director of Engineering - Usability",
+          company: "i2Chain",
+          url: "https://i2chain.com/",
+          dateStart: "11/2021",
+          dateEnd: "01/2022",
+          status: "Employee",
+          remote: 1,
+          description: "Leading Front End development with offshore team on an innovative next generation security solution for enterprises that encrypts, injects rights management, and traceability into documents. Working with clients on testing, implementation, and features.",
+          logo: "i2chain.png"
+        },
+        {
           id: "501",
           location: "Austin, TX, USA",
           title: "Senior Full Stack Software Engineer",

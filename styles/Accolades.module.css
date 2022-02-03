@@ -1,0 +1,79 @@
+.jobs{
+  display: block;
+  float: left;
+  margin: 40px 0 100px 0;
+  padding: 0;
+  position: relative;
+  width: 100%;
+}
+.job{
+  background: #eceff1;
+  border-radius: 8px;
+  color: #000;
+  display: block;
+  float: left;
+  margin: 20px 0 0 0;
+  padding: 10px;
+  position: relative;
+  width: 100%;
+}
+.logo{
+  border-radius: 8px;
+  display: block;
+  float: left;
+  height:50px;
+  margin: 0;
+  width:50px;
+}
+.logo img{
+  border-radius: 8px;
+  height:50px;
+  width:50px;
+}
+.title{
+  display: block;
+  float: left;
+  font: bold 16px/20px 'robotoregular', Helvetica, Arial;
+  padding: 0 0 0 20px;
+  width: calc(100% - 70px);
+}
+.company{
+  display: block;
+  float: left;
+  font:normal 12px/22px 'robotoregular', Helvetica, Arial;
+  padding: 0 0 0 20px;
+  width: calc(100% - 70px);
+}
+.description{
+  clear: both;
+  display: block;
+  float: left;
+  font:normal 12px/22px 'robotoregular', Helvetica, Arial;
+  margin: 10px 0 0 0;
+  padding:0;
+  width: 100%;
+}
+.tags{
+  clear: both;
+  color:#000;
+  display: block;
+  float: left;
+  margin: 0;
+  padding:0;
+  width: 100%;
+}
+.tag{
+  background: #FFF;
+  border-radius: 8px;
+  color:#000;
+  display: block;
+  float: left;
+  font:normal 10px/20px 'robotoregular', Helvetica, Arial;
+  margin: 10px 10px 0 0;
+  padding: 0 10px;
+}
+.tag_text{
+  display: block;
+  float: right;
+  margin: 0 0 0 5px;
+}
