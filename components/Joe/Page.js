@@ -249,7 +249,7 @@ export default function Page() {
           dateEnd:"12/2009",
           status:"Student",
           remote:0,
-          description:'Studied Management Information Systems, Engineering, Architecture. Alpha Epsilon Pi fraternity Psi Phi chapter; Vice President (Fall 2008 - Spring 2009).',
+          description:'Studied Management Information Systems, Engineering, Architecture. Alpha Epsilon Pi fraternity Psi Phi chapter; Vice President (Fall 2008 - Spring 2009). I dropped out of college early when I realized I was already learning and using the latest cutting edge technologies and becoming proficient in my work as a software engineer for local companies, and how much time and money I would save by skipping a slow, outdated, and expensive curriculum.',
           logo: "usf.jpeg"
         },
         {
