@@ -92,7 +92,7 @@ section{
   word-spacing: 10px;
 }
 .section_title_text{
-  background: #FFF;
+  background: rgba(255, 255, 255, 0.85);
   clear: both;
   color: #263238;
   display: block;
