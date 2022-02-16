@@ -117,11 +117,10 @@
     font: normal 70px/80px 'pantonblackcaps', 'robotoregular', Helvetica, Arial;
   }
 }
-@media (max-width: 500px) {
-  .splash_joe{
-    min-height: 550px;
-  }
-  .logo{
-    font: normal 40px/50px 'pantonblackcaps', 'robotoregular', Helvetica, Arial;
+@media (max-width: 600px) {
+  .social_container{
+    clear: both;
+    float: left;
+    margin: 0;
   }
 }
