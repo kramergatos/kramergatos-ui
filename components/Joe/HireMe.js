@@ -7,7 +7,7 @@ export default function HireMe(props) {
           <span className={styles.hire_me_title}>I'm Available<br />
           Contact Me</span>
           <a className="button" href="mailto:joe@kramergatos.com">
-            <span className="fa fa-envelope"></span>
+            <span className="button_icon fa fa-envelope"></span>
             <span className="button_label">joe@kramergatos.com</span>
           </a>
         </div>

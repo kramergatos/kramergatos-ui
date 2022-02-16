@@ -13,7 +13,7 @@ export default function Jobs(props) {
   if(props.data.resumeHumanReadable != undefined) {
     resumeHumanReadable = (
       <a className="button" href={'/download/' + props.data.resumeHumanReadable} target="_blank">
-        <span className="fa fa-file-pdf"></span>
+        <span className="button_icon fa fa-file-pdf"></span>
         <span className="button_label">Resume</span>
         <span className="button_sublabel">Human Readable</span>
       </a>
@@ -22,7 +22,7 @@ export default function Jobs(props) {
   if(props.data.resumeMachineReadable != undefined) {
     resumeMachineReadable = (
       <a className="button" href={'/download/' + props.data.resumeMachineReadable} target="_blank">
-        <span className="fa fa-file-word"></span>
+        <span className="button_icon fa fa-file-word"></span>
         <span className="button_label">Resume</span>
         <span className="button_sublabel">Machine Readable</span>
       </a>
@@ -31,7 +31,7 @@ export default function Jobs(props) {
   if(props.data.coverLetterHumanReadable != undefined) {
     coverLetterHumanReadable = (
       <a className="button" href={'/download/' + props.data.coverLetterHumanReadable} target="_blank">
-        <span className="fa fa-file-pdf"></span>
+        <span className="button_icon fa fa-file-pdf"></span>
         <span className="button_label">Cover Letter</span>
         <span className="button_sublabel">Human Readable</span>
       </a>
@@ -40,7 +40,7 @@ export default function Jobs(props) {
   if(props.data.coverLetterMachineReadable != undefined) {
     coverLetterMachineReadable = (
       <a className="button" href={'/download/' + props.data.coverLetterMachineReadable} target="_blank">
-        <span className="fa fa-file-word"></span>
+        <span className="button_icon fa fa-file-word"></span>
         <span className="button_label">Cover Letter</span>
         <span className="button_sublabel">Machine Readable</span>
       </a>
@@ -57,8 +57,6 @@ export default function Jobs(props) {
         <div className="button_group">
           {resumeHumanReadable}
           {resumeMachineReadable}
-        </div>
-        <div className="button_group">
           {coverLetterHumanReadable}
           {coverLetterMachineReadable}
         </div>
@@ -68,7 +66,7 @@ export default function Jobs(props) {
           ))}
         </div>
         <div className={styles.button_all} onClick={toggle} style={{display: showMe?"none":"block"}}>
-          <i className="fa-solid fa-maximize"></i>
+          <i className="button_icon fa-solid fa-maximize"></i>
           <span className="button_label">See All</span>
         </div>
         <div className={styles.jobs_all} style={{display: showMe?"block":"none"}}>

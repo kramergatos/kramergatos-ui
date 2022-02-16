@@ -127,14 +127,20 @@ section{
   cursor: pointer;
   display: block;
   float: left;
-  font:normal 20px/30px 'robotoregular', Helvetica, Arial;
+  font:normal 16px/16px 'robotoregular', Helvetica, Arial;
   margin: 0 20px 0 0;
   padding: 10px 20px;
+  text-align: left;
+}
+.button_icon{
+  display: block;
+  float: left;
 }
 .button_label{
   display: block;
-  float: right;
+  float: left;
   padding: 0 0 0 10px;
+  text-align: left;
 }
 .button_sublabel{
   clear: both;

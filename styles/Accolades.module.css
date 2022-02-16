@@ -79,10 +79,9 @@
   color: #FFF;
   display: block;
   float: left;
-  font: normal 16px/40px 'robotoregular', Helvetica, Arial;
-  height: 40px;
+  font: normal 16px/16px 'robotoregular', Helvetica, Arial;
   margin: 20px 0 0 0;
-  padding: 0 10px;
+  padding: 10px;
   text-align: center;
   text-decoration: none;
 }
