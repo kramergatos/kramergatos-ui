@@ -365,7 +365,7 @@ export default function Page() {
       {
         id: "a14",
         title: "Heavy Distortion in Parallel",
-        image: "HeavyDistortioninParallel-min.jpg",
+        image: "HeavyDistortionInParallel-min.jpg",
         medium: "oil paint",
         dimensions: "48\" x 36\"",
         date: "12/2012",
