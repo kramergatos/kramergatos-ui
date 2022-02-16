@@ -42,9 +42,13 @@ export default function Jobs(props) {
     )
   }
   return (
-    <section>
+    <section id="experience">
       <div className="content_wrap_slim">
-        <div className="section_title">Career</div>
+        <div className="section_title">
+          <div className="section_title_text">
+            Experience
+          </div>
+        </div>
         <div className="button_group">
           {resumeHumanReadable}
           {resumeMachineReadable}

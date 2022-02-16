@@ -1,7 +1,7 @@
 import styles from '../../styles/Joe.module.css'
 export default function HireMe(props) {
   return (
-    <section className={styles.section_yes}>
+    <section className={styles.section_yes} id="hire">
       <div className="content_wrap_slim">
         <div className={styles.hire_me}>
           <span className={styles.hire_me_title}>I'm Available<br />

@@ -1,5 +1,5 @@
 import Word from './Word'
-import styles from '../../styles/WordCloud.module.css'
+import styles from '../../styles/Skills.module.css'
 export default function WordCloud(props) {
   return (
     <div className={styles.word_cloud}>

@@ -1,0 +1,30 @@
+.nav_social {
+  display: block;
+  float: right;
+  font: normal 22px/40px 'robotoregular', Helvetica, Arial;
+  margin: 0 50px 0 0;
+  width: 250px;
+}
+.nav_social a,
+.nav_social a:link,
+.nav_social a:active,
+.nav_social a:visited {
+  background: #263238;
+  border-radius: 40px;
+  color: #FFF;
+  display: block;
+  float: right;
+  height: 40px;
+  margin: 0 10px 0 0;
+  padding: 0;
+  text-align: center;
+  text-decoration: none;
+  width: 40px;
+}
+.nav_social a:hover {
+  background: rgb(101,31,255);
+  background: linear-gradient(90deg, rgba(101,31,255,1) 0%, rgba(24,255,255,1) 100%);
+  color: #FFF;
+  cursor: pointer;
+  text-decoration: none;
+}

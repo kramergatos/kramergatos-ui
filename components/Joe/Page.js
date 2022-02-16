@@ -1,12 +1,14 @@
-import Splash from './Splash'
+import Header from './Header'
 import Stickers from './Stickers'
-import Tech from './Tech'
+import Skills from '../Career/Skills'
 import About from './About'
 import Photos from './Photos'
 import Quote from './Quote'
-import Qualifications from './Qualifications'
+import Qualifications from '../Career/Qualifications'
 import HireMe from './HireMe'
-import Jobs from '../Jobs/Jobs'
+import Jobs from '../Career/Jobs'
+import Accolades from '../Career/Accolades'
+import Footer from './Footer'
 export default function Page() {
   const data = {
     qualifications: [
@@ -26,22 +28,25 @@ export default function Page() {
       linkedin: "https://www.linkedin.com/in/kramergatos/",
       angellist: "https://angel.co/u/kramergatos"
     },
-    tech: [
-      {id: 1, type: "Language", title: "JavaScript"},
-    	{id: 31, type: "Programming", title: "TypeScript"},
-    	{id: 7, type: "Framework", title: "NodeJS"},
-      {id: 7, type: "Framework", title: "NextJS"},
-    	{id: 10, type: "Framework", title: "ReactJS"},
-    	{id: 9, type: "Framework", title: "ExpressJS"},
-    	{id: 17, type: "Programming", title: "GraphQL"},
-    	{id: 24, type: "Programming", title: "HTML"},
-    	{id: 26, type: "Programming", title: "CSS"},
-    	{id: 47, type: "Infrastructure", title: "AWS"},
-    	{id: 81, type: "Database", title: "DynamoDB"},
-    	{id: 86, type: "Database", title: "MongoDB"},
-    	{id: 87, type: "Database", title: "NoSQL"},
+    skills: [
+      {id: 24, type: "Programming", title: "HTML / CSS", years: "16"},
+      {id: 1, type: "Language", title: "JavaScript", years: "12"},
+    	{id: 31, type: "Programming", title: "REST APIs", years: "8"},
+    	{id: 7, type: "Framework", title: "NodeJS", years: "8"},
+      {id: 9, type: "Framework", title: "ExpressJS", years: "8"},
+    	{id: 47, type: "Infrastructure", title: "AWS", years: "8"},
+    	{id: 81, type: "Database", title: "DynamoDB", years: "6"},
+    	{id: 85, type: "Database", title: "MySQL", years: "4"},
+    	{id: 26, type: "Programming", title: "PHP", years: "4"},
+    	{id: 86, type: "Database", title: "MongoDB", years: "2"},
+    	{id: 87, type: "Programming", title: "C#.NET", years: "2"},
+      {id: 97, type: "Framework", title: "NextJS", years: "1"},
+    	{id: 10, type: "Framework", title: "ReactJS", years: "1"},
+      {id: 31, type: "Programming", title: "TypeScript", years: "1"},
+    	{id: 61, type: "Programming", title: "GraphQL", years: "1"},
+    	{id: 17, type: "Programming", title: "D3JS", years: "1"},
     ],
-    career: {
+    experience: {
       resumeHumanReadable: "JoeKramerResume.pdf",
       resumeMachineReadable: "JoeKramerResume-MachineReadable.docx",
       coverLetterHumanReadable: "JoeKramerCoverLetter.pdf",
@@ -270,66 +275,78 @@ export default function Page() {
       {
         id: "801",
         name: "Daniel Gih",
+        date: "5/24/2016",
         description: "Right from the start, I could tell that Joe was experienced, patient, and a unicorn. During the time I worked with him, I learned of and appreciated his resilient nature that was extremely necessary in a startup. He was always understanding and consistently helped me with my career progression throughout Grabit. His skills communication and management was great, given our remote environment. Joe asked all the critical questions, poked holes into everything and was a architecture wizard. He was a critical part of my personal growth and I value him as a friend. Cheers to crossing paths again professionally!"
       },
       {
         id: "802",
         name: "Jeremy Brenner",
+        date: "5/5/2016",
         description: "Joe is hands down one of the most versatile and talented people I have ever had the pleasure to know or work with. He has an experienced, honed, and effective set of engineering skills that allow him to tackle problems all the way from complex architecture design, through to complete software. His technical ability and personality make him the type of leader you WANT to follow. Joe is always looking out for everybody on his team, and beyond his ability to create great products, he is just an excellent leader overall. He truly invests himself in everything he makes, and the people he works with. Anybody, including myself, would be lucky to have him as part of a team."
       },
       {
         id: "803",
         name: "Joseph Nowak",
+        date: "8/5/2013",
         description: "Joe was an absolute pleasure to work with. During our time Joe was responsive, personable, and honest about his needs and how they fit in with the client needs. He has proven to also be punctual and extremely dedicated to not only software development but personal growth, learning many new technologies concurrently. I look forward to keeping in touch with Joe and I know his new client is very satisfied with him and his work."
       },
       {
         id: "804",
         name: "Max Milord",
+        date: "5/27/2013",
         description: "I had the pleasure of working with Joe for a short while, but he left no doubt in my mind that he is a highly talented professional Web Developer. He completed his assignments with the utmost efficiency and attention to details."
       },
       {
         id: "805",
         name: "Sam Boix",
+        date: "10/18/2012",
         description: "When Joe worked for me he was always full of energy and positive about our projects. He always strived to have the cleanest code possible, and always pushed hard to create what we had envisioned for the business. He worked impossibly long hours to meet our extremely compressed timelines, and always did so without me ever having to ask. Joe is creative, dedicated, and a valuable asset to any team. I hope I get to work with Joe again."
       },
       {
         id: "806",
         name: "Marguerite Martakis",
+        date: "5/7/2012",
         description: "I had the pleasure of meeting Joe right at the time our parent company decided to create an open CMS for our global website. If it weren't for Joe, we would have never been able to launch it in the time they required, nor would it have functioned as well or as aesthetically as it did. In a nutshell, Joe turned lemons into lemonade, and gave us a site more functional than even the originators of this system thought it could be. Joe was great to work with on a personal level - never flustered by the obstacles, and quite enjoyed finding a way to break down the barriers put up in front of him. Exactly my type of staff member/colleague... and I was sad to see him leave, but happy that he was moving on to bigger and better things - because that's what he's meant for."
       },
       {
         id: "807",
         name: "Peter Wilson-Ferrer",
+        date: "4/17/2012",
         description: "Joe is an excellent UI developer with a keen eye for detail. I could always count on Joe and knew that the job would get done with a high degree of professionalism. He is always looking for innovative ways to make himself even more effective and is not afraid to put in the time and dedication needed to achieve perfection. I enjoyed working with Joe and would look forward to the opportunity to do so again in the future."
       },
       {
         id: "808",
         name: "Katia Hebeisen",
+        date: "1/12/2012",
         description: "Joe is a skilled developer and has been a great asset to our team. He is always eager to research and learn new techniques, follow best practices and assist on any project necessary. He is driven and willing to work any number of hours to complete a project. He is eager to absorb information from his peers as well as to train and share his areas of expertise. He is forward thinking and constantly develops new methods of organization to be more efficient and consistent in production. It's been a pleasure to work with Joe and he is a dependable resource for any team."
       },
       {
         id: "809",
         name: "Paul Downie",
+        date: "1/10/2012",
         description: "I have worked with Joe for the last year and have come to rely on him as my go-to developer. He's easy to work with, a strong leader and extremely knowledgeable. His ability to produce efficient and quality work under any circumstance has had a considerable monetary impact on business. I am happy to have been able to work with him and hope to continue to do so in the future."
       },
       {
         id: "810",
         name: "Xeon Xai",
+        date: "9/1/2011",
         description: "Joe is a very strong UI Developer, with exceptional skills in Adobe Photoshop. He has spent countless hours maintaining new layouts with ease."
       }
     ]
   }
   return (
     <div>
-      <Splash data={data.url} />
+      <Header data={data.url} />
       <About />
       <Photos />
       <Quote />
       <HireMe />
       <Qualifications data={data.qualifications} />
-      <Tech data={data.tech} />
+      <Skills data={data.skills} />
       <Stickers />
-      <Jobs data={data.career} />
+      <Jobs data={data.experience} />
+      <Accolades data={data.accolades} />
+      <Footer data={data.url} />
     </div>
   )
 }

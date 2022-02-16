@@ -38,7 +38,7 @@
   width: 100%;
 }
 .section_yes{
-  background: #000 url('/image/joe/yes.jpg');
+  background: #263238 url('/image/joe/yes.jpg');
   background-size: cover;
   background-position: center;
   min-height: 600px;
@@ -60,7 +60,7 @@
   font: normal 40px/50px 'pantonblackcaps', 'robotoregular', Helvetica, Arial;
   margin: 0 0 50px 0;
   padding: 0;
-  text-shadow: 1px 1px #000;
+  text-shadow: 1px 1px #263238;
   word-spacing: 20px;
   width: 100%;
 }
@@ -73,7 +73,7 @@
   width: 100%;
 }
 .photos img{
-  border-radius: 8px;
+  border-radius: 6px;
   display: block;
   float: left;
   margin: 0 10px 0 0;
@@ -92,7 +92,7 @@
   width: 100%;
 }
 .photos_horz img{
-  border-radius: 8px;
+  border-radius: 6px;
   display: block;
   float: left;
   margin: 0 10px 0 0;
