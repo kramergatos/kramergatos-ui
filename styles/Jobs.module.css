@@ -6,6 +6,14 @@
   position: relative;
   width: 100%;
 }
+.jobs_all{
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  width: 100%;
+}
 .job{
   background: #eceff1;
   border-radius: 8px;
@@ -76,4 +84,24 @@
   display: block;
   float: right;
   margin: 0 0 0 5px;
+}
+.button_all{
+  background: #263238;
+  border-radius: 6px;
+  color: #FFF;
+  display: block;
+  float: left;
+  font: normal 16px/40px 'robotoregular', Helvetica, Arial;
+  height: 40px;
+  margin: 20px 0 0 0;
+  padding: 0 10px;
+  text-align: center;
+  text-decoration: none;
+}
+.button_all:hover {
+  background: rgb(101,31,255);
+  background: linear-gradient(90deg, rgba(101,31,255,1) 0%, rgba(24,255,255,1) 100%);
+  color: #FFF;
+  cursor: pointer;
+  text-decoration: none;
 }

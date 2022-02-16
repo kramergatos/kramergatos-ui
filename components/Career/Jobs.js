@@ -1,6 +1,11 @@
+import React, { createContext, useState } from 'react'
 import Job from './Job'
 import styles from '../../styles/Jobs.module.css'
 export default function Jobs(props) {
+  const [showMe, setShowMe] = useState(false);
+  function toggle() {
+    setShowMe(!showMe)
+  }
   let resumeHumanReadable = null
   let resumeMachineReadable = null
   let coverLetterHumanReadable = null
@@ -58,7 +63,16 @@ export default function Jobs(props) {
           {coverLetterMachineReadable}
         </div>
         <div className={styles.jobs}>
-          {props.data.jobs.map(item => (
+          {props.data.jobs.slice(0,3).map(item => (
+            <Job data={item} key={item.id} />
+          ))}
+        </div>
+        <div className={styles.button_all} onClick={toggle} style={{display: showMe?"none":"block"}}>
+          <i className="fa-solid fa-maximize"></i>
+          <span className="button_label">See All</span>
+        </div>
+        <div className={styles.jobs_all} style={{display: showMe?"block":"none"}}>
+          {props.data.jobs.slice(3,props.data.jobs.length).map(item => (
             <Job data={item} key={item.id} />
           ))}
         </div>
