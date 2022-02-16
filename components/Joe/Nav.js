@@ -26,6 +26,9 @@ export default function Nav() {
       <a href="#accolades">
         Accolades
       </a>
+      <a href="#art">
+        Art Work
+      </a>
     </nav>
   )
 }

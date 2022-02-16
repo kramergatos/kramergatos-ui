@@ -17,7 +17,7 @@
 .job{
   background: #eceff1;
   border-radius: 8px;
-  color: #000;
+  color: #263238;
   display: block;
   float: left;
   margin: 20px 0 0 0;
@@ -63,7 +63,7 @@
 }
 .tags{
   clear: both;
-  color:#000;
+  color:#263238;
   display: block;
   float: left;
   margin: 0;
@@ -73,7 +73,7 @@
 .tag{
   background: #FFF;
   border-radius: 8px;
-  color:#000;
+  color:#263238;
   display: block;
   float: left;
   font:normal 10px/20px 'robotoregular', Helvetica, Arial;

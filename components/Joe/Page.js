@@ -8,6 +8,7 @@ import Qualifications from '../Career/Qualifications'
 import HireMe from './HireMe'
 import Jobs from '../Career/Jobs'
 import Accolades from '../Career/Accolades'
+import Arts from './Arts'
 import Footer from './Footer'
 export default function Page() {
   const data = {
@@ -335,6 +336,103 @@ export default function Page() {
         date: "9/1/2011",
         description: "Joe is a very strong UI Developer, with exceptional skills in Adobe Photoshop. He has spent countless hours maintaining new layouts with ease."
       }
+    ],
+    art: [
+      {
+        id: "a1",
+        title: "Spectrum",
+        image: "Spectrum-min.jpg",
+        medium: "oil paint",
+        dimensions: "20\"x24\"",
+        date: "10/2014",
+      },
+      {
+        id: "a12",
+        title: "In The Light Of Sunrise",
+        image: "InTheLightOfSunrise-min.jpg",
+        medium: "oil paint",
+        dimensions: "24\"x48\"",
+        date: "12/2013",
+      },
+      {
+        id: "a13",
+        title: "Found",
+        image: "Found-min.jpg",
+        medium: "oil paint",
+        dimensions: "48\" x 36\"",
+        date: "02/2013",
+      },
+      {
+        id: "a14",
+        title: "Heavy Distortion in Parallel",
+        image: "HeavyDistortioninParallel-min.jpg",
+        medium: "oil paint",
+        dimensions: "48\" x 36\"",
+        date: "12/2012",
+      },
+      {
+        id: "a15",
+        title: "Waves Washing Over Openness",
+        image: "WavesWashingOverOpenness-min.jpg",
+        medium: "oil paint",
+        dimensions: "48\" x 36\"",
+        date: "06/2012",
+      },
+      {id: "a16",
+        title: "Many Directions, All Facing Up",
+        image: "ManyDirectionsAllFacingUp-min.jpg",
+        medium: "oil paint",
+        dimensions: "36\" x 48\"",
+        date: "10/2011",
+      },
+      {
+        id: "a17",
+        title: "ZOE",
+        image: "ZOE-min.JPG",
+        medium: "spray paint",
+        dimensions: "8' x 8'",
+        date: "09/2010",
+      },
+      {
+        id: "a18",
+        title: "Flow",
+        image: "Flow-min.jpg",
+        medium: "oil paint",
+        dimensions: "48\" x 36\"",
+        date: "07/2010",
+      },
+      {
+        id: "a19",
+        title: "Fuego",
+        image: "Fuego-min.JPG",
+        medium: "oil paint",
+        dimensions: "48\" x 36\"",
+        date: "01/2010",
+      },
+      {
+        id: "a20",
+        title: "Beautiful Disaster",
+        image: "BeautifulDisaster-min.JPG",
+        medium: "oil paint",
+        dimensions: "48\" x 36\"",
+        date: "02/2009",
+      },
+      {
+        id: "a21",
+        title: "In Greed We Trust",
+        image: "InGreedWeTrust-min.JPG",
+        medium: "oil paint",
+        dimensions: "22\" x 18\"",
+        date: "11/2008",
+      },
+      {
+        id: "a22",
+        title: "Random Insanity",
+        image: "RandomInsanity-min.jpg",
+        medium: "oil paint",
+        dimensions: "32\" x 24\"",
+        date: "05/2008",
+      }
     ]
   }
   return (
@@ -349,6 +447,7 @@ export default function Page() {
       <Stickers />
       <Jobs data={data.experience} />
       <Accolades data={data.accolades} />
+      <Arts data={data.art} />
       <Footer data={data.url} />
     </div>
   )
