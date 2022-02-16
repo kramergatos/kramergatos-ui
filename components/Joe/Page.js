@@ -31,6 +31,8 @@ export default function Page() {
     skills: [
       {id: 24, type: "Programming", title: "HTML / CSS", years: "16"},
       {id: 1, type: "Language", title: "JavaScript", years: "12"},
+      {id: 16, type: "Programming", title: "JSON", years: "12"},
+      {id: 21, type: "Programming", title: "jQuery", years: "9"},
     	{id: 31, type: "Programming", title: "REST APIs", years: "8"},
     	{id: 7, type: "Framework", title: "NodeJS", years: "8"},
       {id: 9, type: "Framework", title: "ExpressJS", years: "8"},
@@ -43,7 +45,7 @@ export default function Page() {
     	{id: 87, type: "Programming", title: "C#.NET", years: "2"},
       {id: 97, type: "Framework", title: "NextJS", years: "1"},
     	{id: 10, type: "Framework", title: "ReactJS", years: "1"},
-      {id: 31, type: "Programming", title: "TypeScript", years: "1"},
+      {id: 46, type: "Programming", title: "TypeScript", years: "1"},
     	{id: 61, type: "Programming", title: "GraphQL", years: "1"},
     	{id: 17, type: "Programming", title: "D3JS", years: "1"},
     ],
