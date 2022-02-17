@@ -418,14 +418,6 @@ export default function Page() {
         date: "02/2009",
       },
       {
-        id: "a21",
-        title: "In Greed We Trust",
-        image: "InGreedWeTrust-min.JPG",
-        medium: "oil paint",
-        dimensions: "22\" x 18\"",
-        date: "11/2008",
-      },
-      {
         id: "a22",
         title: "Random Insanity",
         image: "RandomInsanity-min.jpg",
