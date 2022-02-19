@@ -19,19 +19,22 @@
   border-radius: 8px;
   color: #000;
   display: block;
-  float: left;
-  margin: 20px 0 0 0;
+  float: right;
+  margin: 30px 0 20px 0;
   padding: 10px;
   position: relative;
-  width: 100%;
+  width: calc(100% - 60px);
 }
 .title{
   clear: both;
   display: block;
   float: left;
-  font: bold 16px/20px 'robotoregular', Helvetica, Arial;
-  padding: 0 50px 0 0;
-  text-align: right;
+  font: normal 12px/20px 'robotoregular', Helvetica, Arial;
+  left: 10px;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: -25px;
   width: 100%;
 }
 .date{
@@ -47,20 +50,35 @@
   clear: both;
   display: block;
   float: left;
-  font:normal 12px/22px 'robotoregular', Helvetica, Arial;
-  margin: 0 0 10px 0;
-  padding:0 50px;
+  font: italic 12px/22px 'robotoregular', Helvetica, Arial;
+  margin: 0;
+  padding:0 30px;
+  position: relative;
   width: 100%;
   z-index: 1000;
+}
+.image{
+  border-radius: 25px;
+  bottom: 0px;
+  display: block;
+  float: left;
+  height: 50px;
+  left: -60px;
+  position: absolute;
+  width: 50px;
 }
 .quote_start{
   color: #FFF;
   display: block;
   float: left;
-  font:normal 100px/100px 'pantonblackcaps', 'robotoregular', Helvetica, Arial;
-  left: 10px;
+  font:normal 30px 'pantonblackcaps', 'robotoregular', Helvetica, Arial;
+  height: 30px;
+  left: 0px;
+  margin: 0;
+  padding: 0;
   position: absolute;
   top: 0px;
+  width: 30px;
   z-index: 1;
 }
 .quote_end{
@@ -68,9 +86,13 @@
   color: #FFF;
   display: block;
   float: left;
-  font:normal 100px/100px 'pantonblackcaps', 'robotoregular', Helvetica, Arial;
+  font:normal 30px 'pantonblackcaps', 'robotoregular', Helvetica, Arial;
+  height: 30px;
+  margin: 0;
+  padding: 0;
   position: absolute;
-  right: 10px;
+  right: 0px;
+  width: 30px;
   z-index: 1;
 }
 .button_all{
@@ -78,7 +100,7 @@
   border-radius: 6px;
   color: #FFF;
   display: block;
-  float: left;
+  float: right;
   font: normal 16px/16px 'robotoregular', Helvetica, Arial;
   margin: 20px 0 0 0;
   padding: 10px;

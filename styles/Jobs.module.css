@@ -1,7 +1,7 @@
 .jobs{
   display: block;
   float: left;
-  margin: 40px 0 0 0;
+  margin: 20px 0 0 0;
   padding: 0;
   position: relative;
   width: 100%;
@@ -90,7 +90,7 @@
   border-radius: 6px;
   color: #FFF;
   display: block;
-  float: left;
+  float: right;
   font: normal 16px/16px 'robotoregular', Helvetica, Arial;
   margin: 20px 0 0 0;
   padding: 10px;
