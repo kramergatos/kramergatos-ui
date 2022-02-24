@@ -5,41 +5,25 @@ export default function Intro() {
     <section className={styles.section} id="intro">
       <div className="content_wrap_slim">
         <img alt="JKtheory logo" className={styles.logo} src="/image/joe/joe-kramer-logo.png" />
-        <div className={styles.item}>
-          <img alt="Joe Kramer" className={styles.icon} src="/image/joe/joekramer.jpg"/>
-          <div className={styles.label}>
-            Joe Kramer
-          </div>
-        </div>
-        <div className={styles.item}>
-          <img alt="Programmer" className={styles.icon} src="/image/joe/code.png"/>
-          <div className={styles.label}>
-            Front End Software Engineer
-          </div>
-        </div>
-        <div className={styles.item}>
-          <img alt="JavaScript" className={styles.icon} src="/image/joe/js.png"/>
-          <div className={styles.label}>
-            JavaScript
-          </div>
-        </div>
-        <div className={styles.item}>
-          <img alt="Texas flag" className={styles.icon} src="/image/joe/texas.png"/>
-          <div className={styles.label}>
-            Austin, TX
-          </div>
+        <div className={styles.title}>
+          {'{'}<br />
+          <span className={styles.title_indent}>name: "Joe Kramer",</span>
+          <span className={styles.title_indent}>role: "Front End Software Engineer 👨🏼‍💻",</span>
+          <span className={styles.title_indent}>language: "JavaScript ⌨️",</span>
+          <span className={styles.title_indent}>location: "Austin, TX 🤠"</span>
+          {'}'}
         </div>
         <div className={styles.cards}>
           <a className={styles.card} href="/joe/career">
-            <img className={styles.card_image} src="/image/joe/binary-code.jpg"/>
+            <img className={styles.card_image} src="/image/joe/coder-min.jpeg"/>
             <span className={styles.card_label}>Career</span>
           </a>
           <a className={styles.card} href="/joe/art">
-            <img className={styles.card_image} src="/image/joe/art.jpeg"/>
+            <img className={styles.card_image} src="/image/joe/art-min.jpeg"/>
             <span className={styles.card_label}>Art</span>
           </a>
           <a className={styles.card} href="/joe/about">
-            <img className={styles.card_image} src="/image/joe/aboutme.jpg"/>
+            <img className={styles.card_image} src="/image/joe/aboutme-min.jpg"/>
             <span className={styles.card_label}>About Me</span>
           </a>
         </div>

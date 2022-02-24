@@ -4,7 +4,24 @@
   background-position: center;*/
   display: block;
   float: left;
-  margin: 100px 0;
+  margin: 20px 0 100px 0;
+  width: 100%;
+}
+.title{
+  color: #263238;
+  clear: both;
+  display: block;
+  float: left;
+  font: normal 26px/40px 'sourcecode', 'robotoregular', Helvetica, Arial;
+  margin: 50px 0 0 0;
+  text-align: left;
+  width: 100%;
+}
+.title_indent{
+  clear: both;
+  display: block;
+  float: left;
+  padding: 0 0 0 30px;
   width: 100%;
 }
 .cards{
@@ -59,7 +76,7 @@
   float: left;
   margin: 0;
   padding: 0;
-  width: 300px;
+  width: 100%;
 }
 .icon{
   border-radius: 25px;
@@ -126,11 +143,7 @@
     margin: 0 0 40px 0;
     width: 100%;
   }
-  .logo{
-    display: block;
-    float: left;
-    margin: 0;
-    padding: 0;
-    width: 100%;
+  .title{
+    font: normal 20px/30px 'sourcecode', 'robotoregular', Helvetica, Arial;
   }
 }
