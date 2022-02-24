@@ -1,7 +1,7 @@
 .word_cloud{
   display: block;
   float: left;
-  font: normal 12px/20px 'robotoregular', Helvetica, Arial;
+  font: normal 10px/20px 'robotoregular', Helvetica, Arial;
   margin: 30px 0 0 0;
   padding: 0;
   width: 100%;
@@ -16,7 +16,7 @@
   color: #263238;
   display: block;
   float: left;
-  font: normal 12px/12px 'robotoregular', Helvetica, Arial;
+  font: normal 10px/12px 'robotoregular', Helvetica, Arial;
   margin: 5px 0 0 10px;
   padding: 2px 5px 2px 5px;
 }

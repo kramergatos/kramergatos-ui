@@ -1,0 +1,136 @@
+.section{
+  /*background: #263238 url('/image/joe/digital-distortion.jpg');
+  background-size: cover;
+  background-position: center;*/
+  display: block;
+  float: left;
+  margin: 100px 0;
+  width: 100%;
+}
+.cards{
+  display: block;
+  float: left;
+  margin: 100px 0 0 0;
+  width: 100%;
+}
+.card{
+  background: #263238;
+  border-radius: 6px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  color: #FFF;
+  display: block;
+  float: left;
+  margin: 0 40px 0 0;
+  padding: 0;
+  position: relative;
+  width: calc((100% / 3) - 30px);
+}
+.card:last-child{
+  margin: 0;
+}
+.card:hover {
+  background: rgb(101,31,255);
+  background: linear-gradient(90deg, rgba(101,31,255,1) 0%, rgba(24,255,255,1) 100%);
+  color: #FFF;
+  cursor: pointer;
+  text-decoration: none;
+}
+.card_label{
+  clear: both;
+  display: block;
+  float: left;
+  font: normal 20px/20px 'robotoregular', Helvetica, Arial;
+  margin: 20px 0;
+  padding: 0;
+  text-align: center;
+  width: 100%;
+}
+.card_image{
+  border-radius: 6px 6px 0 0;
+  clear: both;
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.logo{
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 300px;
+}
+.icon{
+  border-radius: 25px;
+  display: block;
+  float: left;
+  height: 50px;
+  margin: 0 30px 0 0;
+  width: 50px;
+}
+.label{
+  display: block;
+  float: left;
+  width: calc(100% - 80px);
+}
+.item{
+  clear: both;
+  color: #263238;
+  display: block;
+  float: left;
+  font: normal 30px/50px 'pantonblackcaps', 'robotoregular', Helvetica, Arial;
+  margin: 30px 0 0 0;
+  padding: 0;
+  width: 100%;
+  word-spacing: 10px;
+}
+.nav_social {
+  clear: none;
+  display: block;
+  float: left;
+  font: normal 22px/40px 'robotoregular', Helvetica, Arial;
+  margin: 50px 0 0 0;
+  padding: 0;
+  width: 220px;
+}
+.button_social,
+.button_social:link,
+.button_social:active,
+.button_social:visited {
+  background: #263238;
+  border-radius: 25px;
+  color: #FFF;
+  display: block;
+  float: left;
+  font: normal 30px/50px 'robotoregular', Helvetica, Arial;
+  height: 50px;
+  margin: 0 30px 0 0;
+  padding: 0;
+  text-align: center;
+  text-decoration: none;
+  width: 50px;
+}
+.button_social:hover {
+  background: rgb(101,31,255);
+  background: linear-gradient(90deg, rgba(101,31,255,1) 0%, rgba(24,255,255,1) 100%);
+  color: #FFF;
+  cursor: pointer;
+  text-decoration: none;
+}
+.social{
+  display: none;
+}
+@media (max-width: 600px) {
+  .card{
+    margin: 0 0 40px 0;
+    width: 100%;
+  }
+  .logo{
+    display: block;
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+}

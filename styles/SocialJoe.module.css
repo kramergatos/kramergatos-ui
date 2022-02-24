@@ -3,17 +3,20 @@
   display: block;
   float: right;
   font: normal 22px/40px 'robotoregular', Helvetica, Arial;
-  margin: 0 50px 0 0;
+  margin: 0 60px 0 0;
   padding: 0;
   width: 220px;
+}
+footer .nav_social {
+  margin: 0 20px 0 0;
 }
 .nav_social a,
 .nav_social a:link,
 .nav_social a:active,
 .nav_social a:visited {
-  background: #263238;
+  background: #FFF;
   border-radius: 40px;
-  color: #FFF;
+  color: #263238;
   display: block;
   float: right;
   height: 40px;
@@ -29,11 +32,4 @@
   color: #FFF;
   cursor: pointer;
   text-decoration: none;
-}
-@media (max-width: 600px) {
-  .nav_social {
-    clear: both;
-    float: left;
-    margin: 20px 0 0 10px;
-  }
 }

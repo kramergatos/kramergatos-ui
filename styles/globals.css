@@ -31,17 +31,17 @@ a {
     font-weight: normal;
     font-style: normal;}
 body{
-  background: #fff;
+  background: #263238;
   clear: both;
-  color: #263238;
   display: block;
   float: left;
-  font: normal 14px/18px 'robotoregular', Helvetica, Arial;
+  font: normal 12px/22px 'robotoregular', Helvetica, Arial;
   margin: 0;
   padding: 0;
   width: 100%;}
 main,
 section{
+  background: #FFF;
   clear: both;
   color: #263238;
   display: block;
@@ -77,7 +77,7 @@ section{
   position: relative;
   width: 700px;}
 .section_title{
-  background: #263238 url('/image/joe/digital-distortion.jpg');
+  background: #FFF url('/image/joe/digital-distortion.jpg');
   background-size: cover;
   background-position: center;
   border-radius: 6px;
@@ -169,6 +169,15 @@ section{
 .mobile_only{
   display: none;
 }
+h1{
+  clear: both;
+  color: #263238;
+  display: block;
+  float: left;
+  font:normal 26px/36px 'robotoregular', Helvetica, Arial;
+  margin: 20px 0;
+  width: 100%;
+}
 p{
   clear: both;
   color: #546e7a;
@@ -177,6 +186,11 @@ p{
   font:normal 18px/28px 'robotoregular', Helvetica, Arial;
   margin: 10px 0;
   width: 100%;
+}
+.splash{
+  display: block;
+  float: left;
+  width:100%;
 }
 @media (max-width: 1300px) {
   .content_wrap{

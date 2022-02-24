@@ -1,4 +1,4 @@
-import Layout from '../components/Global/Layout'
+import Layout from '../components/Joe/Layout'
 import Page from '../components/Joe/Page'
 function Home() {
   return (

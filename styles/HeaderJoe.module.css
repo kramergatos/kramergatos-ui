@@ -1,18 +1,15 @@
 .header {
-  background: #263238 url('/image/joe/digital-distortion.jpg');
-  background-size: cover;
-  background-position: center;
+  background: #263238;
   clear: both;
+  color: #FFF;
   display: block;
   float: left;
   margin: 0;
-  padding: 20px 0 50px 0;
+  padding: 10px 0;
   position: relative;
   width: 100%;
 }
 .content {
-  background: rgba(255, 255, 255, 0.85);
-  color: #263238;
   display: block;
   float: left;
   margin: 0;
@@ -22,41 +19,26 @@
 .logo {
   display: block;
   float: left;
-  margin: 0 30px 0 30px;
-  width: 80px;
-}
-.title{
-  color: #263238;
-  display: block;
-  float: left;
-  font: normal 44px/44px 'pantonblackcaps', 'robotoregular', Helvetica, Arial;
-  margin: 0;
+  margin: 0 0 0 30px;
   padding: 0;
-  text-align: center;
-  text-shadow: 3px 3px #FFF;
-  word-spacing: 10px;
-}
-.social_container{
-  display: block;
-  float: right;
-  margin: 0 60px 0 0;
+  width: 100px;
 }
 .button{
-  background: #263238;
-  border: 1px #FFF solid;
+  background: #FFF;
+  border: 1px #263238 solid;
   border-radius: 6px;
-  color: #FFF;
+  color: #263238;
   display: block;
   float: right;
   font: normal 20px/40px Helvetica, Arial;
   height: 40px;
-  margin: 10px 30px 0 0;
+  margin: 10px 0px 0 0;
   padding: 10px 0 0 0;
   position: fixed;
   right: 10px;
   text-align: center;
   text-decoration: none;
-  top: 20px;
+  top: 10px;
   width: 40px;
   z-index: 9999;
 }
@@ -106,31 +88,4 @@
   color: #FFF;
   cursor: pointer;
   text-decoration: none;
-}
-@media (max-width: 1300px) {
-  .logo{
-    font: normal 80px/100px 'pantonblackcaps', 'robotoregular', Helvetica, Arial;
-  }
-}
-@media (max-width: 1000px) {
-  .logo{
-    font: normal 70px/80px 'pantonblackcaps', 'robotoregular', Helvetica, Arial;
-  }
-}
-@media (max-width: 600px) {
-  .logo {
-    display: block;
-    float: left;
-    margin: 0 30px 0 30px;
-    width: 280px;
-  }
-  .social_container{
-    clear: both;
-    float: left;
-    margin: 0;
-  }
-  .title{
-    clear: both;
-    margin: 20px 0 0 30px;
-  }
 }

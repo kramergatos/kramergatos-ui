@@ -2,32 +2,14 @@ import styles from '../../styles/Header.module.css'
 export default function Nav() {
   return (
     <nav className={styles.nav}>
-      <a href="#about">
+      <a href="/joe/career">
+        Career
+      </a>
+      <a href="/joe/art">
+        Art
+      </a>
+      <a href="/joe/about">
         About Me
-      </a>
-      <a href="#dreamers">
-        Dreamers
-      </a>
-      <a href="#hire">
-        Hire Me
-      </a>
-      <a href="#qualifications">
-        Qualifications
-      </a>
-      <a href="#skills">
-        Skills
-      </a>
-      <a href="#stickers">
-        Stickers
-      </a>
-      <a href="#experience">
-        Experience
-      </a>
-      <a href="#accolades">
-        Accolades
-      </a>
-      <a href="#art">
-        Art Work
       </a>
     </nav>
   )

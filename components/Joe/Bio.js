@@ -1,11 +1,11 @@
 import styles from '../../styles/Joe.module.css'
-export default function About() {
+export default function Bio() {
   return (
     <section id="about">
       <div className="content_wrap_slim">
         <div className="section_title">
           <div className="section_title_text">
-            Software Engineer
+            About Me
           </div>
         </div>
         <div className={styles.about}>

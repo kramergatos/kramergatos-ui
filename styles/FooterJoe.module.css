@@ -1,18 +1,15 @@
 .footer {
-  background: #000a12 url('/image/joe/digital-distortion.jpg');
-  background-size: cover;
-  background-position: center;
+  background: #263238;
   clear: both;
   display: block;
   float: left;
-  margin: 100px 0 0 0;
+  margin: 0;
   padding: 20px 0;
   position: relative;
   width: 100%;
 }
 .content {
-  background: rgba(255, 255, 255, 0.85);
-  color: #263238;
+  color: #FFF;
   display: block;
   float: left;
   margin: 0;
@@ -20,10 +17,12 @@
   width: 100%;
 }
 .logo {
+  cursor: pointer;
   display: block;
   float: left;
   margin: 0 30px 0 30px;
-  width: 80px;
+  padding: 0;
+  width: 100px;
 }
 .legal {
   display: block;
@@ -35,91 +34,15 @@
   float: left;
   font: normal 10px/20px 'robotoregular', Helvetica, Arial;
 }
-.nav_wrap {
-  display: block;
-  float: left;
-  margin: 0 0 30px 0;
-}
-.nav {
-  display: block;
-  float: left;
-  font: normal 14px/24px 'robotoregular', Helvetica, Arial;
-  margin: 0 0 0 50px;
-  width: 220px;
-}
-.nav a,
-.nav a:link,
-.nav a:active,
-.nav a:visited {
-  border-radius: 6px;
-  clear: both;
-  color: #263238;
-  display: block;
-  float: left;
-  margin: 5px 0;
-  padding: 0 10px;
-  text-decoration: none;
-}
-.nav a:hover {
-  background: #263238;
-  color: #FFF;
-  cursor: pointer;
-  text-decoration: none;
-}
-.nav a i{
-  display: block;
-  float: left;
-  margin: 0 10px 0 0;
-  padding: 4px 0 0 0;
-  text-align: center;
-  width: 20px;
-}
-.nav_header{
-  color: #263238;
-  display: block;
-  float: left;
-  font: bold 16px/26px 'robotoregular', Helvetica, Arial;
-  width: 100%;
-}
-.nav_social {
-  display: block;
-  float: left;
-  font: normal 22px/40px 'robotoregular', Helvetica, Arial;
-  margin: 0 0 0 50px;
-  width: 250px;
-}
-.nav_social a,
-.nav_social a:link,
-.nav_social a:active,
-.nav_social a:visited {
-  background: #263238;
-  border-radius: 40px;
-  color: #FFF;
-  display: block;
-  float: left;
-  height: 40px;
-  margin: 5px;
-  padding: 0;
-  text-align: center;
-  text-decoration: none;
-  width: 40px;
-}
-.nav_social a:hover {
-  background: rgb(101,31,255);
-  background: linear-gradient(90deg, rgba(101,31,255,1) 0%, rgba(24,255,255,1) 100%);
-  color: #FFF;
-  cursor: pointer;
-  text-decoration: none;
-}
 .button{
-  background: #263238;
+  background: #FFF;
   border-radius: 6px;
-  color: #FFF;
+  color: #263238;
   display: block;
   float: right;
   font: normal 20px/40px 'robotoregular', Helvetica, Arial;
   height: 40px;
-  margin: 0 30px 0 0;
+  margin: 0 10px 0 0;
   padding: 0;
   text-align: center;
   text-decoration: none;
@@ -131,4 +54,11 @@
   color: #FFF;
   cursor: pointer;
   text-decoration: none;
+}
+@media (max-width: 600px) {
+  .legal {
+    clear: both;
+    margin: 20px 0 20px 30px;
+    width: 100%;
+  }
 }
