@@ -1,0 +1,49 @@
+.side_nav_container{
+  background: rgba(255,255,255,0.85);
+  border-radius: 6px;
+  bottom: 120px;
+  display: block;
+  float: left;
+  left: 20px;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  z-index: 99999;
+}
+.side_nav{
+  clear: both;
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.side_nav a{
+  background: rgb(101,31,255);
+  border-radius: 20px;
+  clear: both;
+  color: rgb(101,31,255);
+  display: block;
+  float: left;
+  font: normal 16px/20px 'robotoregular', Helvetica, Arial;
+  height: 20px;
+  margin: 5px;
+  padding: 0;
+  width: 20px;
+}
+.label{
+  background: rgba(255,255,255,0.85);
+  border-radius: 6px;
+  display: none;
+  float: left;
+  margin: 0 0 0 30px;
+  padding: 0 5px;
+}
+.side_nav a:hover .label{
+  display: block;
+}
+@media (max-width: 700px) {
+  .side_nav{
+    display: none;
+  }
+}

@@ -1,4 +1,5 @@
 import Layout from '../../components/Joe/Layout'
+import SideNav from '../../components/Joe/SideNav'
 import HireMe from '../../components/Joe/HireMe'
 import Skills from '../../components/Career/Skills'
 import Qualifications from '../../components/Career/Qualifications'
@@ -345,6 +346,7 @@ function Career() {
   }
   return (
     <Layout pageTitle="Career - Joe Kramer">
+      <SideNav />
       <HireMe />
       <Skills data={data.skills} />
       <Qualifications data={data.qualifications} />
