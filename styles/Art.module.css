@@ -1,3 +1,11 @@
+.hero_image{
+  clear: both;
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
 .art{
   background: #FFF;
   border-radius: 8px;
