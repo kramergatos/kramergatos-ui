@@ -1,4 +1,4 @@
-import styles from '../../styles/Header.module.css'
+import styles from '../../styles/HeaderJoe.module.css'
 export default function Nav() {
   return (
     <nav className={styles.nav}>

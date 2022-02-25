@@ -202,6 +202,7 @@ p{
 .button_icon_only:active,
 .button_icon_only:visited {
   background: #FFF;
+  border: 1px #263238 solid;
   border-radius: 6px;
   color: #263238;
   display: block;
@@ -217,10 +218,9 @@ p{
 }
 .button_fixed:hover,
 .button_icon_only:hover {
-  background: rgb(101,31,255);
-  background: linear-gradient(90deg, rgba(101,31,255,1) 0%, rgba(24,255,255,1) 100%);
+  background: rgb(109,255,231);
   border-radius: 20px;
-  color: #FFF;
+  color: #263238;
   cursor: pointer;
   text-decoration: none;
   -webkit-transition: border-radius 0.15s linear;
