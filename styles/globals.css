@@ -197,6 +197,74 @@ p{
   float: left;
   width:100%;
 }
+.button_icon_only,
+.button_icon_only:link,
+.button_icon_only:active,
+.button_icon_only:visited {
+  background: #FFF;
+  border-radius: 6px;
+  color: #263238;
+  display: block;
+  float: right;
+  font: normal 20px/40px Helvetica, Arial;
+  height: 40px;
+  margin: 0 10px 0 0;
+  padding: 3px 0 0 0;
+  text-align: center;
+  text-decoration: none;
+  transition: 0.25s;
+  width: 40px;
+}
+.button_fixed:hover,
+.button_icon_only:hover {
+  background: rgb(101,31,255);
+  background: linear-gradient(90deg, rgba(101,31,255,1) 0%, rgba(24,255,255,1) 100%);
+  border-radius: 20px;
+  color: #FFF;
+  cursor: pointer;
+  text-decoration: none;
+  -webkit-transition: border-radius 0.15s linear;
+}
+.button_icon_only:hover i{
+  animation: bounceButtonIcon 0.4s linear;
+}
+.button_fixed{
+  background: #FFF;
+  border: 1px #263238 solid;
+  border-radius: 6px;
+  color: #263238;
+  display: block;
+  float: right;
+  font: normal 20px/40px Helvetica, Arial;
+  height: 40px;
+  margin: 10px 0px 0 0;
+  padding: 10px 0 0 0;
+  position: fixed;
+  right: 10px;
+  text-align: center;
+  text-decoration: none;
+  top: 10px;
+  transition: 0;
+  width: 40px;
+  z-index: 9999;
+}
+.button_fixed:hover i{
+  animation: none;
+}
+@keyframes bounceButtonIcon {
+  40% {
+    transform: scale(1.4);
+  }
+  60% {
+    transform: scale(0.8);
+  }
+  80% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
 @media (max-width: 1300px) {
   .content_wrap{
     width: 980px;}

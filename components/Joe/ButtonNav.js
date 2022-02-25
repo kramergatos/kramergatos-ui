@@ -7,7 +7,7 @@ export default function ButtonNav() {
     setShowMe(!showMe)
   }
   return (
-    <div className={styles.button} onClick={toggle}>
+    <div className="button_fixed" onClick={toggle}>
       <i className="fa-solid fa-bars" style={{display: showMe?"none":"block"}}></i>
       <i className="fa-solid fa-xmark" style={{display: showMe?"block":"none"}}></i>
       <div style={{display: showMe?"block":"none"}}>

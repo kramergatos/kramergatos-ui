@@ -23,25 +23,6 @@
   padding: 0;
   width: 100px;
 }
-.button{
-  background: #FFF;
-  border: 1px #263238 solid;
-  border-radius: 6px;
-  color: #263238;
-  display: block;
-  float: right;
-  font: normal 20px/40px Helvetica, Arial;
-  height: 40px;
-  margin: 10px 0px 0 0;
-  padding: 10px 0 0 0;
-  position: fixed;
-  right: 10px;
-  text-align: center;
-  text-decoration: none;
-  top: 10px;
-  width: 40px;
-  z-index: 9999;
-}
 .nav{
   background: #FFF;
   border: 1px #263238 solid;

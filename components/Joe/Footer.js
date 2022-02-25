@@ -16,7 +16,7 @@ export default function Footer(props) {
           </div>
           <div className={styles.legal_text}>&copy; 2022 Kramergatos. All Rights Reserved.</div>
         </div>
-        <a className={styles.button} href="#header">
+        <a className="button_icon_only" href="#header">
           <i className="fas fa-arrow-up"></i>
         </a>
         <Social />
