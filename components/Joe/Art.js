@@ -8,10 +8,6 @@ export default function Art(props) {
       </div>
       <div className={styles.tags}>
         <div className={styles.tag}>
-          <i className="far fa-calendar-alt"></i>
-          <span className={styles.tag_text}>{props.data.date}</span>
-        </div>
-        <div className={styles.tag}>
           <i className="fa-solid fa-paintbrush"></i>
           <span className={styles.tag_text}>{props.data.medium}</span>
         </div>

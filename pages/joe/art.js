@@ -4,14 +4,6 @@ function Art() {
   const data = {
     art: [
       {
-        id: "a1",
-        title: "Spectrum",
-        image: "Spectrum-min.jpg",
-        medium: "oil paint",
-        dimensions: "20\"x24\"",
-        date: "10/2014",
-      },
-      {
         id: "a12",
         title: "In The Light Of Sunrise",
         image: "InTheLightOfSunrise-min.jpg",
@@ -20,12 +12,35 @@ function Art() {
         date: "12/2013",
       },
       {
-        id: "a13",
-        title: "Found",
-        image: "Found-min.jpg",
+        id: "a1",
+        title: "Spectrum",
+        image: "Spectrum-min.jpg",
+        medium: "oil paint",
+        dimensions: "20\"x24\"",
+        date: "10/2014",
+      },
+      {id: "a16",
+        title: "Many Directions, All Facing Up",
+        image: "ManyDirectionsAllFacingUp-min.jpg",
+        medium: "oil paint",
+        dimensions: "36\" x 48\"",
+        date: "10/2011",
+      },
+      {
+        id: "a20",
+        title: "Beautiful Disaster",
+        image: "BeautifulDisaster-min.JPG",
         medium: "oil paint",
         dimensions: "48\" x 36\"",
-        date: "02/2013",
+        date: "02/2009",
+      },
+      {
+        id: "a22",
+        title: "Random Insanity",
+        image: "RandomInsanity-min.jpg",
+        medium: "oil paint",
+        dimensions: "32\" x 24\"",
+        date: "05/2008",
       },
       {
         id: "a14",
@@ -42,13 +57,6 @@ function Art() {
         medium: "oil paint",
         dimensions: "48\" x 36\"",
         date: "06/2012",
-      },
-      {id: "a16",
-        title: "Many Directions, All Facing Up",
-        image: "ManyDirectionsAllFacingUp-min.jpg",
-        medium: "oil paint",
-        dimensions: "36\" x 48\"",
-        date: "10/2011",
       },
       {
         id: "a17",
@@ -75,21 +83,13 @@ function Art() {
         date: "01/2010",
       },
       {
-        id: "a20",
-        title: "Beautiful Disaster",
-        image: "BeautifulDisaster-min.JPG",
+        id: "a13",
+        title: "Found",
+        image: "Found-min.jpg",
         medium: "oil paint",
         dimensions: "48\" x 36\"",
-        date: "02/2009",
+        date: "02/2013",
       },
-      {
-        id: "a22",
-        title: "Random Insanity",
-        image: "RandomInsanity-min.jpg",
-        medium: "oil paint",
-        dimensions: "32\" x 24\"",
-        date: "05/2008",
-      }
     ]
   }
   return (

@@ -210,7 +210,7 @@ p{
   font: normal 20px/40px Helvetica, Arial;
   height: 40px;
   margin: 0 10px 0 0;
-  padding: 3px 0 0 0;
+  padding: 0;
   text-align: center;
   text-decoration: none;
   transition: 0.25s;
