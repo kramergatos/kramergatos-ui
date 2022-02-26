@@ -66,22 +66,22 @@ function About() {
       {
         id: 1,
         title: "Hiking",
-        image: "hiking.jpg"
+        image: "hiking-min.jpg"
       },
       {
         id: 2,
         title: "Travel",
-        image: "travel.jpg"
+        image: "travel-min.jpg"
       },
       {
         id: 3,
         title: "Cooking",
-        image: "cooking.jpg"
+        image: "cooking-min.jpg"
       },
       {
         id: 4,
         title: "Racquetball",
-        image: "racquetball.jpg"
+        image: "racquetball-min.jpg"
       }
     ]
   }
