@@ -1,16 +1,5 @@
 .section{
   background: #000;
-  /*background: #18ffff;
-  background: linear-gradient(135deg, #18ffff 0%, #5c6bc0 50%, #311b92 100%);*/
-}
-.section_title{
-  clear: both;
-  color: #FFF;
-  display: block;
-  float: left;
-  font: normal 80px/100px 'robotoregular', Helvetica, Arial;
-  padding: 10px 0 0 0;
-  width: 100%;
 }
 .values{
   display: block;

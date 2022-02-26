@@ -1,0 +1,46 @@
+.section{
+  background: #000;
+}
+.interests{
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 0 0 100px 0;
+  position: relative;
+  width: 100%;
+}
+.interest{
+  display: block;
+  float: left;
+  margin: 50px 0 0 0;
+  padding: 0;
+  position: relative;
+  width: 100%;
+}
+.title{
+  color: #FFF;
+  display: block;
+  float: left;
+  font: normal 80px/80px 'pantonblackcaps', 'robotoregular', Helvetica, Arial;
+  left: 10px;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  text-shadow: 1px 1px 1px #FFF;
+  top: 0px;
+  width: 100%;
+  z-index: 8888;
+}
+.image{
+  border-radius: 6px;
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+@media (max-width: 800px) {
+  .title{
+    font: normal 40px/40px 'pantonblackcaps', 'robotoregular', Helvetica, Arial;
+  }
+}

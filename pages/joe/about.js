@@ -3,6 +3,7 @@ import SideNav from '../../components/Global/SideNav'
 import Adventure from '../../components/Joe/Adventure'
 import Bio from '../../components/Joe/Bio'
 import Photos from '../../components/Joe/Photos'
+import Interests from '../../components/Joe/Interests'
 import Quote from '../../components/Joe/Quote'
 import Values from '../../components/Joe/Values'
 function About() {
@@ -47,13 +48,40 @@ function About() {
       },
       {
         id: 4,
+        title: "Interests",
+        url: "#interests"
+      },
+      {
+        id: 5,
         title: "Inspiration",
         url: "#inspiration"
       },
       {
-        id: 5,
+        id: 6,
         title: "Values",
         url: "#values"
+      }
+    ],
+    interests: [
+      {
+        id: 1,
+        title: "Hiking",
+        image: "hiking.jpg"
+      },
+      {
+        id: 2,
+        title: "Travel",
+        image: "travel.jpg"
+      },
+      {
+        id: 3,
+        title: "Cooking",
+        image: "cooking.jpg"
+      },
+      {
+        id: 4,
+        title: "Racquetball",
+        image: "racquetball.jpg"
       }
     ]
   }
@@ -63,6 +91,7 @@ function About() {
       <Adventure />
       <Bio />
       <Photos />
+      <Interests data={data.interests} />
       <Quote />
       <Values data={data.values} />
     </Layout>
