@@ -97,9 +97,9 @@ section{
   word-spacing: 10px;
 }
 .section_title_text{
-  background: rgba(255, 255, 255, 0.85);
+  /*background: rgba(255, 255, 255, 0.85);*/
   clear: both;
-  color: #263238;
+  color: #000;
   display: block;
   float: left;
   font: normal 40px/40px 'pantonblackcaps', 'robotoregular', Helvetica, Arial;

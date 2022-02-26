@@ -1,7 +1,7 @@
 import styles from '../../styles/Joe.module.css'
 export default function Quote() {
   return (
-    <section id="dreamers">
+    <section id="inspiration">
       <div className="content_wrap_slim">
         <div className={styles.quote}>
           <span className={styles.color_lighter_blue}>"Walk with the dreamers, </span>

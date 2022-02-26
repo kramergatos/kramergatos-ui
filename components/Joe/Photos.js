@@ -1,7 +1,7 @@
 import styles from '../../styles/Joe.module.css'
 export default function Photos() {
   return (
-    <section>
+    <section id="photos">
       <div className="content_wrap_slim">
         <div className={styles.photos}>
           <img alt="Joe Kramer" src="/image/joe/joe-kramer3.jpg" />

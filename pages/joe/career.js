@@ -1,5 +1,5 @@
 import Layout from '../../components/Joe/Layout'
-import SideNav from '../../components/Joe/SideNav'
+import SideNav from '../../components/Global/SideNav'
 import HireMe from '../../components/Joe/HireMe'
 import Skills from '../../components/Career/Skills'
 import Qualifications from '../../components/Career/Qualifications'
@@ -343,10 +343,42 @@ function Career() {
         description: "Joe is a very strong UI Developer, with exceptional skills in Adobe Photoshop. He has spent countless hours maintaining new layouts with ease."
       }
     ],
+    sideNav: [
+      {
+        id: 1,
+        title: "Hire",
+        url: "#hire"
+      },
+      {
+        id: 2,
+        title: "Skills",
+        url: "#skills"
+      },
+      {
+        id: 3,
+        title: "Qualifications",
+        url: "#qualifications"
+      },
+      {
+        id: 4,
+        title: "Experience",
+        url: "#experience"
+      },
+      {
+        id: 5,
+        title: "Accolades",
+        url: "#accolades"
+      },
+      {
+        id: 6,
+        title: "Stickers",
+        url: "#stickers"
+      }
+    ]
   }
   return (
     <Layout pageTitle="Career - Joe Kramer">
-      <SideNav />
+      <SideNav data={data.sideNav} />
       <HireMe />
       <Skills data={data.skills} />
       <Qualifications data={data.qualifications} />
