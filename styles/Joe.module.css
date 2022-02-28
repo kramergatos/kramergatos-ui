@@ -1,3 +1,25 @@
+.section_austin{
+  display: block;
+  float: left;
+  margin: 0 0 100px 0;
+  padding: 0;
+  width: 100%;
+}
+.austin{
+  display: block;
+  float: left;
+  height: 400px;
+  margin: 0;
+  padding: 0;
+  width: 50%;
+}
+.map_container{
+  display: block;
+  float: right;
+  margin: 0;
+  padding: 0;
+  width: 50%;
+}
 .video{
   display: block;
   float: left;
