@@ -4,11 +4,12 @@ const containerStyle = {
   width: '100%',
   height: '400px'
 }
+const zoom = 12
 const center = {
   lat: 30.266666,
   lng: -97.733330
 }
-function MyComponent() {
+function Map() {
   const { isLoaded } = useJsApiLoader({
     id: 'google-map-script',
     googleMapsApiKey: "AIzaSyCOEPSKdiqrWymwLr2oDhdjwB8a6sMITgA"
@@ -26,11 +27,11 @@ function MyComponent() {
       <GoogleMap
         mapContainerStyle={containerStyle}
         center={center}
-        zoom={12}
+        zoom={zoom}
         onLoad={onLoad}
         onUnmount={onUnmount}
       >
       </GoogleMap>
   ) : <></>
 }
-export default React.memo(MyComponent)
+export default React.memo(Map)
