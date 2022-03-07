@@ -1,9 +1,8 @@
 # kramergatos-ui
-Kramer Gatos
+Kramer Gatos website  
+https://www.kramergatos.com
 
 ## Getting Started
-
 ```bash
-npm run dev
-npm run build
+yarn dev
 ```
