@@ -21,7 +21,7 @@ export default function Accolades(props) {
         </div>
         <div className={styles.button_all} onClick={toggle} style={{display: showMe?"none":"block"}}>
           <i className="button_icon fa-solid fa-maximize"></i>
-          <span className="button_label">See All</span>
+          <span aria-label="See All Accolades" className="button_label">See All</span>
         </div>
         <div className={styles.accolades_all} style={{display: showMe?"block":"none"}}>
           {props.data.slice(3,props.data.length).map(item => (

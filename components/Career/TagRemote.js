@@ -17,7 +17,7 @@ export default function TagRemote(props) {
       break
   }
   return (
-    <div className={styles.tag}>
+    <div aria-label="Remote Status" className={styles.tag}>
       <span className={icon}></span>
       <span className={styles.tag_text}>{text}</span>
     </div>

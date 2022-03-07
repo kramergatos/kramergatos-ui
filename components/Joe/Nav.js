@@ -1,14 +1,14 @@
 import styles from '../../styles/HeaderJoe.module.css'
 export default function Nav() {
   return (
-    <nav className={styles.nav}>
-      <a href="/joe/career">
+    <nav aria-label="Navigation" className={styles.nav}>
+      <a aria-label="Career" href="/joe/career">
         Career
       </a>
-      <a href="/joe/art">
+      <a aria-label="Art" href="/joe/art">
         Art
       </a>
-      <a href="/joe/about">
+      <a aria-label="About Me" href="/joe/about">
         About Me
       </a>
     </nav>

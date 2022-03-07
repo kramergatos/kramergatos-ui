@@ -3,7 +3,7 @@ import Header from './Header'
 import Footer from './Footer'
 export default function Layout(props) {
   return (
-    <div className="container">
+    <>
       <Head>
         <title>Joe - Kramer Gatos</title>
         <meta name="description" content="Kramer Gatos" />
@@ -17,6 +17,6 @@ export default function Layout(props) {
         {props.children}
       </main>
       <Footer />
-    </div>
+    </>
   )
 }

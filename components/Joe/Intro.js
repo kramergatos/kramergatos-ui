@@ -26,16 +26,16 @@ export default function Intro() {
           {'}'}
         </div>
         <div className={styles.cards}>
-          <a className={styles.card} href="/joe/career">
-            <img className={styles.card_image} src="/image/joe/coder-min.jpeg"/>
+          <a aria-label="Career" className={styles.card} href="/joe/career">
+            <img alt="Code" className={styles.card_image} src="/image/joe/coder-min.jpeg"/>
             <span className={styles.card_label}>Career</span>
           </a>
-          <a className={styles.card} href="/joe/art">
-            <img className={styles.card_image} src="/image/joe/art-min.jpeg"/>
+          <a aria-label="Art" className={styles.card} href="/joe/art">
+            <img alt="Art" className={styles.card_image} src="/image/joe/art-min.jpeg"/>
             <span className={styles.card_label}>Art</span>
           </a>
-          <a className={styles.card} href="/joe/about">
-            <img className={styles.card_image} src="/image/joe/aboutme-min.jpg"/>
+          <a aria-label="About Me" className={styles.card} href="/joe/about">
+            <img alt="Joe Kramer" className={styles.card_image} src="/image/joe/aboutme-min.jpg"/>
             <span className={styles.card_label}>About Me</span>
           </a>
         </div>

@@ -69,6 +69,16 @@
   margin: 10px 10px 0 0;
   padding: 0 10px;
 }
+.tag_sale{
+  background: #ff1744;
+  border-radius: 6px;
+  color: #000;
+  display: block;
+  float: left;
+  font:normal 10px/20px 'robotoregular', Helvetica, Arial;
+  margin: 10px 10px 0 0;
+  padding: 0 10px;
+}
 .tag_text{
   display: block;
   float: right;

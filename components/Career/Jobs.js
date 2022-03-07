@@ -12,7 +12,7 @@ export default function Jobs(props) {
   let coverLetterMachineReadable = null
   if(props.data.resumeHumanReadable != undefined) {
     resumeHumanReadable = (
-      <a className="button" href={'/download/' + props.data.resumeHumanReadable} target="_blank">
+      <a aria-label="Download Human Readable Resume" className="button" href={'/download/' + props.data.resumeHumanReadable} target="_blank">
         <span className="button_icon fa fa-file-pdf"></span>
         <span className="button_label">Resume</span>
         <span className="button_sublabel">Human Readable</span>
@@ -21,7 +21,7 @@ export default function Jobs(props) {
   }
   if(props.data.resumeMachineReadable != undefined) {
     resumeMachineReadable = (
-      <a className="button" href={'/download/' + props.data.resumeMachineReadable} target="_blank">
+      <a aria-label="Download Machine Readable Resume" className="button" href={'/download/' + props.data.resumeMachineReadable} target="_blank">
         <span className="button_icon fa fa-file-word"></span>
         <span className="button_label">Resume</span>
         <span className="button_sublabel">Machine Readable</span>
@@ -30,7 +30,7 @@ export default function Jobs(props) {
   }
   if(props.data.coverLetterHumanReadable != undefined) {
     coverLetterHumanReadable = (
-      <a className="button" href={'/download/' + props.data.coverLetterHumanReadable} target="_blank">
+      <a aria-label="Download Human Readable Cover Letter" className="button" href={'/download/' + props.data.coverLetterHumanReadable} target="_blank">
         <span className="button_icon fa fa-file-pdf"></span>
         <span className="button_label">Cover Letter</span>
         <span className="button_sublabel">Human Readable</span>
@@ -39,7 +39,7 @@ export default function Jobs(props) {
   }
   if(props.data.coverLetterMachineReadable != undefined) {
     coverLetterMachineReadable = (
-      <a className="button" href={'/download/' + props.data.coverLetterMachineReadable} target="_blank">
+      <a aria-label="Download Machine Readable Cover Letter" className="button" href={'/download/' + props.data.coverLetterMachineReadable} target="_blank">
         <span className="button_icon fa fa-file-word"></span>
         <span className="button_label">Cover Letter</span>
         <span className="button_sublabel">Machine Readable</span>
@@ -67,7 +67,7 @@ export default function Jobs(props) {
         </div>
         <div className={styles.button_all} onClick={toggle} style={{display: showMe?"none":"block"}}>
           <i className="button_icon fa-solid fa-maximize"></i>
-          <span className="button_label">See All</span>
+          <span aria-label="See All Job History" className="button_label">See All</span>
         </div>
         <div className={styles.jobs_all} style={{display: showMe?"block":"none"}}>
           {props.data.jobs.slice(3,props.data.jobs.length).map(item => (
