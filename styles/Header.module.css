@@ -1,97 +1,28 @@
-.header{
-  background: #000a12;
+.header {
+  background: rgb(109,255,231);
+  background: linear-gradient(135deg, rgba(109,255,231,1) 0%, rgba(29,232,181,1) 50%, rgba(0,230,118,1) 100%);
   clear: both;
-  color: #FFF;
+  color: #263238;
   display: block;
   float: left;
   margin: 0;
-  padding: 20px;
+  padding: 10px 0;
+  position: relative;
   width: 100%;
 }
-.kg{
+.content {
   display: block;
   float: left;
-  font: normal 30px/40px 'pantonblackcaps', 'robotoregular', Helvetica, Arial;
+  margin: 0;
+  padding: 10px 0;
+  width: 100%;
 }
 .logo {
   display: block;
-  margin: 0 auto;
-  padding: 0;
-  width: 100%;
-  max-width: 700px;
-  z-index: 1000;
-}
-.card_member .social_link:hover{
-  border: 1px #000a12 solid;
-}
-.social_link i{
-  display: block;
-  margin: 6px 0 0 0;
-  padding: 0;
-}
-.nav_menu_mobile{
-  cursor: pointer;
-  font: normal 20px/30px 'latomedium', Helvetica, Arial;
-  display: block;
-  height: 30px;
-  position: absolute;
-  right: 20px;
-  text-align: center;
-  text-transform:uppercase;
-  top: 30px;
-  width: 30px;
-}
-.nav_mobile{
-  background: #000a12;
-  color: #cfd8dc;
-  display: block;
   float: left;
-  left: 0px;
-  position: absolute;
-  top: 70px;
-  width: 100%;
-  z-index: 9000;
-}
-.nav_mobile a,
-.nav_mobile a:link,
-.nav_mobile a:visited{
-  cursor: pointer;
-  color: #cfd8dc;
-  display: block;
-  float: left;
-  font: normal 20px/50px 'latomedium', Helvetica, Arial;
-  padding: 10px 0;
-  text-align: center;
-  text-decoration: none;
-  width: 100%;
-}
-.nav_mobile a:active,
-.nav_mobile a:hover{
-  color: #FFF;
-  cursor: pointer;
-  text-decoration: none;
-}
-.nav_mobile:last-child{
-  padding: 10px 0 20px 0;
-}
-.button_nav{
-  background: #FFF;
-  border: 1px #263238 solid;
-  border-radius: 6px;
-  color: #263238;
-  display: block;
-  float: right;
-  font: normal 20px/40px Helvetica, Arial;
-  height: 40px;
-  margin: 10px 30px 0 0;
-  padding: 10px 0 0 0;
-  position: fixed;
-  right: 10px;
-  text-align: center;
-  text-decoration: none;
-  top: 10px;
-  width: 40px;
-  z-index: 9999;
+  margin: 0 0 0 30px;
+  padding: 0;
+  width: 100px;
 }
 .nav{
   background: #FFF;
@@ -133,17 +64,9 @@
   width: 20px;
 }
 .nav a:hover,
-.button_language:hover,
-.button_nav:hover {
-  background: rgb(101,31,255);
-  background: linear-gradient(90deg, rgba(101,31,255,1) 0%, rgba(24,255,255,1) 100%);
-  color: #FFF;
+.button:hover {
+  background: rgb(109,255,231);
+  color: #263238;
   cursor: pointer;
   text-decoration: none;
-}
-@media (max-width: 1300px) {
-}
-@media (max-width: 1000px) {
-}
-@media (max-width: 500px) {
 }

@@ -1,4 +1,4 @@
-import styles from '../../styles/HeaderJoe.module.css'
+import styles from '../../styles/Header.module.css'
 export default function Nav() {
   return (
     <nav aria-label="Navigation" className={styles.nav}>

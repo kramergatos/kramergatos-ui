@@ -1,4 +1,4 @@
-import styles from '../../styles/SocialJoe.module.css'
+import styles from '../../styles/Social.module.css'
 export default function Social(props) {
   return (
     <nav className={styles.nav_social}>

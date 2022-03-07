@@ -1,5 +1,5 @@
 import Layout from '../../components/Joe/Layout'
-import Arts from '../../components/Joe/Arts'
+import Arts from '../../components/Gallery/Arts'
 function Art() {
   const data = {
     art: [

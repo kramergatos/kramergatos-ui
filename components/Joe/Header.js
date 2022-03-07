@@ -1,6 +1,6 @@
 import Social from './Social'
-import Nav from './ButtonNav'
-import styles from '../../styles/HeaderJoe.module.css'
+import Nav from '../Nav/Button'
+import styles from '../../styles/Header.module.css'
 export default function Header() {
   return (
     <header className={styles.header} id="header">

@@ -16,11 +16,11 @@ export default function Art(props) {
         {props.data.title}
       </div>
       <div className={styles.tags}>
-        <div aria-label="Medium" aria-description={props.data.medium} className={styles.tag}>
+        <div aria-label="Medium" className={styles.tag}>
           <i className="fa-solid fa-paintbrush"></i>
           <span className={styles.tag_text}>{props.data.medium}</span>
         </div>
-        <div aria-label="Dimensions" aria-description={props.data.dimensions} className={styles.tag}>
+        <div aria-label="Dimensions" className={styles.tag}>
           <i className="fa-solid fa-up-right-and-down-left-from-center"></i>
           <span className={styles.tag_text}>{props.data.dimensions}</span>
         </div>

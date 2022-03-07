@@ -1,6 +1,10 @@
 #Mac
 .DS_Store
 
+#ENV
+.env
+.env.local
+
 # Logs
 logs
 *.log

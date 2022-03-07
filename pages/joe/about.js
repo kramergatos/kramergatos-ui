@@ -1,11 +1,11 @@
 import Layout from '../../components/Joe/Layout'
-import SideNav from '../../components/Global/SideNav'
+import SideNav from '../../components/SideNav/SideNav'
 import Adventure from '../../components/Joe/Adventure'
 import Bio from '../../components/Joe/Bio'
 import Photos from '../../components/Joe/Photos'
 import Interests from '../../components/Joe/Interests'
 import Quote from '../../components/Joe/Quote'
-import Values from '../../components/Joe/Values'
+import Values from '../../components/Values/Values'
 function About() {
   const data = {
     values: [

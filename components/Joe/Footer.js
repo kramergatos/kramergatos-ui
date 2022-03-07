@@ -1,5 +1,5 @@
 import Social from './Social'
-import styles from '../../styles/FooterJoe.module.css'
+import styles from '../../styles/Footer.module.css'
 export default function Footer(props) {
   return (
     <footer className={styles.footer}>

@@ -1,6 +1,6 @@
-import React, { createContext, useState } from 'react'
+import React, { useState } from 'react'
 import Nav from './Nav'
-import styles from '../../styles/HeaderJoe.module.css'
+import styles from '../../styles/Header.module.css'
 export default function ButtonNav() {
   const [showMe, setShowMe] = useState(false)
   function toggle() {
