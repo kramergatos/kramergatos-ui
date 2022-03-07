@@ -1,0 +1,23 @@
+.qualifications{
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.qualification{
+  clear: both;
+  display: block;
+  float: left;
+  font: var(--fontDefault);
+  list-style: none;
+  list-style-type: none;
+  margin: 20px 0 0 0;
+  padding: 0;
+  width: 100%;
+}
+.qualification_title{
+  display: block;
+  float: right;
+  width: calc(100% - 40px);
+}

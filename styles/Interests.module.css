@@ -21,7 +21,7 @@
   color: #FFF;
   display: block;
   float: left;
-  font: normal 80px/80px 'pantonblackcaps', 'robotoregular', Helvetica, Arial;
+  font: var(--fontLarge);
   left: 10px;
   margin: 0;
   padding: 0;
@@ -32,7 +32,7 @@
   z-index: 8888;
 }
 .image{
-  border-radius: 6px;
+  border-radius: var(--borderRadius);
   display: block;
   float: left;
   margin: 0;

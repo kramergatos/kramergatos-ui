@@ -1,6 +1,6 @@
 .side_nav_container{
   background: rgba(255,255,255,0.85);
-  border-radius: 6px;
+  border-radius: var(--borderRadius);
   bottom: 120px;
   display: block;
   float: left;
@@ -19,13 +19,11 @@
   width: 100%;
 }
 .side_nav a{
-  background: #263238;
+  background: var(--colorDark);
   border-radius: 20px;
   clear: both;
-  color: #263238;
   display: block;
   float: left;
-  font: normal 16px/20px 'robotoregular', Helvetica, Arial;
   height: 20px;
   margin: 5px;
   padding: 0;
@@ -33,9 +31,11 @@
 }
 .label{
   background: rgba(255,255,255,0.85);
-  border-radius: 6px;
+  border-radius: var(--borderRadius);
+  color: var(--colorDark);
   display: none;
   float: left;
+  font: var(--fontDefault);
   margin: 0 0 0 30px;
   padding: 0 5px;
 }

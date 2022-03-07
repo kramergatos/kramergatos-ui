@@ -1,8 +1,8 @@
 .header {
-  background: rgb(109,255,231);
-  background: linear-gradient(135deg, rgba(109,255,231,1) 0%, rgba(29,232,181,1) 50%, rgba(0,230,118,1) 100%);
+  background: var(--colorClickHover);
+  background: linear-gradient(135deg, var(--colorClickHover) 0%, rgba(29,232,181,1) 50%, rgba(0,230,118,1) 100%);
   clear: both;
-  color: #263238;
+  color: var(--colorDark);
   display: block;
   float: left;
   margin: 0;
@@ -26,12 +26,12 @@
 }
 .nav{
   background: #FFF;
-  border: 1px #263238 solid;
-  border-radius: 6px;
-  color: #263238;
+  border: 1px var(--colorDark) solid;
+  border-radius: var(--borderRadius);
+  color: var(--colorDark);
   display: block;
   float: left;
-  font: normal 12px/22px Helvetica, Arial;
+  font: var(--fontSmall);
   padding: 0;
   position: absolute;
   right: 0px;
@@ -65,8 +65,8 @@
 }
 .nav a:hover,
 .button:hover {
-  background: rgb(109,255,231);
-  color: #263238;
+  background: var(--colorClickHover);
+  color: var(--colorDark);
   cursor: pointer;
   text-decoration: none;
 }

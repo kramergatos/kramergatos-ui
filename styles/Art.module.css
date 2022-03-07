@@ -18,8 +18,8 @@
   width: 100%;
 }
 .art{
-  border: 5px #263238 solid;
-  border-radius: 6px;
+  border: 5px var(--colorDark) solid;
+  border-radius: var(--borderRadius);
   color: #FFF;
   display: block;
   float: left;
@@ -32,7 +32,7 @@
   margin: 20px 0 0 0;
 }*/
 .image{
-  border-radius: 6px;
+  border-radius: var(--borderRadius);
   clear: both;
   display: block;
   float: left;
@@ -47,7 +47,7 @@
   clear: both;
   display: block;
   float: left;
-  font: bold 16px/20px 'robotoregular', Helvetica, Arial;
+  font: var(--fontDefaultBold);
   padding: 10px 0 0 0;
   width: 100%;
 }
@@ -60,22 +60,22 @@
   width: 100%;
 }
 .tag{
-  background: #263238;
-  border-radius: 6px;
+  background: var(--colorDark);
+  border-radius: var(--borderRadius);
   color:#FFF;
   display: block;
   float: left;
-  font:normal 10px/20px 'robotoregular', Helvetica, Arial;
+  font: var(--fontSmallest);
   margin: 10px 10px 0 0;
   padding: 0 10px;
 }
 .tag_sale{
-  background: #ff1744;
-  border-radius: 6px;
+  background: var(--colorRed);
+  border-radius: var(--borderRadius);
   color: #000;
   display: block;
   float: left;
-  font:normal 10px/20px 'robotoregular', Helvetica, Arial;
+  font: var(--fontSmallest);
   margin: 10px 10px 0 0;
   padding: 0 10px;
 }

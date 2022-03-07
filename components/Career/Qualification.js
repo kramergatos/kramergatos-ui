@@ -1,4 +1,4 @@
-import styles from '../../styles/Joe.module.css'
+import styles from '../../styles/Qualifications.module.css'
 export default function Qualification(props) {
   return (
     <li className={styles.qualification}>

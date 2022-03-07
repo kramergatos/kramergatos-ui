@@ -10,7 +10,7 @@
   width: 100%;
 }
 .value{
-  border-bottom: 1px #263238 solid;
+  border-bottom: 1px var(--colorDark) solid;
   color: #FFF;
   display: block;
   float: left;
@@ -45,7 +45,7 @@
   color: #78909c;
   display: block;
   float: right;
-  font: normal 16px/26px 'robotoregular', Helvetica, Arial;
+  font: var(--fontDefault);
   margin: 40px 0 0 0;
   padding: 0;
   width: 70%;

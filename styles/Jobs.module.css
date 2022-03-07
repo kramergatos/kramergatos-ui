@@ -16,9 +16,9 @@
 }
 .job{
   background: #eceff1;
-  border-radius: 8px;
+  border-radius: var(--borderRadius);
   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-  color: #263238;
+  color: var(--colorDark);
   display: block;
   float: left;
   margin: 30px 0 0 0;
@@ -27,7 +27,7 @@
   width: 100%;
 }
 .logo{
-  border-radius: 8px;
+  border-radius: var(--borderRadius);
   display: block;
   float: left;
   height:50px;
@@ -35,21 +35,21 @@
   width:50px;
 }
 .logo img{
-  border-radius: 8px;
+  border-radius: var(--borderRadius);
   height:50px;
   width:50px;
 }
 .title{
   display: block;
   float: left;
-  font: bold 16px/20px 'robotoregular', Helvetica, Arial;
+  font: var(--fontDefaultBold);
   padding: 0 0 0 20px;
   width: calc(100% - 70px);
 }
 .company{
   display: block;
   float: left;
-  font:normal 12px/22px 'robotoregular', Helvetica, Arial;
+  font: var(--fontSmall);
   padding: 0 0 0 20px;
   width: calc(100% - 70px);
 }
@@ -57,14 +57,14 @@
   clear: both;
   display: block;
   float: left;
-  font: normal 12px/22px 'robotoregular', Helvetica, Arial;
+  font: var(--fontSmall);
   margin: 10px 0 0 0;
   padding:0;
   width: 100%;
 }
 .tags{
   clear: both;
-  color:#263238;
+  color: var(--colorDark);
   display: block;
   float: left;
   margin: 0;
@@ -73,11 +73,11 @@
 }
 .tag{
   background: #FFF;
-  border-radius: 8px;
-  color:#263238;
+  border-radius: var(--borderRadius);
+  color: var(--colorDark);
   display: block;
   float: left;
-  font:normal 10px/20px 'robotoregular', Helvetica, Arial;
+  font: var(--fontSmallest);
   margin: 10px 10px 0 0;
   padding: 0 10px;
 }
@@ -87,20 +87,21 @@
   margin: 0 0 0 5px;
 }
 .button_all{
-  background: #263238;
-  border-radius: 6px;
+  background: var(--colorDark);
+  border-radius: var(--borderRadius);
   color: #FFF;
   display: block;
   float: right;
-  font: normal 16px/16px 'robotoregular', Helvetica, Arial;
+  font: var(--fontDefault);
+  line-height: 16px;
   margin: 20px 0 0 0;
   padding: 10px;
   text-align: center;
   text-decoration: none;
 }
 .button_all:hover {
-  background: rgb(109,255,231);
-  color: #263238;
+  background: var(--colorClickHover);
+  color: var(--colorDark);
   cursor: pointer;
   text-decoration: none;
 }

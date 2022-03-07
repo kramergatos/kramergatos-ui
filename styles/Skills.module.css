@@ -1,7 +1,6 @@
 .word_cloud{
   display: block;
   float: left;
-  font: normal 10px/20px 'robotoregular', Helvetica, Arial;
   margin: 30px 0 0 0;
   padding: 0;
   width: 100%;
@@ -12,11 +11,12 @@
 }
 .years{
   background: #fff;
-  border-radius: 10px;
-  color: #263238;
+  border-radius: var(--borderRadius);
+  color: var(--colorDark);
   display: block;
   float: left;
-  font: normal 10px/12px 'robotoregular', Helvetica, Arial;
+  font: var(--fontSmallest);
+  line-height: 12px;
   margin: 5px 0 0 10px;
   padding: 2px 5px 2px 5px;
 }
@@ -28,12 +28,12 @@
   padding: 0;
 }
 .word{
-  background: #263238;
-  border-radius: 8px 20px 8px 20px;
+  background: var(--colorDark);
+  border-radius: 6px 20px 6px 20px;
   color: #FFF;
   display: block;
   float: left;
-  font: normal 16px/26px 'robotoregular', Helvetica, Arial;
+  font: var(--fontDefault);
   margin: 5px;
   padding: 5px 10px;
 }

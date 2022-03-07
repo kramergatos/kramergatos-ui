@@ -1,5 +1,5 @@
 import Qualification from './Qualification'
-import styles from '../../styles/Joe.module.css'
+import styles from '../../styles/Qualifications.module.css'
 export default function Qualifications(props) {
   return (
     <section id="qualifications">
