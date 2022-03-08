@@ -143,6 +143,7 @@ section{
   display: block;
   float: left;
   font: var(--fontDefault);
+  line-height: 16px;
   margin: 0 20px 10px 0;
   padding: 10px 20px;
   text-align: left;
