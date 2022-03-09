@@ -3,6 +3,7 @@ import SideNav from '../../components/SideNav/SideNav'
 import HireMe from '../../components/Joe/HireMe'
 import Skills from '../../components/Career/Skills'
 import Qualifications from '../../components/Career/Qualifications'
+import GitHub from '../../components/Career/GitHub'
 import Jobs from '../../components/Career/Jobs'
 import Accolades from '../../components/Career/Accolades'
 import Stickers from '../../components/Joe/Stickers'
@@ -361,16 +362,21 @@ function Career() {
       },
       {
         id: 4,
+        title: "GitHub",
+        url: "#github"
+      },
+      {
+        id: 5,
         title: "Experience",
         url: "#experience"
       },
       {
-        id: 5,
+        id: 6,
         title: "Accolades",
         url: "#accolades"
       },
       {
-        id: 6,
+        id: 7,
         title: "Stickers",
         url: "#stickers"
       }
@@ -382,6 +388,7 @@ function Career() {
       <HireMe />
       <Skills data={data.skills} />
       <Qualifications data={data.qualifications} />
+      <GitHub />
       <Jobs data={data.experience} />
       <Accolades data={data.accolades} />
       <Stickers />

@@ -164,6 +164,7 @@ section{
   display: block;
   float: right;
   font: var(--fontSmallest);
+  margin: 5px 0 0 0;
   padding: 0;
   text-align: center;
   width: 100%;
@@ -261,6 +262,9 @@ p{
 }
 .button_fixed:hover i{
   animation: none;
+}
+.hide{
+  display: none;
 }
 @keyframes bounceButtonIcon {
   40% {
