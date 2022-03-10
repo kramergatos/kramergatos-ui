@@ -1,8 +1,30 @@
-import React, { createContext, useState } from 'react'
+import React, { useState } from 'react'
 import Job from './Job'
 import styles from '../../styles/Jobs.module.css'
-export default function Jobs(props) {
-  const [showMe, setShowMe] = useState(false);
+export default function Jobs(props: {
+  data: {
+    resumeHumanReadable: string,
+    resumeMachineReadable: string,
+    coverLetterHumanReadable: string,
+    coverLetterMachineReadable: string,
+    jobs: [
+      {
+        id: string,
+        location: string,
+        title: string,
+        company: string,
+        url: string,
+        dateStart: string,
+        dateEnd: string,
+        status: string,
+        remote: number,
+        description: string,
+        logo: string
+      }
+    ]
+  }
+}) {
+  const [showMe, setShowMe] = useState<boolean>(false)
   function toggle() {
     setShowMe(!showMe)
   }

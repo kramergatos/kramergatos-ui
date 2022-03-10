@@ -1,5 +1,7 @@
 import styles from '../../styles/Qualifications.module.css'
-export default function Qualification(props) {
+export default function Qualification(props: {
+  title: string
+}) {
   return (
     <li className={styles.qualification}>
       <span className="fa fa-star"></span>

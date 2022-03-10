@@ -1,8 +1,18 @@
-import React, { createContext, useState } from 'react'
+import React, { useState } from 'react'
 import Accolade from './Accolade'
 import styles from '../../styles/Accolades.module.css'
-export default function Accolades(props) {
-  const [showMe, setShowMe] = useState(false);
+export default function Accolades(props: {
+  data: [
+    {
+      id: string,
+      name: string,
+      date: string,
+      image: string,
+      description: string
+    }
+  ]
+}) {
+  const [showMe, setShowMe] = useState<boolean>(false)
   function toggle() {
     setShowMe(!showMe)
   }

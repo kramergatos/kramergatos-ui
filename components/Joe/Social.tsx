@@ -1,5 +1,5 @@
 import styles from '../../styles/Social.module.css'
-export default function Social(props) {
+export default function Social() {
   return (
     <nav className={styles.nav_social}>
       <a aria-label="Instagram" className="button_icon_only" href="https://www.instagram.com/kramergatos/" target="_blank">

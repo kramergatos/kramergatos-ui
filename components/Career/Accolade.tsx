@@ -1,6 +1,14 @@
 import TagRemote from './TagRemote'
 import styles from '../../styles/Accolades.module.css'
-export default function Accolade(props) {
+export default function Accolade(props: {
+  data: {
+    id: string,
+    name: string,
+    date: string,
+    image: string,
+    description: string
+  }
+}) {
   return (
     <div className={styles.accolade}>
       <img alt={'person ' + props.data.company} className={styles.image} src={'/image/joe/accolades/' + props.data.image} />

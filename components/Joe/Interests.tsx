@@ -1,6 +1,14 @@
 import Interest from './Interest'
 import styles from '../../styles/Interests.module.css'
-export default function Interests(props) {
+export default function Interests(props: {
+  data: [
+    {
+      id: number,
+      title: string,
+      image: string
+    }
+  ]
+}) {
   return (
     <section className={styles.section} id="interests">
       <div className="content_wrap_slim">

@@ -1,5 +1,5 @@
 import styles from '../../styles/Joe.module.css'
-export default function HireMe(props) {
+export default function HireMe() {
   return (
     <section className={styles.section_yes} id="hire">
       <div className="content_wrap_slim">

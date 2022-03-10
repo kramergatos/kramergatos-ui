@@ -1,6 +1,20 @@
 import TagRemote from './TagRemote'
 import styles from '../../styles/Jobs.module.css'
-export default function Job(props) {
+export default function Job(props: {
+  data: {
+    id: string,
+    location: string,
+    title: string,
+    company: string,
+    url: string,
+    dateStart: string,
+    dateEnd: string,
+    status: string,
+    remote: number,
+    description: string,
+    logo: string
+  }
+}) {
   return (
     <div aria-label="Job" className={styles.job}>
       <div className={styles.logo}>

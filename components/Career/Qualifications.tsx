@@ -1,6 +1,13 @@
 import Qualification from './Qualification'
 import styles from '../../styles/Qualifications.module.css'
-export default function Qualifications(props) {
+export default function Qualifications(props: {
+  data: [
+    {
+      id: number,
+      title: string
+    }
+  ]
+}) {
   return (
     <section id="qualifications">
       <div className="content_wrap_slim">

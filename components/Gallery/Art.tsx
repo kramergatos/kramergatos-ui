@@ -1,5 +1,13 @@
 import styles from '../../styles/Art.module.css'
-export default function Art(props) {
+export default function Art(props: {
+  id: string,
+  title: string,
+  image: string,
+  medium: string,
+  dimensions: string,
+  date: string,
+  forSale: boolean
+}) {
   let sale
   if(props.data.forSale) {
     sale = (

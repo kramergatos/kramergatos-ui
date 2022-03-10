@@ -1,5 +1,7 @@
 import styles from '../../styles/Jobs.module.css'
-export default function TagRemote(props) {
+export default function TagRemote(props: {
+  remote: string
+}) {
   let icon
   let text
   switch (props.remote) {

@@ -1,5 +1,5 @@
 import styles from '../../styles/Jobs.module.css'
-export default function GitHub(props) {
+export default function GitHub() {
   return (
     <section id="github">
       <div className="content_wrap_slim">
