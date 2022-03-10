@@ -1,5 +1,11 @@
 import styles from '../../styles/Values.module.css'
-export default function Art(props) {
+export default function Art(props: {
+  data: {
+    id: string,
+    title: string,
+    description: string
+  }
+}) {
   return (
     <div className={styles.value}>
       <div className={styles.id}>

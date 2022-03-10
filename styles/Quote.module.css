@@ -1,0 +1,39 @@
+.quote{
+  clear: both;
+  display: block;
+  float: left;
+  font: var(--fontLarge);
+  margin: 100px 0 20px 0;
+  padding: 0;
+  text-align: left;
+  width: 100%;
+  word-spacing: 10px;
+}
+.quote_source{
+  clear: both;
+  color: #ef0828;
+  display: block;
+  float: right;
+  font:normal 24px/30px 'robotoregular',Helvetica,Arial,sans-serif;
+  margin: 0 0 100px 0;
+  text-align: right;
+  width: 100%;
+}
+.color_lighter_blue {
+    color: #07b2e8;}
+.color_light_blue {
+    color: #128ddd;}
+.color_medium_blue {
+    color: #0058b1;}
+.color_dark_blue {
+    color: #104b9b;}
+.color_purple {
+    color: #5146bc;}
+.color_violet {
+    color: #7a3a98;}
+.color_pink {
+    color: #b33179;}
+.color_dark_pink {
+    color: #d01d5e;}
+.color_red {
+    color: #ef0828;}

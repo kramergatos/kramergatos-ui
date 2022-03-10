@@ -1,4 +1,4 @@
-import styles from '../../styles/Joe.module.css'
+import styles from '../../styles/Quote.module.css'
 export default function Quote() {
   return (
     <section id="inspiration">

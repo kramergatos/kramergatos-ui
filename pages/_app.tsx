@@ -1,11 +1,12 @@
+import { AppProps } from 'next/app'
 import { useEffect } from 'react'
 import { useRouter } from 'next/router'
 import '../styles/globals.css'
-function MyApp({ Component, pageProps }) {
+function MyApp({ Component, pageProps }: AppProps) {
   const router = useRouter()
   useEffect(() => {
     const handleRouteChange = (url) => {
-      
+
     }
     //When the component is mounted, subscribe to router changes
     //and log those page views

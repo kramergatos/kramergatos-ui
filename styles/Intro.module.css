@@ -1,13 +1,17 @@
 .section{
+  background: var(--colorDark) url('/image/joe/data-center-min.jpg');
+  background-size: cover;
+  background-position: center;
   display: block;
   float: left;
-  margin: 20px 0 100px 0;
+  margin: 0;
+  padding: 100px 0;
   width: 100%;
 }
 .title{
-  background: var(--colorClickHover);
+  background: rgba(0,0,0,0.75);
   border-radius: var(--borderRadius);
-  color: var(--colorDark);
+  color: #FFF;
   clear: both;
   display: block;
   float: left;
@@ -24,52 +28,6 @@
   padding: 0 0 0 30px;
   width: 100%;
 }
-.cards{
-  display: block;
-  float: left;
-  margin: 100px 0 0 0;
-  width: 100%;
-}
-.card{
-  background: var(--colorDark);
-  border-radius: var(--borderRadius);
-  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-  color: #FFF;
-  display: block;
-  float: left;
-  margin: 0 40px 0 0;
-  padding: 0;
-  position: relative;
-  width: calc((100% / 3) - 30px);
-}
-.card:last-child{
-  margin: 0;
-}
-.card:hover {
-  background: var(--colorClickHover);
-  color: var(--colorDark);
-  cursor: pointer;
-  text-decoration: none;
-}
-.card_label{
-  clear: both;
-  display: block;
-  float: left;
-  font: normal 20px/20px 'robotoregular', Helvetica, Arial;
-  margin: 20px 0;
-  padding: 0;
-  text-align: center;
-  width: 100%;
-}
-.card_image{
-  border-radius: 6px 6px 0 0;
-  clear: both;
-  display: block;
-  float: left;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-}
 .logo{
   display: block;
   float: left;
@@ -77,35 +35,7 @@
   padding: 0;
   width: 100%;
 }
-.icon{
-  border-radius: 25px;
-  display: block;
-  float: left;
-  height: 50px;
-  margin: 0 30px 0 0;
-  width: 50px;
-}
-.label{
-  display: block;
-  float: left;
-  width: calc(100% - 80px);
-}
-.item{
-  clear: both;
-  color: var(--colorDark);
-  display: block;
-  float: left;
-  font: normal 30px/50px 'pantonblackcaps', 'robotoregular', Helvetica, Arial;
-  margin: 30px 0 0 0;
-  padding: 0;
-  width: 100%;
-  word-spacing: 10px;
-}
 @media (max-width: 600px) {
-  .card{
-    margin: 0 0 40px 0;
-    width: 100%;
-  }
   .title{
     font: normal 20px/30px 'sourcecode', 'robotoregular', Helvetica, Arial;
   }

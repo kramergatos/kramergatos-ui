@@ -1,6 +1,6 @@
 .footer {
   background: var(--colorClickHover);
-  background: linear-gradient(135deg, var(--colorClickHover) 0%, rgba(29,232,181,1) 50%, rgba(0,230,118,1) 100%);
+  background: linear-gradient(135deg, var(--colorClickHover) 0%, #9fa8da 100%);
   clear: both;
   display: block;
   float: left;
@@ -23,7 +23,7 @@
   float: left;
   margin: 0 30px 0 30px;
   padding: 0;
-  width: 100px;
+  width: 80px;
 }
 .legal {
   display: block;

@@ -1,9 +1,11 @@
 import Layout from '../components/Joe/Layout'
-import Page from '../components/Joe/Page'
+import Intro from '../components/Joe/Intro'
+import Paths from '../components/Joe/Paths'
 function Home() {
   return (
     <Layout pageTitle="Joe - KramerGatos">
-      <Page />
+      <Intro />
+      <Paths />
     </Layout>
   )
 }
