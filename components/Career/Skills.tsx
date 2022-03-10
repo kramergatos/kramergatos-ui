@@ -1,13 +1,11 @@
 import WordCloud from './WordCloud'
 export default function Skills(props: {
-  data: [
-    {
-      id: number, 
-      type: string,
-      title: string,
-      years: string
-    }
-  ]
+  data: {
+    id: number, 
+    type: string,
+    title: string,
+    years: string
+  }[]
 }) {
   return (
     <section id="skills">

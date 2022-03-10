@@ -11,7 +11,7 @@ export default function Accolade(props: {
 }) {
   return (
     <div className={styles.accolade}>
-      <img alt={'person ' + props.data.company} className={styles.image} src={'/image/joe/accolades/' + props.data.image} />
+      <img alt={'person ' + props.data.name} className={styles.image} src={'/image/joe/accolades/' + props.data.image} />
       <div className={styles.description}>
         <div className={styles.quote_start}>
           <i className="fa-solid fa-quote-left"></i>

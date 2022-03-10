@@ -7,21 +7,19 @@ export default function Jobs(props: {
     resumeMachineReadable: string,
     coverLetterHumanReadable: string,
     coverLetterMachineReadable: string,
-    jobs: [
-      {
-        id: string,
-        location: string,
-        title: string,
-        company: string,
-        url: string,
-        dateStart: string,
-        dateEnd: string,
-        status: string,
-        remote: number,
-        description: string,
-        logo: string
-      }
-    ]
+    jobs: {
+      id: string,
+      location: string,
+      title: string,
+      company: string,
+      url?: string,
+      dateStart: string,
+      dateEnd: string,
+      status: string,
+      remote: number,
+      description: string,
+      logo: string
+    }[]
   }
 }) {
   const [showMe, setShowMe] = useState<boolean>(false)

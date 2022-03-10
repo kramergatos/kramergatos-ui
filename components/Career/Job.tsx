@@ -6,7 +6,7 @@ export default function Job(props: {
     location: string,
     title: string,
     company: string,
-    url: string,
+    url?: string,
     dateStart: string,
     dateEnd: string,
     status: string,

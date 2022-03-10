@@ -1,7 +1,7 @@
 import styles from '../../styles/Values.module.css'
 export default function Art(props: {
   data: {
-    id: string,
+    id: number,
     title: string,
     description: string
   }

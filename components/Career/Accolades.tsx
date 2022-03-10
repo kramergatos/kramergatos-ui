@@ -2,15 +2,13 @@ import React, { useState } from 'react'
 import Accolade from './Accolade'
 import styles from '../../styles/Accolades.module.css'
 export default function Accolades(props: {
-  data: [
-    {
-      id: string,
-      name: string,
-      date: string,
-      image: string,
-      description: string
-    }
-  ]
+  data: {
+    id: string,
+    name: string,
+    date: string,
+    image: string,
+    description: string
+  }[]
 }) {
   const [showMe, setShowMe] = useState<boolean>(false)
   function toggle() {

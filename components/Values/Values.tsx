@@ -1,13 +1,11 @@
 import Value from './Value'
 import styles from '../../styles/Values.module.css'
 export default function Arts(props: {
-  data: [
-    {
-      id: number,
-      title: string,
-      description: string
-    }
-  ]
+  data: {
+    id: number,
+    title: string,
+    description: string
+  }[]
 }) {
   return (
     <section className={styles.section} id="values">

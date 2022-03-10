@@ -1,17 +1,15 @@
 import Art from './Art'
 import styles from '../../styles/Art.module.css'
 export default function Arts(props: {
-  data: [
-    {
-      id: string,
-      title: string,
-      image: string,
-      medium: string,
-      dimensions: string,
-      date: string,
-      forSale: boolean
-    }
-  ]
+  data: {
+    id: string,
+    title: string,
+    image: string,
+    medium: string,
+    dimensions: string,
+    date: string,
+    forSale: boolean
+  }[]
 }) {
   return (
     <section className={styles.section} id="art">

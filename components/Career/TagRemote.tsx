@@ -1,6 +1,6 @@
 import styles from '../../styles/Jobs.module.css'
 export default function TagRemote(props: {
-  remote: string
+  remote: number
 }) {
   let icon
   let text

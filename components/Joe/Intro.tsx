@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import styles from '../../styles/Intro.module.css'
 export default function Intro() {
   let textArray = ["JavaScript", "HTML5", "CSS3", "NodeJS", "NextJS", "ReactJS", "MongoDB", "AWS", "MySQL", "ExpressJS", "TypeScript", "REST API", "GraphQL", "JSON", "jQuery", "D3JS"]
-  const [currentIndex, setCurrentIndex] = useState<number>(0)
+  let [currentIndex, setCurrentIndex] = useState<number>(0)
   useEffect(() => {
     let interval = setInterval(() => {
       if (currentIndex > textArray.length-1) {
