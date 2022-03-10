@@ -12,7 +12,7 @@ export default function GitHub() {
           <a className="button" href="https://github.com/kramergatos/kramergatos-ui" target="_blank">
             <i className="button_icon fab fa-github"></i>
             <span aria-label="Code Repo - kramergatos.com" className="button_label">kramergatos.com</span>
-            <span className="button_sublabel">(NodeJS, NextJS, ReactJS)</span>
+            <span className="button_sublabel">(NodeJS, NextJS, ReactJS, TypeScript)</span>
           </a>
           <a className="button" href="https://github.com/kramergatos/turbo-jaguar-enigma" target="_blank">
             <i className="button_icon fab fa-github"></i>
