@@ -16,6 +16,7 @@ export default function Job(props: {
     tech?: string[]
   }
 }) {
+  let itemKey = 0
   return (
     <div aria-label="Job" className={styles.job}>
       <div className={styles.logo}>
@@ -51,7 +52,7 @@ export default function Job(props: {
         </div>
         <div className={styles.tag_code_group}>
           {props.data.tech.map(item => (
-            <div className={styles.tag}>{item}</div>
+            <div className={styles.tag} key={itemKey++}>{item}</div>
           ))}
         </div>
       </div>

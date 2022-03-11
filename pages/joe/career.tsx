@@ -63,7 +63,7 @@ function Career() {
           dateEnd: "01/2022",
           status: "Employee",
           remote: 1,
-          description: "Leading Front End development with offshore team on an innovative next generation security solution for enterprises that encrypts, injects rights management, and traceability into documents. Working with clients on testing, implementation, and features.",
+          description: "Leading Front End development with offshore team on an innovative next generation security solution for enterprises that encrypts, injects rights management, and traceability into documents. Successfully implemented workflow, processes, tools, and communication to get the stalled project organized and back on track to deliver new features and bug fixes. Working with clients on testing, implementation, and features.",
           logo: "i2chain.png",
           tech: ["AWS"]
         },
@@ -77,7 +77,7 @@ function Career() {
           dateEnd: "07/2021",
           status: "Employee",
           remote: 1,
-          description: "Developed next gen video player agnostic AdTech to display a variety of ad formats on top of or around the video player on desktop and mobile devices using TypeScript.",
+          description: "Developed next gen video player agnostic AdTech to display a variety of ad formats on top of or around the video player on desktop and mobile devices using TypeScript. Successfully completed the project months ahead of schedule and rolled out to clients using 20 different video providers proving the system to be player agnostic, adaptable, and configurable.",
           logo: "catapultx.jpeg",
           tech: ["NodeJS", "ExpressJS", "TypeScript", "HTML5 / CSS3", "JWPlayer", "Akamai Player", "Avantis Player", "BridTV", "Fluid Player", "Rumble Player", "Video Intelligence Player", "YouTube", "AMP Player", "Google AMP", "AirTV Player", "Connatix Player"]
         },
@@ -91,7 +91,7 @@ function Career() {
           dateEnd: "09/2020",
           status: "Contract",
           remote: 1,
-          description: "Data management and rules project using PHP and Directus for new AdTech solutions for newspaper and tv station websites.",
+          description: "Data management and rules project using PHP and Directus for new AdTech solutions for newspaper and TV station websites.",
           logo: "hearst.jpeg",
           tech: ["PHP", "Directus"]
         },
