@@ -10,7 +10,7 @@ export default function Intro() {
       }else {
         setCurrentIndex(currentIndex++)
       }
-    }, 800)
+    }, 500)
     return () => clearInterval(interval)
   })
   return (

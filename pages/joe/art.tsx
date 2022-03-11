@@ -21,7 +21,8 @@ function Art() {
         date: "10/2014",
         forSale: false
       },
-      {id: "a16",
+      {
+        id: "a16",
         title: "Many Directions, All Facing Up",
         image: "ManyDirectionsAllFacingUp-min.jpg",
         medium: "oil paint",
@@ -104,7 +105,7 @@ function Art() {
     ]
   }
   return (
-    <Layout pageTitle="Career - Joe Kramer">
+    <Layout pageTitle="Art - Joe Kramer">
       <Arts data={data.art} />
     </Layout>
   )

@@ -3,7 +3,7 @@ import Intro from '../components/Joe/Intro'
 import Paths from '../components/Joe/Paths'
 function Home() {
   return (
-    <Layout pageTitle="Joe - KramerGatos">
+    <Layout pageTitle="Joe Kramer - KramerGatos">
       <Intro />
       <Paths />
     </Layout>
