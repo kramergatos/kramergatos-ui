@@ -10,7 +10,7 @@
   width: 100%;
 }
 .value{
-  border-bottom: 1px var(--colorDark) solid;
+  border-bottom: 1px var(--colorGray) solid;
   color: #FFF;
   display: block;
   float: left;
@@ -24,7 +24,7 @@
   padding: 10px;
 }
 .id{
-  color: #78909c;
+  color: var(--colorGray);
   display: block;
   float: left;
   font: bold 100px/100px 'pantonblackcaps', 'robotoregular', Helvetica, Arial;
@@ -42,7 +42,7 @@
   width: 70%;
 }
 .description{
-  color: #78909c;
+  color: var(--colorGray);
   display: block;
   float: right;
   font: var(--fontDefault);
