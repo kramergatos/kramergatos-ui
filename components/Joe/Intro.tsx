@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react'
+import {dataTech} from '../../data/joe'
 import styles from '../../styles/Intro.module.css'
 export default function Intro() {
-  let textArray = ["JavaScript", "HTML5", "CSS3", "NodeJS", "NextJS", "ReactJS", "MongoDB", "AWS", "MySQL", "ExpressJS", "TypeScript", "REST API", "GraphQL", "JSON", "jQuery", "D3JS"]
   let [currentIndex, setCurrentIndex] = useState<number>(0)
   useEffect(() => {
     let interval = setInterval(() => {
-      if (currentIndex > textArray.length-1) {
+      if (currentIndex > dataTech.length-1) {
         setCurrentIndex(0)
       }else {
         setCurrentIndex(currentIndex++)
@@ -21,7 +21,7 @@ export default function Intro() {
           {'{'}<br />
           <span className={styles.title_indent}>name: "Joe Kramer",</span>
           <span className={styles.title_indent}>role: "Front End Software Engineer 👨🏼‍💻",</span>
-          <span className={styles.title_indent}>technology: "{textArray[currentIndex]}",</span>
+          <span className={styles.title_indent}>technology: "{dataTech[currentIndex]}",</span>
           <span className={styles.title_indent}>location: "Austin, TX 🤠"</span>
           {'}'}
         </div>

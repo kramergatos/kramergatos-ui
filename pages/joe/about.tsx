@@ -6,94 +6,49 @@ import Photos from '../../components/Joe/Photos'
 import Interests from '../../components/Joe/Interests'
 import Quote from '../../components/Joe/Quote'
 import Values from '../../components/Values/Values'
+import {dataValues, dataInterests} from '../../data/joe'
 function About() {
-  const data = {
-    values: [
-      {
-        id: 1,
-        title: "Optimism",
-        description: "Belief in the best of outcomes and stiving to make it reality."
-      },
-      {
-        id: 2,
-        title: "Continuous Learning",
-        description: "Ongoing expansion of knowledge and skill sets to arrive prepared in a continuously changing environment."
-      },
-      {
-        id: 3,
-        title: "Determination",
-        description: "Making up your mind that you're going to achieve a goal, and pushing forward until it's accomplished."
-      },
-      {
-        id: 4,
-        title: "Creativity",
-        description: "Generating or recognizing ideas, possibilities, and alternatives that are new and valuable, that may be useful in solving problems, communicating, or entertainment."
-      }
-    ],
-    sideNav: [
-      {
-        id: 1,
-        title: "Adventure",
-        url: "#adventure"
-      },
-      {
-        id: 2,
-        title: "About",
-        url: "#about"
-      },
-      {
-        id: 3,
-        title: "Photos",
-        url: "#photos"
-      },
-      {
-        id: 4,
-        title: "Interests",
-        url: "#interests"
-      },
-      {
-        id: 5,
-        title: "Inspiration",
-        url: "#inspiration"
-      },
-      {
-        id: 6,
-        title: "Values",
-        url: "#values"
-      }
-    ],
-    interests: [
-      {
-        id: 1,
-        title: "Hiking",
-        image: "hiking-min.jpg"
-      },
-      {
-        id: 2,
-        title: "Travel",
-        image: "travel-min.jpg"
-      },
-      {
-        id: 3,
-        title: "Cooking",
-        image: "cooking-min.jpg"
-      },
-      {
-        id: 4,
-        title: "Racquetball",
-        image: "racquetball-min.jpg"
-      }
-    ]
-  }
+  const sideNav = [
+    {
+      id: 1,
+      title: "Adventure",
+      url: "#adventure"
+    },
+    {
+      id: 2,
+      title: "About",
+      url: "#about"
+    },
+    {
+      id: 3,
+      title: "Photos",
+      url: "#photos"
+    },
+    {
+      id: 4,
+      title: "Interests",
+      url: "#interests"
+    },
+    {
+      id: 5,
+      title: "Inspiration",
+      url: "#inspiration"
+    },
+    {
+      id: 6,
+      title: "Values",
+      url: "#values"
+    }
+  ]
   return (
     <Layout pageTitle="About - Joe Kramer">
-      <SideNav data={data.sideNav} />
+      <SideNav data={sideNav} />
       <Adventure />
       <Bio />
       <Photos />
-      <Interests data={data.interests} />
+      <Interests data={dataInterests} />
       <Quote />
-      <Values data={data.values} />
+      <Values data={dataValues} />
     </Layout>
   )
 }
