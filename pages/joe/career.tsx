@@ -77,7 +77,7 @@ function Career() {
           dateEnd: "07/2021",
           status: "Employee",
           remote: 1,
-          description: "Developed next gen video player agnostic AdTech to display a variety of ad formats on top of or around the video player on desktop and mobile devices using TypeScript. Successfully completed the project months ahead of schedule and rolled out to clients using 20 different video providers proving the system to be player agnostic, adaptable, and configurable.",
+          description: "Developed next gen video player agnostic AdTech container system to display a variety of ad formats (traditional and next gen) on top of or around the video player on desktop and mobile devices using TypeScript. Successfully completed the project months ahead of schedule and rolled out to clients using 20 different video providers proving the system to be player agnostic, adaptable, and configurable.",
           logo: "catapultx.jpeg",
           tech: ["NodeJS", "ExpressJS", "JavaScript", "TypeScript", "Vanilla JS", "HTML5 / CSS3", "JWPlayer", "Akamai Player", "Avantis Player", "BridTV", "Fluid Player", "Rumble Player", "Video Intelligence Player", "YouTube", "AMP Player", "Google AMP", "AirTV Player", "Connatix Player"]
         },
@@ -107,7 +107,7 @@ function Career() {
           remote: 1,
           description: "Strategy, architecture, and documentation of complete product overhaul of infrastructure, apps, and UI. Recruited, built and managed internal engineering team of 6. Collaborate with Sales, Account Management, and Customer Service to understand customer pain points with current product and desired features in the next version. Started rebuilding the product from scratch in NodeJS, NextJS, ReactJS, AWS.",
           logo: "wambi.png",
-          tech: ["AWS", "JavaScript", "NodeJS", "NextJS", "ReactJS", "HTML5 / CSS3", "Adobe XD"]
+          tech: ["AWS", "JavaScript", "NodeJS", "NextJS", "ReactJS", "HTML5 / CSS3", "Adobe XD", "Adobe Photoshop"]
         },
         {
           id: "504",
@@ -160,7 +160,7 @@ function Career() {
           dateEnd: "01/2018",
           status: "Employee",
           remote: 1,
-          description: "Designed and built award winning, next gen, video player agnostic, interactive AdTech from scratch with NodeJS, ExpressJS, VAST, VPAID, AWS. Built a custom platform for content and campaign configuration. Recruited, hired, trained, and managed engineering team of 9. Sales Engineer for client demos and integrations as well as company M&A events including due diligence.",
+          description: "Designed and built award winning, next gen, video player agnostic, interactive AdTech from scratch with NodeJS, ExpressJS, VAST, VPAID, AWS. Built a custom platform for content and campaign configuration. Recruited, hired, trained, and managed engineering team of 9. Sales Engineer for client demos and integrations as well as company M&A events including due diligence. Soft launched with several large global brand clients (NBC Univeral, Audi, Lamborghini, etc.), of which one project won the prestigious Lumiere Award of the Advanced Imaging Society (AIS), collecting the accolade in the Best Branded Experience: Sports category for “Formula 1 Experiences.”",
           logo: "kerv.png",
           tech: ["AWS", "AWS Route53", "AWS CloudFront", "AWS S3", "AWS Lambda", "AWS DynamoDB", "AWS Aurora DB", "AWS RedShift", "MongoDB", "NodeJS", "ExpressJS", "JavaScript", "Vanilla JS", "jQuery", "HTML5 / CSS3", "Brightcove", "The Platform (Comcast)", "JWPlayer", "Virtual Box", "Adobe Photoshop"]
         },
