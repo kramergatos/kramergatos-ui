@@ -12,7 +12,8 @@ export default function Job(props: {
     status: string,
     remote: number,
     description: string,
-    logo: string
+    logo: string,
+    tech?: [string]
   }
 }) {
   return (
@@ -43,6 +44,16 @@ export default function Job(props: {
       </div>
       <div aria-label="Job Description" className={styles.description}>
         {props.data.description}
+      </div>
+      <div className={styles.tags}>
+        <div className={styles.tag_code}>
+          <i className="fa-solid fa-laptop-code"></i>
+        </div>
+        <div className={styles.tag_code_group}>
+          {props.data.tech.map(item => (
+            <div className={styles.tag}>{item}</div>
+          ))}
+        </div>
       </div>
     </div>
   )

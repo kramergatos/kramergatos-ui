@@ -57,8 +57,8 @@
   clear: both;
   display: block;
   float: left;
-  font: var(--fontSmall);
-  margin: 10px 0 0 0;
+  font: var(--fontDefault);
+  margin: 20px 0;
   padding:0;
   width: 100%;
 }
@@ -80,6 +80,22 @@
   font: var(--fontSmallest);
   margin: 10px 10px 0 0;
   padding: 0 10px;
+}
+.tag_code{
+  border-radius: var(--borderRadius);
+  color: var(--colorDark);
+  display: block;
+  float: left;
+  font: var(--fontDefault);
+  margin: 8px 10px 0 0;
+  padding: 0;
+}
+.tag_code_group{
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: calc(100% - 30px);
 }
 .tag_text{
   display: block;

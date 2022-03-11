@@ -18,7 +18,8 @@ export default function Jobs(props: {
       status: string,
       remote: number,
       description: string,
-      logo: string
+      logo: string,
+      tech?: [string]
     }[]
   }
 }) {
