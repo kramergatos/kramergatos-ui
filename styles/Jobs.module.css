@@ -1,3 +1,14 @@
+.octocat{
+  display: block;
+  float: left;
+  width: 50%;
+}
+.button_group_github{
+  display: block;
+  float: left;
+  margin: 20px 0 0 50px;
+  width: calc(50% - 50px);
+}
 .jobs{
   display: block;
   float: left;
@@ -120,4 +131,13 @@
   color: var(--colorDark);
   cursor: pointer;
   text-decoration: none;
+}
+@media (max-width: 600px) {
+  .octocat{
+    width: 50%;
+  }
+  .button_group_github{
+    margin: 20px 0 0 0;
+    width: 100%;
+  }
 }

@@ -5,10 +5,11 @@ export default function GitHub() {
       <div className="content_wrap_slim">
         <div className="section_title">
           <div className="section_title_text">
-            Public Code Repos
+            GitHub
           </div>
         </div>
-        <div className="button_group">
+        <img alt="GitHub OctoCat" className={styles.octocat} src="/image/joe/octocat-min.png" />
+        <div className={styles.button_group_github}>
           <a className="button" href="https://github.com/kramergatos/kramergatos-ui" target="_blank">
             <i className="button_icon fab fa-github"></i>
             <span aria-label="Code Repo - kramergatos.com" className="button_label">kramergatos.com</span>
