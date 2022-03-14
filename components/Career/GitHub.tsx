@@ -8,7 +8,9 @@ export default function GitHub() {
             GitHub
           </div>
         </div>
-        <img alt="GitHub OctoCat" className={styles.octocat} src="/image/joe/octocat-min.png" />
+        <a aria-label="GitHub" href="https://github.com/kramergatos" target="_blank">
+          <img alt="GitHub OctoCat" className={styles.octocat} src="/image/joe/octocat-min.png" />
+        </a>
         <div className={styles.button_group_github}>
           <a className="button" href="https://github.com/kramergatos/kramergatos-ui" target="_blank">
             <i className="button_icon fab fa-github"></i>
