@@ -1,0 +1,59 @@
+.button{
+  background: var(--colorDark);
+  border: none;
+  border-radius: var(--borderRadius);
+  box-shadow: 0px 0px 2px #FFF;
+  color: #FFF;
+  cursor: pointer;
+  display: block;
+  float: left;
+  font: var(--fontDefault);
+  line-height: 16px;
+  margin: 0 20px 10px 0;
+  padding: 10px 20px;
+  text-align: left;
+}
+.button_expand{
+  background: var(--colorDark);
+  border-radius: var(--borderRadius);
+  color: #FFF;
+  display: block;
+  float: right;
+  font: var(--fontDefault);
+  line-height: 16px;
+  margin: 20px 0 0 0;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+}
+.icon{
+  display: block;
+  float: left;
+}
+.title{
+  display: block;
+  float: left;
+  padding: 0 0 0 10px;
+  text-align: left;
+}
+.subtitle{
+  clear: both;
+  color: #b0bec5;
+  display: block;
+  float: right;
+  font: var(--fontSmallest);
+  margin: 5px 0 0 0;
+  padding: 0;
+  text-align: center;
+  width: 100%;
+}
+.button_expand:hover,
+.button:hover{
+  background: var(--colorClickHover);
+  color: var(--colorDark);
+  cursor: pointer;
+  text-decoration: none;
+}
+.button:hover .subtitle{
+  color: var(--colorDark);
+}

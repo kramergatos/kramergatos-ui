@@ -1,3 +1,148 @@
+export const sideNavCareer = [
+  {
+    id: 1,
+    title: "Hire",
+    url: "#hire"
+  },
+  {
+    id: 2,
+    title: "Skills",
+    url: "#skills"
+  },
+  {
+    id: 3,
+    title: "Qualifications",
+    url: "#qualifications"
+  },
+  {
+    id: 4,
+    title: "GitHub",
+    url: "#github"
+  },
+  {
+    id: 5,
+    title: "Experience",
+    url: "#experience"
+  },
+  {
+    id: 6,
+    title: "Accolades",
+    url: "#accolades"
+  },
+  {
+    id: 7,
+    title: "Stickers",
+    url: "#stickers"
+  }
+]
+export const sideNavAbout = [
+  {
+    id: 1,
+    title: "Adventure",
+    url: "#adventure"
+  },
+  {
+    id: 2,
+    title: "About",
+    url: "#about"
+  },
+  {
+    id: 3,
+    title: "Photos",
+    url: "#photos"
+  },
+  {
+    id: 4,
+    title: "Interests",
+    url: "#interests"
+  },
+  {
+    id: 5,
+    title: "Inspiration",
+    url: "#inspiration"
+  },
+  {
+    id: 6,
+    title: "Values",
+    url: "#values"
+  }
+]
+export const dataGitHub = [
+  {
+    id: 1,
+    url: "https://github.com/kramergatos/kramergatos-ui",
+    icon: "fab fa-github",
+    label: "Code Repo - Kramergatos",
+    subtitle: "(NodeJS, NextJS, ReactJS, TypeScript)",
+    target: "_blank",
+    title: "kramergatos.com"
+  },
+  {
+    id: 2,
+    url: "https://github.com/kramergatos/turbo-jaguar-enigma",
+    icon: "fab fa-github",
+    label: "Code Repo - Turbo Jaguar Enigma",
+    subtitle: "(NodeJS, NextJS, ReactJS, TypeScript)",
+    target: "_blank",
+    title: "Turbo Jaguar Enigma"
+  },
+  {
+    id: 3,
+    url: "https://github.com/kramergatos/js-study-guide",
+    icon: "fab fa-github",
+    label: "Code Repo - JS Study Guide",
+    subtitle: "(NodeJS, Vanilla JS)",
+    target: "_blank",
+    title: "JS Study Guide"
+  }
+]
+export const dataCareerFiles = [
+  {
+    id: 1,
+    url: "/download/JoeKramerResume.pdf",
+    icon: "fa fa-file-pdf",
+    label: "Download Human Readable Resume",
+    subtitle: "Human Readable",
+    target: "_blank",
+    title: "Resume"
+  },
+  {
+    id: 2,
+    url: "/download/JoeKramerResume-MachineReadable.docx",
+    icon: "fa fa-file-word",
+    label: "Download Machine Readable Resume",
+    subtitle: "Machine Readable",
+    target: "_blank",
+    title: "Resume"
+  },
+  {
+    id: 3,
+    url: "/download/JoeKramerCoverLetter.pdf",
+    icon: "fa fa-file-pdf",
+    label: "Download Human Readable Cover Letter",
+    subtitle: "Human Readable",
+    target: "_blank",
+    title: "Cover Letter"
+  },
+  {
+    id: 4,
+    url: "/download/JoeKramerCoverLetter-MachineReadable.docx",
+    icon: "fa fa-file-word",
+    label: "Download Machine Readable Cover Letter",
+    subtitle: "Machine Readable",
+    target: "_blank",
+    title: "Cover Letter"
+  }
+]
+export const dataEmailButton = {
+  id: 1,
+  url: "mailto:joe@kramergatos.com",
+  icon: "fa fa-envelope",
+  label: "Email joe@kramergatos.com",
+  subtitle: "",
+  target: "_self",
+  title: "joe@kramergatos.com"
+}
 export const dataValues = [
   {
     id: 1,
@@ -7,12 +152,12 @@ export const dataValues = [
   {
     id: 2,
     title: "Continuous Learning",
-    description: "Ongoing expansion of knowledge and skill sets to arrive prepared in a continuously changing environment."
+    description: "Ongoing expansion of knowledge and skill sets to arrive prepared in a continuously changing environment. I'm a life long learner and always trying to better myself."
   },
   {
     id: 3,
     title: "Determination",
-    description: "Making up your mind that you're going to achieve a goal, and pushing forward until it's accomplished."
+    description: "Making up your mind that you're going to achieve a goal, and taking action to keep pushing forward until it's accomplished."
   },
   {
     id: 4,
@@ -76,248 +221,242 @@ export const dataSkills = [
   {id: 61, type: "Programming", title: "GraphQL", years: "1"},
   {id: 17, type: "Programming", title: "D3JS", years: "1"},
 ]
-export const dataExperience = {
-  resumeHumanReadable: "JoeKramerResume.pdf",
-  resumeMachineReadable: "JoeKramerResume-MachineReadable.docx",
-  coverLetterHumanReadable: "JoeKramerCoverLetter.pdf",
-  coverLetterMachineReadable: "JoeKramerCoverLetter-MachineReadable.docx",
-  jobs: [
-    {
-      id: "500",
-      location: "San Francisco, CA, USA",
-      title: "Director of Engineering - Usability",
-      company: "i2Chain",
-      url: "https://i2chain.com/",
-      dateStart: "11/2021",
-      dateEnd: "01/2022",
-      status: "Employee",
-      remote: 1,
-      description: "Leading Front End development with offshore team on an innovative next generation security solution for enterprises that encrypts, injects rights management, and traceability into documents. Successfully implemented workflow, processes, tools, and communication to get the stalled project organized and back on track to deliver new features and bug fixes. Working with clients on testing, implementation, and features.",
-      logo: "i2chain.png",
-      tech: ["AWS", "Figma"]
-    },
-    {
-      id: "501",
-      location: "Austin, TX, USA",
-      title: "Senior Full Stack Software Engineer",
-      company: "CatapultX",
-      url: "https://catapultx.com/",
-      dateStart: "10/2020",
-      dateEnd: "07/2021",
-      status: "Employee",
-      remote: 1,
-      description: "Developed next gen video player agnostic AdTech container system to display a variety of ad formats (traditional and next gen) on top of or around the video player on desktop and mobile devices using TypeScript. Successfully completed the project months ahead of schedule and rolled out to clients using 20 different video providers proving the system to be player agnostic, adaptable, and configurable.",
-      logo: "catapultx.jpeg",
-      tech: ["NodeJS", "ExpressJS", "JavaScript", "TypeScript", "Vanilla JS", "HTML5 / CSS3", "JWPlayer", "Akamai Player", "Avantis Player", "BridTV", "Fluid Player", "Rumble Player", "Video Intelligence Player", "YouTube", "AMP Player", "Google AMP", "AirTV Player", "Connatix Player"]
-    },
-    {
-      id: "502",
-      location: "Austin, TX, USA",
-      title: "Full Stack Software Engineer",
-      company: "Hearst",
-      url: "https://www.hearst.com/",
-      dateStart: "07/2020",
-      dateEnd: "09/2020",
-      status: "Contract",
-      remote: 1,
-      description: "Data management and rules project using PHP and Directus for new AdTech solutions for newspaper and TV station websites.",
-      logo: "hearst.jpeg",
-      tech: ["PHP", "Directus"]
-    },
-    {
-      id: "503",
-      location: "Austin, TX, USA",
-      title: "Solutions Architect",
-      company: "Wambi",
-      url: "https://wambi.org/",
-      dateStart: "07/2019",
-      dateEnd: "03/2020",
-      status: "Employee",
-      remote: 1,
-      description: "Strategy, architecture, and documentation of complete product overhaul of infrastructure, apps, and UI. Recruited, built and managed internal engineering team of 6. Collaborate with Sales, Account Management, and Customer Service to understand customer pain points with current product and desired features in the next version. Started rebuilding the product from scratch in NodeJS, NextJS, ReactJS, AWS.",
-      logo: "wambi.png",
-      tech: ["AWS", "JavaScript", "NodeJS", "NextJS", "ReactJS", "HTML5 / CSS3", "Adobe XD", "Adobe Photoshop"]
-    },
-    {
-      id: "504",
-      location: "Round Rock, TX, USA",
-      title: "Principal Software Engineer",
-      company: "Dell",
-      url: "https://www.dell.com/",
-      dateStart: "02/2019",
-      dateEnd: "07/2019",
-      status: "Contract",
-      remote: 2,
-      description: "Worked with SRE Team to develop enterprise level internal tools. Built D3JS graphing & filtering dashboard UI for system performance monitoring of the entire Dell ecosystem from infrastructure to apps in a new mobile C#.NET Xamarin app. Built additional features into a Chrome Browser Extension, and the UI of C#.NET app used for product research.",
-      logo: "dell.jpeg",
-      tech: ["HTML5 / CSS3", "C#.NET", "Xamarin", "D3JS", "Vanilla JS", "JavaScript"]
-    },
-    {
-      id: "505",
-      location: "Austin, TX, USA",
-      title: "Senior Software Engineer",
-      company: "NBC Universal",
-      url: "https://www.nbc.com/",
-      dateStart: "08/2018",
-      dateEnd: "12/2018",
-      status: "Contract",
-      remote: 1,
-      description: "Built API for app health monitoring and notifications with NodeJS, AWS Lambda. Built PHP scripts to utilize Brightcove API to retrieve, search, edit, & delete content in media library. Built API with NodeJS, AWS Lambda, DynamoDB to manage promo codes and winners and sent emails & push notifications to users with Leanplum.",
-      logo: "nbc.png",
-      tech: ["AWS", "AWS Lambda", "AWS DynamoDB", "PHP", "NodeJS", "JavaScript"]
-    },
-    {
-      id: "506",
-      location:"Tampa, FL",
-      title:"CEO and Co-Founder",
-      company:"Nikola Advanced Research Laboratories Inc",
-      dateStart: "03/2017",
-      dateEnd: "08/2018",
-      status: "Employee",
-      remote: 1,
-      description: "Designed and built NodeJS, NextJS, ReactJS apps deployed on AWS for a variety of clients. Recruited, hired, trained, managed a cross functional team of 12. Sales, fund raising, and partnering with a gov contractor for RFPs.",
-      logo: "nikola.png",
-      tech: ["AWS", "AWS Route53", "AWS CloudFront", "AWS S3", "AWS Lambda", "AWS DynamoDB", "JavaScript", "NodeJS", "NextJS", "ReactJS", "HTML5 / CSS3", "Adobe Photoshop"]
-    },
-    {
-      id: "507",
-      location:"Austin, TX, USA",
-      title:"SVP Engineering",
-      company:"KERV Interactive",
-      url: "https://kervit.com/",
-      dateStart: "09/2014",
-      dateEnd: "01/2018",
-      status: "Employee",
-      remote: 1,
-      description: "Designed and built award winning, next gen, video player agnostic, interactive AdTech from scratch with NodeJS, ExpressJS, VAST, VPAID, AWS. Built a custom platform for content and campaign configuration. Recruited, hired, trained, and managed engineering team of 9. Sales Engineer for client demos and integrations as well as company M&A events including due diligence. Soft launched with several large global brand clients (NBC Univeral, Audi, Lamborghini, etc.), of which one project won the prestigious Lumiere Award of the Advanced Imaging Society (AIS), collecting the accolade in the Best Branded Experience: Sports category for “Formula 1 Experiences.”",
-      logo: "kerv.png",
-      tech: ["AWS", "AWS Route53", "AWS CloudFront", "AWS S3", "AWS Lambda", "AWS DynamoDB", "AWS Aurora DB", "AWS RedShift", "MongoDB", "NodeJS", "ExpressJS", "JavaScript", "Vanilla JS", "jQuery", "HTML5 / CSS3", "Brightcove", "The Platform (Comcast)", "JWPlayer", "Virtual Box", "Adobe Photoshop"]
-    },
-    {
-      id: "508",
-      location:"Miami Beach, FL, USA",
-      title:"Software Engineer",
-      company:"Junta",
-      dateStart: "07/2013",
-      dateEnd: "09/2014",
-      status: "Employee",
-      remote: 0,
-      description: "Built a custom CMS platform with PHP and Symfony2 for managing users, profiles, messages, and content. Built UI of video heavy web apps.",
-      logo: "default.png",
-      tech: ["HTML5 / CSS3", "PHP 5.4", "Symfony2", "Twig", "Doctrine", "Twitter Bootstrap", "MongoDB", "MySQL", "AJAX", "JavaScript", "jQuery", "XML", "YAML", "JSON", "Ubuntu 14.x", "CentOS6", "PHPStorm", "Virtual Box", "MySQL Workbench", "Apache", "NGINX"]
-    },
-    {
-      id: "509",
-      location:"Orlando, FL, USA",
-      title:"Web Developer",
-      company:"Florida Virtual School",
-      url: "https://flvs.net/",
-      dateStart: "04/2013",
-      dateEnd: "06/2013",
-      status: "Contract",
-      remote: 0,
-      description:"Front End Development debugging and testing code for online educational courses as well as reverse engineering Flash based components into HTML5 and JavaScript.",
-      logo: "flvs.png",
-      tech: ["HTML5 / CSS3", "JSON", "XML", "JavaScript", "jQuery", "AJAX"]
-    },
-    {
-      id: "510",
-      location:"Winter Garden, FL, USA",
-      title:"Web Developer",
-      company:"Container Centralen",
-      url: "http://www.cc-racks.com/",
-      dateStart: "12/2012",
-      dateEnd: "04/2013",
-      status: "Contract",
-      remote: 2,
-      description: "Full Stack Development designing and building a custom web application from scratch in C#.NET that has a public corporate home site as well as an authorized area for customers and employees to manage data and accounts. Business Analysis, application architecture, database design, web and graphic design. Initiated getting Git / GitHub implemented for our source control.",
-      logo: "cc.jpg",
-      tech: ["C#.NET 4.5", "MVC 4", "SQL", "HTML5 / CSS3", "JavaScript", "jQuery", "AJAX", "XML", "Windows Server 2008", "SQL Server 2008/2012", "Adobe Photoshop"]
-    },
-    {
-      id: "511",
-      location:"Orlando, FL, USA",
-      title:"Team Lead Front End Developer",
-      company:"FlightScope",
-      url: "https://flightscope.com/",
-      dateStart: "05/2012",
-      dateEnd: "09/2012",
-      status: "Employee",
-      remote: 2,
-      description: "Full Stack Development of a new web app in PHP, JS, HTML, CSS that was a community site for the physical golf radar product that showed your performance super imposed on the golf course map, as well as leaderboard competition.",
-      logo: "flightscope.png",
-      tech: ["PHP", "MySQL", "HTML5 / CSS3", "HTML5 Canvas", "JavaScript", "jQuery", "AJAX", "WordPress", "Adobe Photoshop"]
-    },
-    {
-      id: "512",
-      location:"Sarasota, FL, USA",
-      title:"UI Developer",
-      company:"IntegraClick",
-      url: "https://www.performcb.com/clickbooth/",
-      dateStart: "12/2010",
-      dateEnd: "05/2012",
-      status: "Employee",
-      remote: 0,
-      description: "Worked closely with the design team for building emails and over 200 websites using JavaScript, jQuery, HTML, CSS for marketing landing pages of multimillion dollar campaigns. Debugging and researching issues in the AdTech platform company was developing for managing marketing campaigns.",
-      logo: "integraclick.jpg",
-      tech: ["PHP 5.3", "Zend PHP", "HTML5 / CSS3", "JavaScript", "jQuery", "AJAX", "JSON", "XML", "Sencha ExtJS4", "WordPress", "Adobe Photoshop"]
-    },
-    {
-      id: "513",
-      location:"Riverview, FL, USA",
-      title:"IT Consultant",
-      company:"Metrohm USA",
-      url: "https://www.metrohm.com/en-us/",
-      dateStart: "02/2010",
-      dateEnd: "12/2010",
-      status: "Contract",
-      remote: 2,
-      description: "Full stack development building out three websites and migrated content into a new CMS system. Served as liaison between Metrohm USA and the development team of the parent company Metrohm AG in Switzerland. Also built a simple Windows Console Application to track company computers. Content design and management, contact management, data migration into a CMS system, web services, SQL server, web design, graphic design, analytics, social media, marketing campaigns, communications.",
-      logo: "musa.png",
-      tech: ["Classic ASP", "C#.NET", "SQL", "HTML / CSS"]
-    },
-    {
-      id: "514",
-      location: "Tampa, FL, USA",
-      title: "Web Developer",
-      company: "ReliaQuest",
-      url: "https://www.reliaquest.com/",
-      dateStart: "07/2009",
-      dateEnd: "02/2010",
-      status: "Contract",
-      remote: 2,
-      description: "Back End Development of websites and apps for a talent recruitment firm. Worked on three websites, including building the C# ASP.NET backends from scratch for two of them. Taught myself MS .NET Framework and related technologies. I also designed and managed databases, content design and management, graphic design.",
-      logo: "reliaquest.png",
-      tech: ["C#.NET", "SQL", "HTML / CSS", "AJAX"]
-    },
-    {
-      id: "515",
-      location: "Tampa, FL, USA",
-      title: "Student",
-      company: "University of South Florida",
-      dateStart: "08/2007",
-      dateEnd: "12/2009",
-      status: "Student",
-      remote:0,
-      description: "Studied Management Information Systems, Engineering, Architecture. Alpha Epsilon Pi fraternity Psi Phi chapter; Vice President (Fall 2008 - Spring 2009). I dropped out of college early when I realized I was already learning and using the latest cutting edge technologies and becoming proficient in my work as a software engineer for local companies, and how much time and money I would save by skipping a slow, outdated, and expensive curriculum.",
-      logo: "usf.jpeg",
-      tech: ["HTML / CSS"]
-    },
-    {
-      id: "516",
-      location:"Laurel, MD, USA",
-      title: "Owner and Founder",
-      company: "JKtheory Design",
-      dateStart: "02/2003",
-      dateEnd: "07/2006",
-      status: "Freelance",
-      remote: 1,
-      description: "Freelance design and development of websites using PHP, HTML, CSS and tshirt printing for small local businesses and organizations while attending high school.",
-      logo: "jktheory.png",
-      tech: ["PHP", "HTML / CSS"]
-    }
-  ]
-}
+export const dataExperience = [
+  {
+    id: "500",
+    location: "San Francisco, CA, USA",
+    title: "Director of Engineering - Usability",
+    company: "i2Chain",
+    url: "https://i2chain.com/",
+    dateStart: "11/2021",
+    dateEnd: "01/2022",
+    status: "Employee",
+    remote: 1,
+    description: "Leading Front End development with offshore team on an innovative next generation security solution for enterprises that encrypts, injects rights management, and traceability into documents. Successfully implemented workflow, processes, tools, and communication to get the stalled project organized and back on track to deliver new features and bug fixes. Working with clients on testing, implementation, and features.",
+    logo: "i2chain.png",
+    tech: ["AWS", "Figma"]
+  },
+  {
+    id: "501",
+    location: "Austin, TX, USA",
+    title: "Senior Full Stack Software Engineer",
+    company: "CatapultX",
+    url: "https://catapultx.com/",
+    dateStart: "10/2020",
+    dateEnd: "07/2021",
+    status: "Employee",
+    remote: 1,
+    description: "Developed next gen video player agnostic AdTech container system to display a variety of ad formats (traditional and next gen) on top of or around the video player on desktop and mobile devices using TypeScript. Successfully completed the project months ahead of schedule and rolled out to clients using 20 different video providers proving the system to be player agnostic, adaptable, and configurable.",
+    logo: "catapultx.jpeg",
+    tech: ["NodeJS", "ExpressJS", "JavaScript", "TypeScript", "Vanilla JS", "HTML5 / CSS3", "JWPlayer", "Akamai Player", "Avantis Player", "BridTV", "Fluid Player", "Rumble Player", "Video Intelligence Player", "YouTube", "AMP Player", "Google AMP", "AirTV Player", "Connatix Player"]
+  },
+  {
+    id: "502",
+    location: "Austin, TX, USA",
+    title: "Full Stack Software Engineer",
+    company: "Hearst",
+    url: "https://www.hearst.com/",
+    dateStart: "07/2020",
+    dateEnd: "09/2020",
+    status: "Contract",
+    remote: 1,
+    description: "Data management and rules project using PHP and Directus for new AdTech solutions for newspaper and TV station websites.",
+    logo: "hearst.jpeg",
+    tech: ["PHP", "Directus"]
+  },
+  {
+    id: "503",
+    location: "Austin, TX, USA",
+    title: "Solutions Architect",
+    company: "Wambi",
+    url: "https://wambi.org/",
+    dateStart: "07/2019",
+    dateEnd: "03/2020",
+    status: "Employee",
+    remote: 1,
+    description: "Strategy, architecture, and documentation of complete product overhaul of infrastructure, apps, and UI. Recruited, built and managed internal engineering team of 6. Collaborate with Sales, Account Management, and Customer Service to understand customer pain points with current product and desired features in the next version. Started rebuilding the product from scratch in NodeJS, NextJS, ReactJS, AWS.",
+    logo: "wambi.png",
+    tech: ["AWS", "JavaScript", "NodeJS", "NextJS", "ReactJS", "HTML5 / CSS3", "Adobe XD", "Adobe Photoshop"]
+  },
+  {
+    id: "504",
+    location: "Round Rock, TX, USA",
+    title: "Principal Software Engineer",
+    company: "Dell",
+    url: "https://www.dell.com/",
+    dateStart: "02/2019",
+    dateEnd: "07/2019",
+    status: "Contract",
+    remote: 2,
+    description: "Worked with SRE Team to develop enterprise level internal tools. Built D3JS graphing & filtering dashboard UI for system performance monitoring of the entire Dell ecosystem from infrastructure to apps in a new mobile C#.NET Xamarin app. Built additional features into a Chrome Browser Extension, and the UI of C#.NET app used for product research.",
+    logo: "dell.jpeg",
+    tech: ["HTML5 / CSS3", "C#.NET", "Xamarin", "D3JS", "Vanilla JS", "JavaScript"]
+  },
+  {
+    id: "505",
+    location: "Austin, TX, USA",
+    title: "Senior Software Engineer",
+    company: "NBC Universal",
+    url: "https://www.nbc.com/",
+    dateStart: "08/2018",
+    dateEnd: "12/2018",
+    status: "Contract",
+    remote: 1,
+    description: "Built API for app health monitoring and notifications with NodeJS, AWS Lambda. Built PHP scripts to utilize Brightcove API to retrieve, search, edit, & delete content in media library. Built API with NodeJS, AWS Lambda, DynamoDB to manage promo codes and winners and sent emails & push notifications to users with Leanplum.",
+    logo: "nbc.png",
+    tech: ["AWS", "AWS Lambda", "AWS DynamoDB", "PHP", "NodeJS", "JavaScript"]
+  },
+  {
+    id: "506",
+    location:"Tampa, FL",
+    title:"CEO and Co-Founder",
+    company:"Nikola Advanced Research Laboratories Inc",
+    dateStart: "03/2017",
+    dateEnd: "08/2018",
+    status: "Employee",
+    remote: 1,
+    description: "Designed and built NodeJS, NextJS, ReactJS apps deployed on AWS for a variety of clients. Recruited, hired, trained, managed a cross functional team of 12. Sales, fund raising, and partnering with a gov contractor for RFPs.",
+    logo: "nikola.png",
+    tech: ["AWS", "AWS Route53", "AWS CloudFront", "AWS S3", "AWS Lambda", "AWS DynamoDB", "JavaScript", "NodeJS", "NextJS", "ReactJS", "HTML5 / CSS3", "Adobe Photoshop"]
+  },
+  {
+    id: "507",
+    location:"Austin, TX, USA",
+    title:"SVP Engineering",
+    company:"KERV Interactive",
+    url: "https://kervit.com/",
+    dateStart: "09/2014",
+    dateEnd: "01/2018",
+    status: "Employee",
+    remote: 1,
+    description: "Designed and built award winning, next gen, video player agnostic, interactive AdTech from scratch with NodeJS, ExpressJS, VAST, VPAID, AWS. Built a custom platform for content and campaign configuration. Recruited, hired, trained, and managed engineering team of 9. Sales Engineer for client demos and integrations as well as company M&A events including due diligence. Soft launched with several large global brand clients (NBC Univeral, Audi, Lamborghini, etc.), of which one project won the prestigious Lumiere Award of the Advanced Imaging Society (AIS), collecting the accolade in the Best Branded Experience: Sports category for “Formula 1 Experiences.”",
+    logo: "kerv.png",
+    tech: ["AWS", "AWS Route53", "AWS CloudFront", "AWS S3", "AWS Lambda", "AWS DynamoDB", "AWS Aurora DB", "AWS RedShift", "MongoDB", "NodeJS", "ExpressJS", "JavaScript", "Vanilla JS", "jQuery", "HTML5 / CSS3", "Brightcove", "The Platform (Comcast)", "JWPlayer", "Virtual Box", "Adobe Photoshop"]
+  },
+  {
+    id: "508",
+    location:"Miami Beach, FL, USA",
+    title:"Software Engineer",
+    company:"Junta",
+    dateStart: "07/2013",
+    dateEnd: "09/2014",
+    status: "Employee",
+    remote: 0,
+    description: "Built a custom CMS platform with PHP and Symfony2 for managing users, profiles, messages, and content. Built UI of video heavy web apps.",
+    logo: "default.png",
+    tech: ["HTML5 / CSS3", "PHP 5.4", "Symfony2", "Twig", "Doctrine", "Twitter Bootstrap", "MongoDB", "MySQL", "AJAX", "JavaScript", "jQuery", "XML", "YAML", "JSON", "Ubuntu 14.x", "CentOS6", "PHPStorm", "Virtual Box", "MySQL Workbench", "Apache", "NGINX"]
+  },
+  {
+    id: "509",
+    location:"Orlando, FL, USA",
+    title:"Web Developer",
+    company:"Florida Virtual School",
+    url: "https://flvs.net/",
+    dateStart: "04/2013",
+    dateEnd: "06/2013",
+    status: "Contract",
+    remote: 0,
+    description:"Front End Development debugging and testing code for online educational courses as well as reverse engineering Flash based components into HTML5 and JavaScript.",
+    logo: "flvs.png",
+    tech: ["HTML5 / CSS3", "JSON", "XML", "JavaScript", "jQuery", "AJAX"]
+  },
+  {
+    id: "510",
+    location:"Winter Garden, FL, USA",
+    title:"Web Developer",
+    company:"Container Centralen",
+    url: "http://www.cc-racks.com/",
+    dateStart: "12/2012",
+    dateEnd: "04/2013",
+    status: "Contract",
+    remote: 2,
+    description: "Full Stack Development designing and building a custom web application from scratch in C#.NET that has a public corporate home site as well as an authorized area for customers and employees to manage data and accounts. Business Analysis, application architecture, database design, web and graphic design. Initiated getting Git / GitHub implemented for our source control.",
+    logo: "cc.jpg",
+    tech: ["C#.NET 4.5", "MVC 4", "SQL", "HTML5 / CSS3", "JavaScript", "jQuery", "AJAX", "XML", "Windows Server 2008", "SQL Server 2008/2012", "Adobe Photoshop"]
+  },
+  {
+    id: "511",
+    location:"Orlando, FL, USA",
+    title:"Team Lead Front End Developer",
+    company:"FlightScope",
+    url: "https://flightscope.com/",
+    dateStart: "05/2012",
+    dateEnd: "09/2012",
+    status: "Employee",
+    remote: 2,
+    description: "Full Stack Development of a new web app in PHP, JS, HTML, CSS that was a community site for the physical golf radar product that showed your performance super imposed on the golf course map, as well as leaderboard competition.",
+    logo: "flightscope.png",
+    tech: ["PHP", "MySQL", "HTML5 / CSS3", "HTML5 Canvas", "JavaScript", "jQuery", "AJAX", "WordPress", "Adobe Photoshop"]
+  },
+  {
+    id: "512",
+    location:"Sarasota, FL, USA",
+    title:"UI Developer",
+    company:"IntegraClick",
+    url: "https://www.performcb.com/clickbooth/",
+    dateStart: "12/2010",
+    dateEnd: "05/2012",
+    status: "Employee",
+    remote: 0,
+    description: "Worked closely with the design team for building emails and over 200 websites using JavaScript, jQuery, HTML, CSS for marketing landing pages of multimillion dollar campaigns. Debugging and researching issues in the AdTech platform company was developing for managing marketing campaigns.",
+    logo: "integraclick.jpg",
+    tech: ["PHP 5.3", "Zend PHP", "HTML5 / CSS3", "JavaScript", "jQuery", "AJAX", "JSON", "XML", "Sencha ExtJS4", "WordPress", "Adobe Photoshop"]
+  },
+  {
+    id: "513",
+    location:"Riverview, FL, USA",
+    title:"IT Consultant",
+    company:"Metrohm USA",
+    url: "https://www.metrohm.com/en-us/",
+    dateStart: "02/2010",
+    dateEnd: "12/2010",
+    status: "Contract",
+    remote: 2,
+    description: "Full stack development building out three websites and migrated content into a new CMS system. Served as liaison between Metrohm USA and the development team of the parent company Metrohm AG in Switzerland. Also built a simple Windows Console Application to track company computers. Content design and management, contact management, data migration into a CMS system, web services, SQL server, web design, graphic design, analytics, social media, marketing campaigns, communications.",
+    logo: "musa.png",
+    tech: ["Classic ASP", "C#.NET", "SQL", "HTML / CSS"]
+  },
+  {
+    id: "514",
+    location: "Tampa, FL, USA",
+    title: "Web Developer",
+    company: "ReliaQuest",
+    url: "https://www.reliaquest.com/",
+    dateStart: "07/2009",
+    dateEnd: "02/2010",
+    status: "Contract",
+    remote: 2,
+    description: "Back End Development of websites and apps for a talent recruitment firm. Worked on three websites, including building the C# ASP.NET backends from scratch for two of them. Taught myself MS .NET Framework and related technologies. I also designed and managed databases, content design and management, graphic design.",
+    logo: "reliaquest.png",
+    tech: ["C#.NET", "SQL", "HTML / CSS", "AJAX"]
+  },
+  {
+    id: "515",
+    location: "Tampa, FL, USA",
+    title: "Student",
+    company: "University of South Florida",
+    dateStart: "08/2007",
+    dateEnd: "12/2009",
+    status: "Student",
+    remote:0,
+    description: "Studied Management Information Systems, Engineering, Architecture. Alpha Epsilon Pi fraternity Psi Phi chapter; Vice President (Fall 2008 - Spring 2009). I dropped out of college early when I realized I was already learning and using the latest cutting edge technologies and becoming proficient in my work as a software engineer for local companies, and how much time and money I would save by skipping a slow, outdated, and expensive curriculum.",
+    logo: "usf.jpeg",
+    tech: ["HTML / CSS"]
+  },
+  {
+    id: "516",
+    location:"Laurel, MD, USA",
+    title: "Owner and Founder",
+    company: "JKtheory Design",
+    dateStart: "02/2003",
+    dateEnd: "07/2006",
+    status: "Freelance",
+    remote: 1,
+    description: "Freelance design and development of websites using PHP, HTML, CSS and tshirt printing for small local businesses and organizations while attending high school.",
+    logo: "jktheory.png",
+    tech: ["PHP", "HTML / CSS"]
+  }
+]
 export const dataAccolades = [
   {
     id: "801",

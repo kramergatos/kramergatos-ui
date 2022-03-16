@@ -113,25 +113,6 @@
   float: right;
   margin: 0 0 0 5px;
 }
-.button_all{
-  background: var(--colorDark);
-  border-radius: var(--borderRadius);
-  color: #FFF;
-  display: block;
-  float: right;
-  font: var(--fontDefault);
-  line-height: 16px;
-  margin: 20px 0 0 0;
-  padding: 10px;
-  text-align: center;
-  text-decoration: none;
-}
-.button_all:hover {
-  background: var(--colorClickHover);
-  color: var(--colorDark);
-  cursor: pointer;
-  text-decoration: none;
-}
 @media (max-width: 600px) {
   .octocat{
     width: 50%;

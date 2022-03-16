@@ -1,0 +1,41 @@
+.section_yes{
+  background: var(--colorDark) url('/image/joe/yes.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 600px;
+  margin: 0;
+  padding: 0;
+}
+.hire_me{
+  clear: both;
+  display: block;
+  float: left;
+  margin: 200px 0 0 0;
+  padding: 0;
+  width: 100%;
+}
+.hire_me_title{
+  clear: both;
+  color: #FFF;
+  display: block;
+  float: left;
+  font: var(--fontLarge);
+  margin: 0 0 50px 0;
+  padding: 0;
+  text-shadow: 1px 1px var(--colorDark);
+  word-spacing: 20px;
+  width: 100%;
+}
+@media (max-width: 700px) {
+  .section_yes{
+    min-height: 250px;
+  }
+  .hire_me{
+    margin: 50px 0 0 20px;
+  }
+  .hire_me_title{
+    font: normal 30px/40px 'pantonblackcaps', 'robotoregular', Helvetica, Arial;
+    margin: 0 0 20px 0;
+    word-spacing: 10px;
+  }
+}

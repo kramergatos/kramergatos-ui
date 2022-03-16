@@ -1,3 +1,4 @@
+import React from 'react'
 import Head from 'next/head'
 import Header from './Header'
 import Footer from './Footer'
@@ -6,7 +7,7 @@ export default function Layout(props: {
   children: any
 }) {
   return (
-    <>
+    <React.Fragment>
       <Head>
         <meta charSet="UTF-8" />
         <meta name="description" content="Kramer Gatos" />
@@ -25,6 +26,6 @@ export default function Layout(props: {
         {props.children}
       </main>
       <Footer />
-    </>
+    </React.Fragment>
   )
 }

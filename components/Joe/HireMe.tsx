@@ -1,4 +1,6 @@
-import styles from '../../styles/Joe.module.css'
+import Button from '../Button/Default'
+import {dataEmailButton} from '../../data/joe'
+import styles from '../../styles/Hire.module.css'
 export default function HireMe() {
   return (
     <section className={styles.section_yes} id="hire">
@@ -6,10 +8,7 @@ export default function HireMe() {
         <div className={styles.hire_me}>
           <span className={styles.hire_me_title}>I'm Available<br />
           Contact Me</span>
-          <a className="button" href="mailto:joe@kramergatos.com">
-            <span className="button_icon fa fa-envelope"></span>
-            <span className="button_label">joe@kramergatos.com</span>
-          </a>
+          <Button data={dataEmailButton} key={dataEmailButton.id} />
         </div>
       </div>
     </section>

@@ -135,48 +135,6 @@ section{
   margin: 20px 0 0 0;
   width: 100%;
 }
-.button{
-  background: var(--colorDark);
-  border-radius: var(--borderRadius);
-  box-shadow: 0px 0px 2px #FFF;
-  color: #FFF;
-  cursor: pointer;
-  display: block;
-  float: left;
-  font: var(--fontDefault);
-  line-height: 16px;
-  margin: 0 20px 10px 0;
-  padding: 10px 20px;
-  text-align: left;
-}
-.button_icon{
-  display: block;
-  float: left;
-}
-.button_label{
-  display: block;
-  float: left;
-  padding: 0 0 0 10px;
-  text-align: left;
-}
-.button_sublabel{
-  clear: both;
-  color: #b0bec5;
-  display: block;
-  float: right;
-  font: var(--fontSmallest);
-  margin: 5px 0 0 0;
-  padding: 0;
-  text-align: center;
-  width: 100%;
-}
-.button:hover{
-  background: var(--colorClickHover);
-  color: var(--colorDark);
-}
-.button:hover .button_sublabel{
-  color: var(--colorDark);
-}
 .hero_image{
   display: block;
   float: left;

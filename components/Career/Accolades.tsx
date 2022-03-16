@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import Accolade from './Accolade'
+import ButtonExpand from '../Button/Expand'
 import styles from '../../styles/Accolades.module.css'
 export default function Accolades(props: {
   data: {
@@ -27,10 +28,7 @@ export default function Accolades(props: {
             <Accolade data={item} key={item.id} />
           ))}
         </div>
-        <div className={styles.button_all} onClick={toggle} style={{display: showMe?"none":"block"}}>
-          <i className="button_icon fa-solid fa-maximize"></i>
-          <span aria-label="See All Accolades" className="button_label">See All</span>
-        </div>
+        <ButtonExpand show={showMe} onClick={toggle} />
         <div className={styles.accolades_all} style={{display: showMe?"block":"none"}}>
           {props.data.slice(3,props.data.length).map(item => (
             <Accolade data={item} key={item.id} />
