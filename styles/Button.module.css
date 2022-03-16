@@ -56,9 +56,9 @@
   text-decoration: none;
   -webkit-transition: border-radius 0.15s linear;
 }
-.button_icon_only:hover i{
+/*.button_icon_only:hover i{
   animation: bounce 0.4s linear;
-}
+}*/
 .icon{
   display: block;
   float: left;
