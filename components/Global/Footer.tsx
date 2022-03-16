@@ -1,5 +1,5 @@
-import ButtonIconOnly from '../../components/Button/IconOnly'
-import Social from './Social'
+import ButtonIconOnly from '../Button/IconOnly'
+import Social from '../Button/SocialNav'
 import styles from '../../styles/Footer.module.css'
 export default function Footer() {
   const buttonTop = {

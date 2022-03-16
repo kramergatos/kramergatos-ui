@@ -1,10 +1,10 @@
-import Layout from '../../components/Joe/Layout'
+import Layout from '../../components/Global/Layout'
 import SideNav from '../../components/Button/SideNav'
-import Adventure from '../../components/Joe/Adventure'
-import Bio from '../../components/Joe/Bio'
-import Photos from '../../components/Joe/Photos'
-import Interests from '../../components/Joe/Interests'
-import Quote from '../../components/Joe/Quote'
+import Adventure from '../../components/About/Adventure'
+import Bio from '../../components/About/Bio'
+import Photos from '../../components/About/Photos'
+import Interests from '../../components/About/Interests'
+import Quote from '../../components/About/Quote'
 import Values from '../../components/Values/Values'
 import {
   sideNavAbout,

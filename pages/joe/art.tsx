@@ -1,4 +1,4 @@
-import Layout from '../../components/Joe/Layout'
+import Layout from '../../components/Global/Layout'
 import Arts from '../../components/Gallery/Arts'
 import {dataArt} from '../../data/joe'
 function Art() {

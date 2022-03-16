@@ -1,4 +1,4 @@
-import Social from './Social'
+import Social from '../Button/SocialNav'
 import Nav from '../Button/Nav'
 import styles from '../../styles/Header.module.css'
 import {dataNav} from '../../data/joe'

@@ -1,4 +1,4 @@
-import ButtonIconOnly from '../../components/Button/IconOnly'
+import ButtonIconOnly from './IconOnly'
 import styles from '../../styles/Social.module.css'
 import {dataSocialLinks} from '../../data/joe'
 export default function Social() {

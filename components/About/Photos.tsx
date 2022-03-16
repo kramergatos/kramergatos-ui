@@ -1,4 +1,4 @@
-import styles from '../../styles/Joe.module.css'
+import styles from '../../styles/Photos.module.css'
 export default function Photos() {
   return (
     <section id="photos">

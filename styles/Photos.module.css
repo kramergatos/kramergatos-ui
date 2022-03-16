@@ -1,0 +1,38 @@
+.photos{
+  clear: both;
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.photos img{
+  border-radius: var(--borderRadius);
+  display: block;
+  float: left;
+  margin: 0 10px 10px 0;
+  padding: 0;
+  width: calc(33% - 6px);
+}
+.photos img:last-child{
+  margin: 0;
+}
+.photos_horz{
+  clear: both;
+  display: block;
+  float: left;
+  margin: 10px 0 100px 0;
+  padding: 0;
+  width: 100%;
+}
+.photos_horz img{
+  border-radius: var(--borderRadius);
+  display: block;
+  float: left;
+  margin: 0 10px 0 0;
+  padding: 0;
+  width: calc(50% - 6px);
+}
+.photos_horz img:last-child{
+  margin: 0;
+}
