@@ -1,6 +1,7 @@
 import Social from './Social'
-import Nav from '../Nav/Button'
+import Nav from '../Button/Nav'
 import styles from '../../styles/Header.module.css'
+import {dataNav} from '../../data/joe'
 export default function Header() {
   return (
     <header className={styles.header} id="header">
@@ -9,7 +10,7 @@ export default function Header() {
           <img alt="JKtheory logo" className={styles.logo} src="/image/joe/joe-kramer-logo.png" />
         </a>
         <Social />
-        <Nav />
+        <Nav data={dataNav} />
       </div>
     </header>
   )

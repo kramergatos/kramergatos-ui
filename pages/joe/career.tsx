@@ -1,5 +1,5 @@
 import Layout from '../../components/Joe/Layout'
-import SideNav from '../../components/SideNav/SideNav'
+import SideNav from '../../components/Button/SideNav'
 import HireMe from '../../components/Joe/HireMe'
 import Skills from '../../components/Career/Skills'
 import Qualifications from '../../components/Career/Qualifications'

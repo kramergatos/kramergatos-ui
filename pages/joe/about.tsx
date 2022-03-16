@@ -1,5 +1,5 @@
 import Layout from '../../components/Joe/Layout'
-import SideNav from '../../components/SideNav/SideNav'
+import SideNav from '../../components/Button/SideNav'
 import Adventure from '../../components/Joe/Adventure'
 import Bio from '../../components/Joe/Bio'
 import Photos from '../../components/Joe/Photos'

@@ -1,3 +1,42 @@
+export const dataNav = [
+  {
+    id: 0,
+    url: "/",
+    icon: "fa-solid fa-house",
+    label: "Home",
+    subtitle: null,
+    target: "_self",
+    title: "Home"
+  },
+  {
+    id: 1,
+    url: "/joe/career",
+    icon: "fa-solid fa-laptop-code",
+    label: "Career",
+    subtitle: null,
+    target: "_self",
+    title: "Career"
+  },
+  {
+    id: 2,
+    url: "/joe/art",
+    icon: "fa-solid fa-palette",
+    label: "Art",
+    subtitle: null,
+    target: "_self",
+    title: "Art"
+  },
+  {
+    id: 3,
+    url: "/joe/about",
+    icon: "fa-solid fa-id-card",
+    label: "About Me",
+    subtitle: null,
+    target: "_self",
+    title: "About Me"
+  }
+]
+
 export const sideNavCareer = [
   {
     id: 1,
@@ -65,6 +104,36 @@ export const sideNavAbout = [
     id: 6,
     title: "Values",
     url: "#values"
+  }
+]
+export const dataSocialLinks = [
+  {
+    id: 1,
+    url: "https://www.instagram.com/kramergatos/",
+    icon: "fab fa-instagram",
+    label: "Instagram",
+    target: "_blank"
+  },
+  {
+    id: 2,
+    url: "https://www.linkedin.com/in/kramergatos/",
+    icon: "fab fa-linkedin-in",
+    label: "LinkedIn",
+    target: "_blank"
+  },
+  {
+    id: 3,
+    url: "https://angel.co/u/kramergatos",
+    icon: "fab fa-angellist",
+    label: "AngelList",
+    target: "_blank"
+  },
+  {
+    id: 4,
+    url: "https://github.com/kramergatos",
+    icon: "fab fa-github",
+    label: "GitHub",
+    target: "_blank"
   }
 ]
 export const dataGitHub = [

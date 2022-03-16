@@ -1,6 +1,14 @@
+import ButtonIconOnly from '../../components/Button/IconOnly'
 import Social from './Social'
 import styles from '../../styles/Footer.module.css'
 export default function Footer() {
+  const buttonTop = {
+    id: 1,
+    url: "#header",
+    icon: "fas fa-arrow-up",
+    label: "Top of Page",
+    target: "_self"
+  }
   return (
     <footer className={styles.footer}>
       <div className={styles.content}>
@@ -16,9 +24,7 @@ export default function Footer() {
           </div>
           <div aria-label="Copyright" className={styles.legal_text}>&copy; 2022 Kramergatos. All Rights Reserved.</div>
         </div>
-        <a aria-label="Top of Page" className="button_icon_only" href="#header">
-          <i className="fas fa-arrow-up"></i>
-        </a>
+        <ButtonIconOnly data={buttonTop} key={buttonTop.id} />
         <Social />
       </div>
     </footer>
