@@ -177,7 +177,7 @@ export const dataCareerFiles = [
   },
   {
     id: 2,
-    url: "/download/JoeKramerResume-MachineReadable.docx",
+    url: "/download/JoeKramerResumeATS.docx",
     icon: "fa fa-file-word",
     label: "Download Machine Readable Resume",
     subtitle: "Machine Readable",
@@ -195,7 +195,7 @@ export const dataCareerFiles = [
   },
   {
     id: 4,
-    url: "/download/JoeKramerCoverLetter-MachineReadable.docx",
+    url: "/download/JoeKramerCoverLetterATS.docx",
     icon: "fa fa-file-word",
     label: "Download Machine Readable Cover Letter",
     subtitle: "Machine Readable",
