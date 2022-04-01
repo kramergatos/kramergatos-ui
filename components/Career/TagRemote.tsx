@@ -15,7 +15,7 @@ export default function TagRemote(props: {
       break
     case 2:
       icon = "fas fa-globe-americas"
-      text = "Partial Remote"
+      text = "Hybrid Remote & Office"
       break
   }
   return (

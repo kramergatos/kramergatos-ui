@@ -36,7 +36,6 @@ export const dataNav = [
     title: "About Me"
   }
 ]
-
 export const sideNavCareer = [
   {
     id: 1,
@@ -142,25 +141,52 @@ export const dataGitHub = [
     url: "https://github.com/kramergatos/kramergatos-ui",
     icon: "fab fa-github",
     label: "Code Repo - Kramergatos",
-    subtitle: "(NodeJS, NextJS, ReactJS, TypeScript)",
+    subtitle: "Website -- NodeJS, NextJS, ReactJS, TypeScript",
     target: "_blank",
-    title: "kramergatos.com"
+    title: "Kramer Gatos"
   },
   {
     id: 2,
     url: "https://github.com/kramergatos/turbo-jaguar-enigma",
     icon: "fab fa-github",
     label: "Code Repo - Turbo Jaguar Enigma",
-    subtitle: "(NodeJS, NextJS, ReactJS, TypeScript)",
+    subtitle: "CMS -- NodeJS, NextJS, ReactJS, TypeScript",
     target: "_blank",
     title: "Turbo Jaguar Enigma"
   },
   {
     id: 3,
+    url: "https://github.com/kramergatos/tactical-tiger-blitz",
+    icon: "fab fa-github",
+    label: "Code Repo - Tactical Tiger Blitz",
+    subtitle: "API -- NodeJS, TypeScript, GraphQL",
+    target: "_blank",
+    title: "Tactical Tiger Blitz"
+  },
+  {
+    id: 4,
+    url: "https://github.com/kramergatos/nuanced-puma-disturbance",
+    icon: "fab fa-github",
+    label: "Code Repo - Nuanced Puma Disturbance",
+    subtitle: "Graphs -- JavaScript, jQuery, D3JS",
+    target: "_blank",
+    title: "Nuanced Puma Disturbance"
+  },
+  {
+    id: 5,
+    url: "https://github.com/kramergatos/magnetic-panther-mystic",
+    icon: "fab fa-github",
+    label: "Code Repo - Magnetic Panther Mystic",
+    subtitle: "Samples -- NodeJS, NextJS, ReactJS, TypeScript",
+    target: "_blank",
+    title: "Magnetic Panther Mystic"
+  },
+  {
+    id: 6,
     url: "https://github.com/kramergatos/js-study-guide",
     icon: "fab fa-github",
     label: "Code Repo - JS Study Guide",
-    subtitle: "(NodeJS, Vanilla JS)",
+    subtitle: "Basic Examples -- JavaScript",
     target: "_blank",
     title: "JS Study Guide"
   }
@@ -291,6 +317,20 @@ export const dataSkills = [
   {id: 17, type: "Programming", title: "D3JS", years: "1"},
 ]
 export const dataExperience = [
+  {
+    id: "499",
+    location: "Austin, TX, USA",
+    title: "UI Architect Developer",
+    company: "Apple",
+    url: "https://apple.com/",
+    dateStart: "04/2022",
+    dateEnd: "Present",
+    status: "Contract",
+    remote: 2,
+    description: "Internal tools.",
+    logo: "apple.jpeg",
+    tech: ["JavaScript", "NodeJS", "ReactJS", "HTML5 / CSS3"]
+  },
   {
     id: "500",
     location: "San Francisco, CA, USA",

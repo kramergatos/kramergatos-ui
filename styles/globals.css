@@ -13,20 +13,23 @@ a {
   box-sizing: border-box;
 }
 @font-face {
-    font-family: 'robotoregular';
-    src: url('../public/webfonts/Roboto-Regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;}
+  font-family: 'robotoregular';
+  src: url('../public/webfonts/Roboto-Regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 @font-face {
   font-family: 'pantonblackcaps';
-    src: url('../public/webfonts/panton-black-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;}
+  src: url('../public/webfonts/panton-black-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 @font-face {
   font-family: 'sourcecode';
-    src: url('../public/webfonts/SourceCodePro-Medium-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;}
+  src: url('../public/webfonts/SourceCodePro-Medium-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 :root{
   --boxShadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
   --colorDark: #263238;
