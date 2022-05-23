@@ -310,9 +310,9 @@ export const dataSkills = [
   {id: 86, type: "Database", title: "MongoDB", years: "2"},
   {id: 93, type: "Programming", title: "AWS Lambda", years: "2"},
   {id: 87, type: "Programming", title: "C#.NET", years: "2"},
-  {id: 97, type: "Framework", title: "NextJS", years: "1"},
-  {id: 10, type: "Framework", title: "ReactJS", years: "1"},
-  {id: 46, type: "Programming", title: "TypeScript", years: "1"},
+  {id: 97, type: "Framework", title: "NextJS", years: "2"},
+  {id: 10, type: "Framework", title: "ReactJS", years: "2"},
+  {id: 46, type: "Programming", title: "TypeScript", years: "2"},
   {id: 61, type: "Programming", title: "GraphQL", years: "1"},
   {id: 17, type: "Programming", title: "D3JS", years: "1"},
 ]
@@ -326,10 +326,10 @@ export const dataExperience = [
     dateStart: "04/2022",
     dateEnd: "Present",
     status: "Contract",
-    remote: 2,
-    description: "Internal tools.",
+    remote: 1,
+    description: "UI enhancements to internal tools, MyGOLD project.",
     logo: "apple.jpeg",
-    tech: ["JavaScript", "NodeJS", "ReactJS", "HTML5 / CSS3"]
+    tech: ["JavaScript", "TypeScript", "NodeJS", "ReactJS", "HTML5 / CSS3"]
   },
   {
     id: "500",
